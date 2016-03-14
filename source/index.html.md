@@ -37,6 +37,13 @@ includes:
   - modules/06_labelisations/labelling_for_junior
   - modules/06_labelisations/labelling_update
   - modules/06_labelisations/labelling_ending
+  - modules/20_my_account.md
+  - modules/20_mon_compte/account_create
+  - modules/20_mon_compte/account_log_in
+  - modules/20_mon_compte/account_password_request_send_email
+  - modules/20_mon_compte/account_password_reset
+  - modules/20_mon_compte/account_confirmation
+  - modules/20_mon_compte/account_confirmation_resend
   - modules/23_evenements
   - modules/23_evenements/events_get
   - modules/23_evenements/event_create
@@ -70,9 +77,3 @@ search: true
 ---
 
 # Introduction
-
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
-
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
-
-This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
