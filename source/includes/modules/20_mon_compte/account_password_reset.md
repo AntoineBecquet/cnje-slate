@@ -23,7 +23,7 @@ HTTP/1.1 400 Bad Request
 {
   "errors": [{
     "type": "invalid_request_error",
-    "error":
+    "message": ""
   }]
 }
 ```

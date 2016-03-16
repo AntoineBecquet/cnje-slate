@@ -26,7 +26,7 @@ HTTP/1.1 201 Created
 ```
 
 <aside class="notice">
-  You'll find the required headers for authentication in the response of this request (i.e. <code>access-token</code> / <code>uid</code>)
+  You'll find the required headers for authentication in the response of this request (i.e. <code>access-token</code> / <code>uid</code> / <code>client</code>)
 </aside>
 
 ### Request Parameters

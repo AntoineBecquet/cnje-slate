@@ -9,6 +9,11 @@ toc_footers:
   - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
 
 includes:
+  - authentication
+  - errors
+  - resources
+  - resources/profile
+  - resources/address
   - modules/02_call_for_tenders
   - modules/02_call_for_tenders/create
   - modules/02_call_for_tenders/get
@@ -44,6 +49,7 @@ includes:
   - modules/20_mon_compte/account_password_reset
   - modules/20_mon_compte/account_confirmation
   - modules/20_mon_compte/account_confirmation_resend
+  - modules/20_mon_compte/account_update
   - modules/23_evenements
   - modules/23_evenements/events_get
   - modules/23_evenements/event_create
@@ -71,7 +77,6 @@ includes:
   - modules/25_informations/junior_domains_delete
   - modules/25_informations/junior_changes_get
   - modules/25_informations/junior_changes_accept_refuse
-  - errors
 
 search: true
 ---

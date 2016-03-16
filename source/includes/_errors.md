@@ -1,20 +1,40 @@
 # Errors
 
-<aside class="notice">This error section is stored in a separate file in `includes/_errors.md`. Slate allows you to optionally separate out your docs into many files...just save them to the `includes` folder and add them to the top of your `index.md`'s frontmatter. Files are included in the order listed.</aside>
+In general:
 
-The Kittn API uses the following error codes:
+  - Codes in the 2xx range indicate success.
+  - Codes in the 4xx range indicate an error that failed given the information provided (e.g., a required parameter was omitted, a charge failed, etc.)
+  - And codes in the 5xx range indicate an error with Stripe's servers (these are rare).
+  - Not all errors map cleanly onto HTTP response codes, however. When a request is valid but does not complete successfully (e.g., a card is declined), we return a 402 error code.
 
+HTTP status code summary
 
-Error Code | Meaning
----------- | -------
-400 | Bad Request -- Your request sucks
-401 | Unauthorized -- Your API key is wrong
-403 | Forbidden -- The kitten requested is hidden for administrators only
-404 | Not Found -- The specified kitten could not be found
-405 | Method Not Allowed -- You tried to access a kitten with an invalid method
-406 | Not Acceptable -- You requested a format that isn't json
-410 | Gone -- The kitten requested has been removed from our servers
-418 | I'm a teapot
-429 | Too Many Requests -- You're requesting too many kittens! Slow down!
-500 | Internal Server Error -- We had a problem with our server. Try again later.
-503 | Service Unavailable -- We're temporarially offline for maintanance. Please try again later.
+ Status Code              | Meaning
+------------------------: | :-------
+200 - OK                  | Everything worked as expected
+400 - Bad Request	        | The request was unacceptable, often due to missing a required parameter
+401 - Unauthorized        | You must be logged to access this resource
+402 - Request Failed	    | The parameters were valid but the request failed
+403 - Forbidden           | You can't access this resource
+404 - Not Found	          | The requested resource doesn't exist
+500, 502, 503, 504        | Server Errors	Something went wrong on the API
+
+When an error occurred, the following `JSON` will be send by the server:
+
+<code>
+  {
+    "errors": [{
+      "type": "",
+      "param: "",
+      "message": "",
+      "code": ""
+    }]
+  }
+</code>
+
+                                                                                                         | Description
+-------------------------------------------------------------------------------------------------------- | ----------
+type                                                                                                     | The type of error returned
+param              <span class="details">optional</span>                                                 | The parameter the error relates to if the error is parameter-specific. You can use this to display a message near the correct form field, for example
+message            <span class="details">optional</span>                                                 | A human-readable message providing more details about the error
+code               <span class="details">optional</span>                                                 | A short string describing the kind of error that occurred
