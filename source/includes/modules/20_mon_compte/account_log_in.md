@@ -6,10 +6,8 @@ POST /api/v1/auth/sign_in HTTP/1.1
 
 ```json
 {
-  "user": {
-    "email": "foo@bar.com",
-    "password": "password"
-  }
+  "email": "foo@bar.com",
+  "password": "password"
 }
 ```
 
