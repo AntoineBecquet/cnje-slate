@@ -1,7 +1,7 @@
-## Fetch audits
+## List audits for a sessions
 
 ```http
-GET /audits HTTP/1.1
+GET /audit_sessions/:audit_sessions_id/audits HTTP/1.1
 ```
 
 ```json
