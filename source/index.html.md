@@ -11,6 +11,7 @@ toc_footers:
 includes:
   - authentication
   - errors
+  - error_codes
   - resources
   - resources/profile
   - resources/address

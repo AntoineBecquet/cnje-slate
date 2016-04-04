@@ -1,4 +1,4 @@
-## Retrieve Audit Sessions
+## Retrieve Audit Session
 
 ```http
 GET /audit_sessions/:audit_session_id HTTP/1.1

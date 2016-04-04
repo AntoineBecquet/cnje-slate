@@ -21,16 +21,16 @@ HTTP status code summary
 
 When an error occurred, the following `JSON` will be send by the server:
 
-<code>
+```
   {
     "errors": [{
       "type": "",
-      "param: "",
+      "param": "",
       "message": "",
       "code": ""
     }]
   }
-</code>
+````
 
                                                                                                          | Description
 -------------------------------------------------------------------------------------------------------- | ----------
