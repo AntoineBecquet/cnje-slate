@@ -1,13 +1,17 @@
 ## Update an audit
 
 ```http
-PATCH /api/v1/audit_sessions/:audit_session_id/audits HTTP/1.1
+PATCH /api/v1/audits/:audit_id HTTP/1.1
 ```
 
 ```json
 {
   "audit": {
-    "junior_id": 1
+    "auditable_at": "2016-04-02",
+    "debriefing_date": "2016-04-02",
+    "specification": "", // multipart
+    "debriefing": "", // multipart
+    "report": "" // multipart
   }
 }
 ```
@@ -20,7 +24,6 @@ HTTP/1.1 201 Created
 
                                                                                             | Description
 ------------------------------------------------------------------------------------------- | ----------
-junior_id    <span class="label">required</span><span class="details">String</span>         |
 auditable_at <span class="details">date</span>                                          |
 debriefing_date <span class="details">date</span> |
 final_decision <span class="details">string</span> | Values are `pending` / `satisfaisant` / `ac` / `af` / `ppu` / `jiification` / `radiation`
