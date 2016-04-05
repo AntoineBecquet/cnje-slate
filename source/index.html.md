@@ -23,6 +23,7 @@ includes:
   - modules/03_audits_et_vq/audit_sessions/index
   - modules/03_audits_et_vq/audit_sessions/show
   - modules/03_audits_et_vq/audits/show
+  - modules/03_audits_et_vq/audits/create
   - modules/04_auditeurs_conseils
   - modules/04_auditeurs_conseils/all
   - modules/04_auditeurs_conseils/create_session

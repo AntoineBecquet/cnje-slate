@@ -35,6 +35,6 @@ When an error occurred, the following `JSON` will be send by the server:
                                                                                                          | Description
 -------------------------------------------------------------------------------------------------------- | ----------
 type                                                                                                     | The type of error returned
-param              <span class="details">optional</span>                                                 | The parameter the error relates to if the error is parameter-specific. You can use this to display a message near the correct form field, for example
+param              <span class="details">optional</span>                                                 | The parameter the error relates to if the error is parameter-specific
 message            <span class="details">optional</span>                                                 | A human-readable message providing more details about the error
 code               <span class="details">optional</span>                                                 | A short string describing the kind of error that occurred
