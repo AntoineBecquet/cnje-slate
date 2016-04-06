@@ -19,4 +19,4 @@
 starts_at                       |
 ends_at                         |
 status                          | Values are `pending`/ `archived`
-audits                          | See `audit` resource
+audits                          | See <a href="#audit">Audit</a> resource
