@@ -5,7 +5,7 @@ In general:
   - Codes in the 2xx range indicate success.
   - Codes in the 4xx range indicate an error that failed given the information provided (e.g., a required parameter was omitted, a charge failed, etc.)
   - And codes in the 5xx range indicate an error with Stripe's servers (these are rare).
-  - Not all errors map cleanly onto HTTP response codes, however. When a request is valid but does not complete successfully (e.g., a card is declined), we return a 402 error code.
+  - Not all errors map cleanly onto HTTP response codes, however. When a request is valid but does not complete successfully, the api returns a 402 error code.
 
 HTTP status code summary
 
