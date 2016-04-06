@@ -12,6 +12,7 @@ includes:
   - authentication
   - errors
   - error_codes
+  - errors_example
   - resources
   - resources/profile
   - resources/address
