@@ -28,6 +28,7 @@ includes:
   - modules/03_audits_et_vq/audits/update
   - modules/03_audits_et_vq/audits/auditors/create
   - modules/03_audits_et_vq/audits/auditors/delete
+  - modules/03_audits_et_vq/audits/auditors/update
   - modules/04_auditeurs_conseils
   - modules/04_auditeurs_conseils/all
   - modules/04_auditeurs_conseils/create_session
