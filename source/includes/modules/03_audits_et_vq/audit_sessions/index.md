@@ -1,4 +1,4 @@
-## List Audit Sessions
+## Show all audit session
 
 ```http
 GET /audit_sessions HTTP/1.1
