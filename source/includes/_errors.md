@@ -17,7 +17,7 @@ HTTP status code summary
 402 - Request Failed	    | The parameters were valid but the request failed
 403 - Forbidden           | You can't access this resource
 404 - Not Found	          | The requested resource doesn't exist
-500, 502, 503, 504        | Server Errors	Something went wrong on the API
+500, 502, 503, 504        | Server errors	- something went wrong on the API
 
 When an error occurred, the following `JSON` will be send by the server:
 

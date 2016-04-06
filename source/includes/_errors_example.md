@@ -46,3 +46,17 @@ parameter(s).
   }]
 }
 ```
+
+### UNLOGGED_USER
+
+
+```json
+{
+  "errors": [{
+    "type": "UNLOGGED_USER",
+    "param": null,
+    "message": "You must the authenticated to access this resource",
+    "code": "api_error"
+  }]
+}
+```
