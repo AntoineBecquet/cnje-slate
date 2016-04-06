@@ -9,6 +9,7 @@ PATCH /api/v1/audits/:audit_id HTTP/1.1
   "audit": {
     "auditable_at": "2016-04-02",
     "debriefing_date": "2016-04-02",
+    "final_decision": "ac",
     "specification": "", // multipart
     "debriefing": "", // multipart
     "report": "" // multipart
