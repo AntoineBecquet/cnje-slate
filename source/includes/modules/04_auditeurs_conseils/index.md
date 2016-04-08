@@ -1,12 +1,12 @@
-## All
+## List all auditor recruitment sessions
 
 ```http
-GET /auditor_board_recruitement_sessions{?type=coming} HTTP/1.1
+GET /auditor_recruitment_sessions{?type=coming} HTTP/1.1
 ```
 
 ```json
 {
-  "auditor_board_recruitement_session": [{
+  "auditor_board_recruitment_session": [{
     "id": 1,
     "starts_at": 123456789,
     "ends_at": 123456789
