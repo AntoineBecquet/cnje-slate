@@ -32,8 +32,8 @@ includes:
   - modules/03_audits_et_vq/audits/auditors/delete
   - modules/03_audits_et_vq/audits/auditors/update
   - modules/04_auditeurs_conseils
-  - modules/04_auditeurs_conseils/all
-  - modules/04_auditeurs_conseils/create_session
+  - modules/04_auditeurs_conseils/create
+  - modules/04_auditeurs_conseils/index
   - modules/04_auditeurs_conseils/add_to_waiting_list
   - modules/04_auditeurs_conseils/get_waiting_list
   - modules/04_auditeurs_conseils/sessions_candidats

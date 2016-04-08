@@ -21,8 +21,8 @@ HTTP/1.1 201 Created
 {
   "auditor_board_recruitment_session": {
     "id": 1,
-    "starts_at": 123456789,
-    "ends_at": 123456789,
+    "starts_at": "2016-02-29T15:33:38.842+01:00",
+    "ends_at": "2016-04-30T15:33:38.842+02:00"
   }
 }
 ```

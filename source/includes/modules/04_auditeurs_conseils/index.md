@@ -6,35 +6,11 @@ GET /auditor_recruitment_sessions{?type=coming} HTTP/1.1
 
 ```json
 {
-  "auditor_board_recruitment_session": [{
+  "auditor_recruitment_sessions": [{
+
     "id": 1,
-    "starts_at": 123456789,
-    "ends_at": 123456789
-  }]
-}
-```
-
-```http
-GET /auditor_board_recruitement_session?type=past HTTP/1.1
-```
-
-```json
-{
-  "auditor_board_recruitment_session": [{
-    "id": 1,
-    "starts_at": 123456789,
-    "ends_at": 123456789,
-
-    "users": [{
-      "first_name": "Foo",
-      "last_name": "Bar",
-      "status_wefa": "accepted",
-      "status_admission": "pending",
-      "juniors": [{
-        "id": 1,
-        "name": "Foo"
-      }]
-    }]
+    "starts_at": "2016-02-29T15:33:38.842+01:00",
+    "ends_at": "2016-04-30T15:33:38.842+02:00"
   }]
 }
 ```
@@ -47,10 +23,3 @@ Parameter           |  Value | Description
 ------------------- | ------ | ------
 starts_at           | |
 ends_at             | |
-
-### Response Parameters when type = past
-
-Parameter           |  Value | Description
-------------------- | ------ | ------
-status_wefa         | pending / refused / accepted |
-status_admission    | pending / refused / accepted |
