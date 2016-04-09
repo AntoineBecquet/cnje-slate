@@ -1,13 +1,7 @@
 ## Add an user to the waiting list
 
 ```http
-POST /auditor_recruitment_sessions/waiting_list HTTP/1.1
-```
-
-```json
-{
-  "user_id": 1
-}
+POST /auditor_recruitments/waiting_list HTTP/1.1
 ```
 
 ```http
@@ -28,8 +22,4 @@ HTTP/1.1 201 Created
 }
 ```
 
-### Request Parameters
-
-Parameter           |  Value | Description
-------------------- | ------ | ------
-user_id             | |
+Add the current authenticated user to the waiting list

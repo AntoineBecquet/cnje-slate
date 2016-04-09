@@ -1,7 +1,7 @@
 ## Get waiting list
 
 ```http
-GET /auditor_recruitment_sessions/waiting_list HTTP/1.1
+GET /auditor_recruitments/waiting_list HTTP/1.1
 ```
 
 ```json

@@ -37,7 +37,7 @@ includes:
   - modules/04_auditeurs_conseils/sessions/update
   - modules/04_auditeurs_conseils/waiting_lists/create
   - modules/04_auditeurs_conseils/waiting_lists/index
-  - modules/04_auditeurs_conseils/waiting_lists/update
+  - modules/04_auditeurs_conseils/waiting_lists/delete
   - modules/20_my_account.md
   - modules/20_mon_compte/account_create
   - modules/20_mon_compte/account_log_in

@@ -1,4 +1,4 @@
-## Create an auditor recruitment session
+## Create a session
 
 ```http
 POST /auditor_recruitments/sessions HTTP/1.1

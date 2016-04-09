@@ -1,4 +1,4 @@
-## List all auditor recruitment sessions
+## List all sessions
 
 ```http
 GET /auditor_recruitments/sessions HTTP/1.1
