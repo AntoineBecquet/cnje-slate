@@ -1,7 +1,7 @@
 ## Create an auditor recruitment session
 
 ```http
-POST /auditor_recruitment_sessions HTTP/1.1
+PATCH /auditor_recruitments/sessions/:auditor_recruitment_session_id HTTP/1.1
 ```
 
 ```json
@@ -14,17 +14,7 @@ POST /auditor_recruitment_sessions HTTP/1.1
 ```
 
 ```http
-HTTP/1.1 201 Created
-```
-
-```json
-{
-  "auditor_board_recruitment_session": {
-    "id": 1,
-    "starts_at": "2016-02-29T15:33:38.842+01:00",
-    "ends_at": "2016-04-30T15:33:38.842+02:00"
-  }
-}
+HTTP/1.1 202 Accepted
 ```
 
 ### Request Parameters

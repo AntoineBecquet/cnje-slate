@@ -1,7 +1,7 @@
-## Add user to waiting list
+## Remove an user from to waiting list
 
 ```http
-POST /auditor_board_recruitement_session/waiting_list HTTP/1.1
+DELETE /auditor_recruitment_sessions/waiting_list HTTP/1.1
 ```
 
 ```json
@@ -10,7 +10,9 @@ POST /auditor_board_recruitement_session/waiting_list HTTP/1.1
 }
 ```
 
-Add user to waiting list
+```http
+HTTP/1.1 204 No-Content
+```
 
 ### Request Parameters
 

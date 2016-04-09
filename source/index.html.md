@@ -32,11 +32,12 @@ includes:
   - modules/03_audits_et_vq/audits/auditors/delete
   - modules/03_audits_et_vq/audits/auditors/update
   - modules/04_auditeurs_conseils
-  - modules/04_auditeurs_conseils/auditor_recruitment_sessions/create
-  - modules/04_auditeurs_conseils/auditor_recruitment_sessions/index
-  - modules/04_auditeurs_conseils/add_to_waiting_list
-  - modules/04_auditeurs_conseils/get_waiting_list
-  - modules/04_auditeurs_conseils/sessions_candidats
+  - modules/04_auditeurs_conseils/sessions/create
+  - modules/04_auditeurs_conseils/sessions/index
+  - modules/04_auditeurs_conseils/sessions/update
+  - modules/04_auditeurs_conseils/waiting_lists/create
+  - modules/04_auditeurs_conseils/waiting_lists/index
+  - modules/04_auditeurs_conseils/waiting_lists/update
   - modules/20_my_account.md
   - modules/20_mon_compte/account_create
   - modules/20_mon_compte/account_log_in

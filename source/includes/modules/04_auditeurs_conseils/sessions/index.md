@@ -1,7 +1,7 @@
 ## List all auditor recruitment sessions
 
 ```http
-GET /auditor_recruitment_sessions HTTP/1.1
+GET /auditor_recruitments/sessions HTTP/1.1
 ```
 
 ```json
