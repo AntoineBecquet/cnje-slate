@@ -1,44 +1,30 @@
-## Update Junior
+## Update a junior
 
 ```http
 PUT /juniors/:junior_id HTTP/1.1
 ```
 
-```http
-HTTP/1.1 204 No Content
-```
-
 ```json
 {
   "junior": {
-    "common_name": "Foo",
-    "usual_name": "Foo",
-    "logo_file": "qwe...",
-    "organization_created_at": 123456789,
-    "accountant_closed_at": 123456789,
-    "board_started_at": 123456789,
-    "description": "Foo Bar",
-    "domain_ids": [1, 2, 3, 4],
-    "status_file": "qwe...",
-    "rules_of_procedure_file": "qwe...",
-    "address": {
-      // see Address
-    }
+    "id": 5,
+    "full_name": "Cousin et Meunier",
+    "common_name": "Petit et Blanchard",
+    "email": "ayana@cronin.com",
+    "phone_number": "0195955894",
+    "website": "http://borer.com/garnett.bahringer",
+    "organization_created_at": "2016-04-04",
+    "accountant_closed_at": "2016-04-04",
+    "board_started_at": "2016-04-04",
+    "description": "Lemaire SA",
+    "nb_members": 200,
+    "junior_sponsor_id": 4,
+    "logo": "/uploads/store/juniors/0a31b69c16f2e420119d20347db5c2/0a21d0612a5c503c637c839a182caf/logos/6fbbe0b60b.jpg",
+    "status": "/uploads/store/juniors/5/236f0395e42b1c7d63432637081821/status/dd124ad4f2.png",
+    "internal_policy": "/uploads/store/juniors/5/1f01ea89fef4938e730df072235db6/internal_policy/522b623d3f.png"
   }
 }
 ```
-
-```http
-HTTP/1.1 400 Bad Request
-```
-
-```json
-{
-  "error": "A session is happening between those date"
-}
-```
-
-Update a junior
 
 <aside class="notice">
   Some fields require CNJE validation: `common_name`, `usual_name`, `logo_file`
@@ -55,10 +41,8 @@ organization_created_at       | Timestamp                 |         |
 accountant_closed_at          | Timestamp                 |         | (date de clôture comptable)
 board_started_at              | Timestamp                 |         | (date de prise de poste du CA)
 description                   | String                    |         |
-domain_ids                    | Array                     |         |
 status_file                   |                           |         |
 rules_of_procedure_file       |                           |         |
-address                       |                           |         |                     
 phone                         |                           |         |                   
 email                         |                           |         |                   
 website                       |                           |         |                     
