@@ -59,6 +59,7 @@ includes:
   - modules/25_informations/junior/partners/destroy
   - modules/core
   - modules/core/address/update
+  - modules/core/department/index
 
 search: true
 ---
