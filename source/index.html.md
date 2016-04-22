@@ -22,17 +22,20 @@ includes:
   - resources/auditor
   - resources/debriefer
   - resources/bank_account
-  - modules/03_audits_et_vq
-  - modules/03_audits_et_vq/audit_sessions/index
-  - modules/03_audits_et_vq/audit_sessions/show
-  - modules/03_audits_et_vq/audit_sessions/create
-  - modules/03_audits_et_vq/audit_sessions/update
-  - modules/03_audits_et_vq/audits/show
-  - modules/03_audits_et_vq/audits/create
-  - modules/03_audits_et_vq/audits/update
-  - modules/03_audits_et_vq/audits/auditors/create
-  - modules/03_audits_et_vq/audits/auditors/delete
-  - modules/03_audits_et_vq/audits/auditors/update
+  - resources/quality_inspections/inspector
+  - modules/03_audits
+  - modules/03_audits/audit_sessions/index
+  - modules/03_audits/audit_sessions/show
+  - modules/03_audits/audit_sessions/create
+  - modules/03_audits/audit_sessions/update
+  - modules/03_audits/audits/show
+  - modules/03_audits/audits/create
+  - modules/03_audits/audits/update
+  - modules/03_audits/audits/auditors/create
+  - modules/03_audits/audits/auditors/delete
+  - modules/03_audits/audits/auditors/update
+  - modules/03_quality_inspections
+  - modules/03_quality_inspections/quality_inspections/index
   - modules/04_auditeurs_conseils
   - modules/04_auditeurs_conseils/sessions/create
   - modules/04_auditeurs_conseils/sessions/index
