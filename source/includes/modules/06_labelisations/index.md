@@ -1,0 +1,34 @@
+## Retrieve all labelisations
+
+```http
+GET /labelisations HTTP/1.1
+```
+
+```json
+{
+  "labelisations": [{
+    "labelisation_type": "candidate",
+    "cnje_opinion": "pending",
+    "committee_opinion": "pending",
+    "judgement": "pending",
+    "junior": {
+      "id": 2,
+      "full_name": "Da silva et Menard",
+      "common_name": "Charpentier SA"
+    }
+  }]
+}
+```
+
+```http
+HTTP/1.1 200 OK
+```
+
+### Attributes
+
+                                                                | Description
+--------------------------------------------------------------- | -----------
+labelisation_type                                               | Values are `candidate` / `junior_creation` / `pepiniere_junior_entreprise` / `junior_entreprise` / `radiation`
+cnje_opinion                                                    | Values are `pending` / `accepted` / `refused`
+committee_opinion                                               | Values are `pending` / `accepted` / `refused`
+judgement                                                       | Values are `pending` / `accepted` / `extension` / `cancellation` / `urgency_procedure`

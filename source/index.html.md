@@ -44,6 +44,8 @@ includes:
   - modules/04_auditeurs_conseils/waiting_lists/create
   - modules/04_auditeurs_conseils/waiting_lists/index
   - modules/04_auditeurs_conseils/waiting_lists/delete
+  - modules/06_labelisations
+  - modules/06_labelisations/index
   - modules/20_my_account
   - modules/20_mon_compte/account_create
   - modules/20_mon_compte/account_log_in
