@@ -23,7 +23,8 @@ GET /audit_sessions HTTP/1.1
       "junior": {
         "id": 5,
         "full_name": "Gonzalez EI",
-        "common_name": "Barbier GIE"
+        "common_name": "Barbier GIE",
+        "junior_type": "candidate"
       },
       "auditors": [{
         "id": 21,

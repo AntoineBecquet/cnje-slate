@@ -23,6 +23,7 @@ includes:
   - resources/debriefer
   - resources/bank_account
   - resources/quality_inspections/inspector
+  - resources/junior
   - modules/03_audits
   - modules/03_audits/audit_sessions/index
   - modules/03_audits/audit_sessions/show
@@ -46,6 +47,7 @@ includes:
   - modules/04_auditeurs_conseils/waiting_lists/delete
   - modules/06_labelisations
   - modules/06_labelisations/index
+  - modules/06_labelisations/create
   - modules/20_my_account
   - modules/20_mon_compte/account_create
   - modules/20_mon_compte/account_log_in
