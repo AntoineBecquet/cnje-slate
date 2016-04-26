@@ -1,5 +1,3 @@
-## Auditor
-
 ```json
 {
   "auditor": {

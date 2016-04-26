@@ -1,5 +1,3 @@
-## Audit Session
-
 ```json
 {
   "audit_session": {

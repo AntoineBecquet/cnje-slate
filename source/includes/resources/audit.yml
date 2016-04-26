@@ -1,0 +1,3 @@
+---
+  final_decision:
+    description: "Values are `pending` / `satisfaisant` / `ac` / `af` / `ppu` / `jiification` / `radiation`"

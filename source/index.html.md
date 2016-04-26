@@ -14,16 +14,6 @@ includes:
   - error_codes
   - errors_example
   - resources
-  - resources/profile
-  - resources/address
-  - resources/department
-  - resources/audit_session
-  - resources/audit
-  - resources/auditor
-  - resources/debriefer
-  - resources/bank_account
-  - resources/quality_inspections/inspector
-  - resources/junior
   - modules/03_audits
   - modules/03_audits/audit_sessions/index
   - modules/03_audits/audit_sessions/show
@@ -64,6 +54,7 @@ includes:
   - modules/25_informations/junior/domains/destroy
   - modules/25_informations/junior/partners/create
   - modules/25_informations/junior/partners/destroy
+  - modules/25_informations/junior/labelisations/index
   - modules/core
   - modules/core/address/update
   - modules/core/department/index

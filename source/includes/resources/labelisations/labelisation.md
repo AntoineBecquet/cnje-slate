@@ -1,36 +1,22 @@
-## Create a labelisation
-
-```http
-POST /labelisations HTTP/1.1
-```
-
 ```json
 {
   "labelisation": {
+    "id": 1,
     "labelisation_type": "candidate",
     "cnje_opinion": "pending",
     "committee_opinion": "pending",
     "judgement": "pending",
-    "junior_id": 0,
-    "application_form": "",
-    "application_form_status": "pending"
+    "application_form_url": "/path/to/application_form",
+    "application_form_status": "pending",
+    "junior": {
+      "id": 2,
+      "full_name": "Da silva et Menard",
+      "common_name": "Charpentier SA"
+    }
   }
 }
-```
 
-```http
-HTTP/1.1 200 OK
 ```
-
-<aside class="notice">
-  `labelisation_type` depends on the previous labelisation.
-  It works as follow:
-  <ul>
-    <li>previous labelisation_type = <code>candidate</code>, you'll have to create a <code>junior_creation</code></li>
-    <li>previous labelisation_type = <code>junior_creation</code>, you'll have to create a <code>pepiniere_junior_entreprise</code></li>
-    <li>previous labelisation_type = <code>pepiniere_junior_entreprise</code>, you'll have to create a `junior_entreprise</code></li>
-  </ul>
-</aside>
 
 ### Attributes
 
@@ -40,5 +26,4 @@ labelisation_type                                               | Values are `ca
 cnje_opinion                                                    | Values are `pending` / `accepted` / `refused`
 committee_opinion                                               | Values are `pending` / `accepted` / `refused`
 judgement                                                       | Values are `pending` / `accepted` / `extension` / `cancellation` / `urgency_procedure`
-application_form                                                | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol).
 application_form_status                                         | Values are `pending` / `accepted` / `refused`

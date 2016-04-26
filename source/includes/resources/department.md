@@ -1,5 +1,3 @@
-## Department
-
 ```json
 {
   "department": {

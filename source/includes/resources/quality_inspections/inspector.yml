@@ -1,0 +1,7 @@
+---
+  report_url:
+    type: Integer / String
+    description: URL of the report if available (null otherwise)
+  report_status:
+    description: Values are `pending` / `done`
+    type: Integer

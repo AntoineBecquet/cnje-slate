@@ -1,0 +1,63 @@
+# Resources
+
+<%
+  require 'yaml'
+
+  def defined_and_is_true(hash, key)
+    hash.has_key?(key) && hash[key] == true
+  end
+
+  def resource_attributes(path, resource_name)
+    file_path = "#{path}/#{resource_name}.yml"
+
+    puts file_path
+
+    if !File.exists?(file_path)
+      return nil
+    end
+
+    yml = YAML.load_file(file_path)
+
+    t = "### Attributes"
+    t += "\r\n"
+    t += "Parameter | Default | Description\r\n"
+    t += "----------| --------| -----------\r\n"
+
+    yml.each do |k, v|
+      t += k
+
+      # PARAMETER
+      if defined_and_is_true(v, "optional")
+        t += "<span class=\"label\">optional</span>"
+      end
+
+      if v.has_key?("type")
+        t += "<span class=\"details\">#{v["type"]}</span>"
+      end
+
+      # DEFAULT
+      t += " | "
+
+      if v.has_key?("default_value")
+        t += v["default_value"]
+      end
+
+      # DESCRIPTION
+      t+= " | "
+
+      if v.has_key?("description")
+        t += v["description"]
+      end
+
+      t+= "\r\n"
+    end
+
+    t
+  end
+%>
+
+<% Dir["source/includes/resources/**/*.md"].each do |file| %>
+<%= "## #{File.basename(file, '.md').titleize}" %>
+<%= partial file.gsub('source/', '') %>
+<%= resource_attributes(File.dirname(file), File.basename(file, '.md')) %>
+<% end %>

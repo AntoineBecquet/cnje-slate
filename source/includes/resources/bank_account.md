@@ -1,5 +1,3 @@
-## Bank Account
-
 ```json
 {
   "bank_account": {

@@ -1,5 +1,3 @@
-## Profile
-
 ```json
 {
   "profile": {

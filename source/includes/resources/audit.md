@@ -1,5 +1,3 @@
-## Audit
-
 ```json
 {
   "audit": {
@@ -31,7 +29,3 @@
   }
 }
 ```
-
-                                | Description
-------------------------------- | -----------
-final_decision                       | Values are `pending` / `satisfaisant` / `ac` / `af` / `ppu` / `jiification` / `radiation`
