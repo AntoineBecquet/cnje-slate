@@ -29,4 +29,4 @@ HTTP/1.1 200 OK
                                                                 | Description
 --------------------------------------------------------------- | -----------
 labelisation_type                                               | Values are `candidate` / `junior_creation` / `pepiniere_junior_entreprise` / `junior_entreprise` / `radiation`
-judgement                                                       | Values are `pending` / `accepted` / `extension` / `cancellation` / `urgency_procedure`
+judgement                                                       | Values are `pending` / `accepted` / `refused`
