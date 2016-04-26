@@ -9,11 +9,8 @@ GET /labelisations HTTP/1.1
   "labelisations": [{
     "id": 1,
     "labelisation_type": "candidate",
-    "cnje_opinion": "pending",
-    "committee_opinion": "pending",
     "judgement": "pending",
     "application_form_url": "/path/to/application_form",
-    "application_form_status": "pending",
     "junior": {
       "id": 2,
       "full_name": "Da silva et Menard",
@@ -32,7 +29,4 @@ HTTP/1.1 200 OK
                                                                 | Description
 --------------------------------------------------------------- | -----------
 labelisation_type                                               | Values are `candidate` / `junior_creation` / `pepiniere_junior_entreprise` / `junior_entreprise` / `radiation`
-cnje_opinion                                                    | Values are `pending` / `accepted` / `refused`
-committee_opinion                                               | Values are `pending` / `accepted` / `refused`
 judgement                                                       | Values are `pending` / `accepted` / `extension` / `cancellation` / `urgency_procedure`
-application_form_status                                         | Values are `pending` / `accepted` / `refused`

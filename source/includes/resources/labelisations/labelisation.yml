@@ -1,11 +1,5 @@
 ---
   labelisation_type:
     description: "Values are `candidate` / `junior_creation` / `pepiniere_junior_entreprise` / `junior_entreprise` / `radiation`"
-  cnje_opinion:
-    description: "Values are `pending` / `accepted` / `refused`"
-  committee_opinion:
-    description: "Values are `pending` / `accepted` / `refused`"
   judgement:
     description: "Values are `pending` / `accepted` / `extension` / `cancellation` / `urgency_procedure`"
-  application_form_status:
-    description: "Values are `pending` / `accepted` / `refused`"
