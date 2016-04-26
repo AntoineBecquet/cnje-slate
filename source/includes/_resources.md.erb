@@ -10,8 +10,6 @@
   def resource_attributes(path, resource_name)
     file_path = "#{path}/#{resource_name}.yml"
 
-    puts file_path
-
     if !File.exists?(file_path)
       return nil
     end

@@ -17,13 +17,3 @@
 }
 
 ```
-
-### Attributes
-
-                                                                | Description
---------------------------------------------------------------- | -----------
-labelisation_type                                               | Values are `candidate` / `junior_creation` / `pepiniere_junior_entreprise` / `junior_entreprise` / `radiation`
-cnje_opinion                                                    | Values are `pending` / `accepted` / `refused`
-committee_opinion                                               | Values are `pending` / `accepted` / `refused`
-judgement                                                       | Values are `pending` / `accepted` / `extension` / `cancellation` / `urgency_procedure`
-application_form_status                                         | Values are `pending` / `accepted` / `refused`

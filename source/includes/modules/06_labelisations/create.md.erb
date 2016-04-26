@@ -19,8 +19,10 @@ POST /labelisations HTTP/1.1
 ```
 
 ```http
-HTTP/1.1 200 OK
+HTTP/1.1 201 Created
 ```
+
+<%= partial 'includes/resources/labelisations/labelisation' %>
 
 <aside class="notice">
   `labelisation_type` depends on the previous labelisation.
