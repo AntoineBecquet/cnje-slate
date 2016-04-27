@@ -46,6 +46,8 @@ includes:
   - modules/20_mon_compte/account_confirmation
   - modules/20_mon_compte/account_confirmation_resend
   - modules/20_mon_compte/account_update
+  - modules/21_junior_history
+  - modules/21_junior_history/divisions/index
   - modules/25_informations
   - modules/25_informations/junior/show
   - modules/25_informations/junior/update
