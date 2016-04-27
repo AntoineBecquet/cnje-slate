@@ -7,36 +7,42 @@
     hash.has_key?(key) && hash[key] == true
   end
 
-  def resource_attributes(path, resource_name)
+  def resource_attributes(path, resource_name, header="Attributes")
     file_path = "#{path}/#{resource_name}.yml"
 
     if !File.exists?(file_path)
+      p "doesn't exists #{file_path}"
       return nil
     end
 
     yml = YAML.load_file(file_path)
 
-    t = "### Attributes"
+    t = "### #{header}"
     t += "\r\n"
-    t += "Parameter | Default | Description\r\n"
-    t += "----------| --------| -----------\r\n"
+    t += "Parameter | Description\r\n"
+    t += "----------| -----------\r\n"
 
     yml.each do |k, v|
       t += k
 
+      has_previous = false
+
       # PARAMETER
       if defined_and_is_true(v, "optional")
         t += "<span class=\"label\">optional</span>"
+        has_previous = true
       end
 
       if v.has_key?("type")
         t += "<span class=\"details\">#{v["type"]}</span>"
+        has_previous = true
       end
 
-      # DEFAULT
-      t += " | "
-
       if v.has_key?("default_value")
+        if has_previous == true
+          t += ", "
+        end
+
         t += v["default_value"]
       end
 

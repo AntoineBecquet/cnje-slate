@@ -1,0 +1,3 @@
+---
+  application_status:
+    description: "Values are `pending` / `accepted` / `refused`"
