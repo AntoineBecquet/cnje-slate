@@ -52,6 +52,14 @@ includes:
   - modules/21_junior_history/divisions/index
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
+  - modules/24_gestion_des_membres/update
+  - modules/24_gestion_des_membres/formers/index
+  - modules/24_gestion_des_membres/application_forms/index
+  - modules/24_gestion_des_membres/application_forms/accept
+  - modules/24_gestion_des_membres/application_forms/refuse
+  - modules/24_gestion_des_membres/pending_changes/index
+  - modules/24_gestion_des_membres/pending_changes/accept
+  - modules/24_gestion_des_membres/pending_changes/refuse
   - modules/25_informations
   - modules/25_informations/junior/show
   - modules/25_informations/junior/update

@@ -1,7 +1,7 @@
-## Retrieve all members
+## Retrieve all former members
 
 ```http
-GET /juniors/:junior_id/members HTTP/1.1
+GET /juniors/:junior_id/members/formers HTTP/1.1
 ```
 
 ```json
