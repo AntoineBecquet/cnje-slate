@@ -1,0 +1,30 @@
+## Update a tax return
+
+```http
+PUT /juniors/:junior_id/tax_returns/:tax_return_id HTTP/1.1
+```
+
+```json
+{
+  "tax_return": {
+    "accounting_starts_at": "2017-05-26",
+    "accounting_ends_at": "2021-01-10",
+    "turnover": 45.96,
+    "grants": 28.91,
+    "other_products": 11.13,
+    "net_income": 44.36,
+    "equity": 85.92,
+    "tax_return": null
+  }
+}
+```
+
+```http
+HTTP/1.1 202 Accepted
+```
+
+<% o = resource_attributes("source/includes/resources/juniors/", "tax_return", "Request Parameters") do |t| %>
+ <% "tax_return | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol)." %>
+<% end %>
+
+<%= o %>

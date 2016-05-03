@@ -1,3 +1,8 @@
 ---
   application_status:
-    description: "Values are `pending` / `accepted` / `refused`"
+    description: "Values are `pending` (0) / `refused` (1) / `accepted` (2) / `pending_changes` (3) "
+    default_value: pending
+  job_level:
+    description: "Value are `candidate` (0) / `active_member` (1) / `administration_board_member` (2) / `board_member` (3)"
+    optional: false
+    default_value: candidate

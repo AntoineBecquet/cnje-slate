@@ -46,6 +46,23 @@ html, body {
   width: 20px;
 }
 
+#toc > ul > li > ul > li > ul > li > a {
+  padding-left: 50px;
+}
+
+#toc > ul > li > ul > li > a {
+  padding-left: 40px;
+}
+
+#toc > ul > li > a {
+  padding-left: 30px;
+}
+
+ul[data-tag="3"] a {
+  padding-left: 50px!important;
+}
+
+
 @mixin embossed-bg {
   background:
     linear-gradient(to bottom, rgba(#000, 0.2), rgba(#000, 0) 8px),

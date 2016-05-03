@@ -1,7 +1,7 @@
-## Create a new Junior History
+## Update a Junior History
 
 ```http
-POST /users/:user_id/junior_histories HTTP/1.1
+PUT /users/:user_id/junior_histories/:history_id HTTP/1.1
 ```
 
 ```json
@@ -10,7 +10,6 @@ POST /users/:user_id/junior_histories HTTP/1.1
     "starts_at": "2016-02-01",
     "ends_at": "2020-09-01",
     "job_title": "",
-    "junior_id": 1,
     "job_id": 1,
     "job_level": 1
   }
@@ -18,7 +17,10 @@ POST /users/:user_id/junior_histories HTTP/1.1
 ```
 
 ```http
-HTTP/1.1 201 Created
+HTTP/1.1 202 Accepted
 ```
+
+Updated fields should be validated by a boarding member of the Junior. User
+can only have 1 pending_changes at a time by Junior.
 
 <%= resource_attributes("source/includes/resources/users/", "junior_history", "Request Parameters") %>

@@ -6,6 +6,7 @@
     "ends_at": "2020-09-01",
     "job_title": "",
     "application_status": "pending",
+    "job_level": "candidate",
     "junior": {
       "id": 1,
       "full_name": "Boyer et Pons",

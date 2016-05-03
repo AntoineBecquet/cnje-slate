@@ -47,13 +47,14 @@ includes:
   - modules/20_mon_compte/account_confirmation_resend
   - modules/20_mon_compte/account_update
   - modules/21_junior_history
-  - modules/21_junior_history/create
   - modules/21_junior_history/index
+  - modules/21_junior_history/create
+  - modules/21_junior_history/update
   - modules/21_junior_history/divisions/index
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
-  - modules/24_gestion_des_membres/update
   - modules/24_gestion_des_membres/formers/index
+  - modules/24_gestion_des_membres/update
   - modules/24_gestion_des_membres/application_forms/index
   - modules/24_gestion_des_membres/application_forms/accept
   - modules/24_gestion_des_membres/application_forms/refuse
@@ -69,6 +70,10 @@ includes:
   - modules/25_informations/junior/partners/create
   - modules/25_informations/junior/partners/destroy
   - modules/25_informations/junior/labelisations/index
+  - modules/26_liasses_fiscales
+  - modules/26_liasses_fiscales/index
+  - modules/26_liasses_fiscales/update
+  - modules/26_liasses_fiscales/create
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
