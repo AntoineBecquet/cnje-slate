@@ -38,6 +38,8 @@ includes:
   - modules/06_labelisations
   - modules/06_labelisations/index
   - modules/06_labelisations/create
+  - modules/18_mes_audits
+  - modules/18_mes_audits/index
   - modules/20_my_account
   - modules/20_mon_compte/account_create
   - modules/20_mon_compte/account_log_in

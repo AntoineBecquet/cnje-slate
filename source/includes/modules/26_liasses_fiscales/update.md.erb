@@ -14,7 +14,8 @@ PUT /juniors/:junior_id/tax_returns/:tax_return_id HTTP/1.1
     "other_products": 11.13,
     "net_income": 44.36,
     "equity": 85.92,
-    "tax_return": null
+    "tax_return": null,
+    "reason": "invalid format"
   }
 }
 ```
@@ -22,6 +23,11 @@ PUT /juniors/:junior_id/tax_returns/:tax_return_id HTTP/1.1
 ```http
 HTTP/1.1 202 Accepted
 ```
+
+<aside class="warning">
+  When updating the status to <code>refused</code> OR <code>invalid_document</code>
+</aside>
+
 
 <% o = ApiDocumentation.resource_attributes("source/includes/resources/juniors/", "tax_return", "Request Parameters") do |t| %>
  <% "tax_return | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol)." %>
