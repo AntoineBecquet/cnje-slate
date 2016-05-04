@@ -1,14 +1,5 @@
 # Resources
 
-<%
-  require_relative "api_documentation.rb"
-  require 'yaml'
-%>
-
-
-
-
-
 <%# Dir["source/includes/resources/**/*.md"].each do |file| %>
 <% ApiDocumentation.resource_files.each_pair do |resource_module, resources| %>
 <%= "## #{resource_module}" %>
