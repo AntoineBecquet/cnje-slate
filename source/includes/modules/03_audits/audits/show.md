@@ -1,4 +1,5 @@
-## Retrieve Audit
+## Audit
+### Retrieve Audit
 
 ```http
 GET /audits/:audit_id HTTP/1.1

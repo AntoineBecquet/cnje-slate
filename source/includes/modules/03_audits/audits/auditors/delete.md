@@ -1,4 +1,4 @@
-## Remove an auditor from an audit
+### Remove an auditor from an audit
 
 ```http
 DELETE /api/v1/audits/:audit_id/auditors HTTP/1.1

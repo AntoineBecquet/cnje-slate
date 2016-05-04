@@ -1,4 +1,4 @@
-## Create an audit
+### Create an audit
 
 ```http
 POST /api/v1/audit_sessions/:audit_session_id/audits HTTP/1.1

@@ -1,4 +1,5 @@
-## Show all audit session
+## Audit Sessions
+### Retrieve all audit session
 
 ```http
 GET /audit_sessions HTTP/1.1

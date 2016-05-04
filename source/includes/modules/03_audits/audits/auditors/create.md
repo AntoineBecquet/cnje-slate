@@ -1,4 +1,4 @@
-## Add an auditor to an audit
+### Add an auditor to an audit
 
 ```http
 POST /api/v1/audits/:audit_id/auditors HTTP/1.1

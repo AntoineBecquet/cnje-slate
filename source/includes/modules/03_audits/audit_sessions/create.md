@@ -1,4 +1,4 @@
-## Create an audit session
+### Create an audit session
 
 ```http
 POST /audit_sessions HTTP/1.1

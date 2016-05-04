@@ -1,4 +1,4 @@
-## Update an audit
+### Update an audit
 
 ```http
 PATCH /api/v1/audits/:audit_id HTTP/1.1

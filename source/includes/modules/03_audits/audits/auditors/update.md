@@ -1,4 +1,4 @@
-## Update an auditor status
+### Update an auditor status
 
 ```http
 POST /api/v1/audits/:audit_id/auditors/:auditor_id HTTP/1.1

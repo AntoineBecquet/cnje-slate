@@ -42,7 +42,7 @@ HTTP/1.1 201 OK
 }
 ```
 
-<% o = resource_attributes("source/includes/resources/juniors/", "tax_return", "Request Parameters") do |t| %>
+<% o = ApiDocumentation.resource_attributes("source/includes/resources/juniors/", "tax_return", "Request Parameters") do |t| %>
  <% "tax_return | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol)." %>
 <% end %>
 
