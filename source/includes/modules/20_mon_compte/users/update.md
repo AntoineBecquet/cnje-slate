@@ -10,14 +10,13 @@ PUT /api/v1/users/:user_id HTTP/1.1
     "current_password": "foo",
     "new_password": "bar",
     "privacy": "public",
-    "profile": {
-      "civility": "mr",             
-      "first_name": "Foo",             
-      "last_name": "Bar",              
-      "birth_date": "01/01/01",             
-      "phone_number": "0101010101",           
-      "allows_photos_on_events": true,
-      "allows_newsletter": true    
+    "civility": "mr",             
+    "first_name": "Foo",             
+    "last_name": "Bar",              
+    "birth_date": "01/01/01",             
+    "phone_number": "0101010101",           
+    "allows_photos_on_events": true,
+    "allows_newsletter": true,
     },
     "address": {
       "line1": "",
