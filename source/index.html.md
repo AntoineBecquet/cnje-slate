@@ -42,6 +42,9 @@ includes:
   - modules/18_mes_audits
   - modules/18_mes_audits/index
   - modules/18_mes_audits/update
+  - modules/18_mes_vq
+  - modules/18_mes_vq/index
+  - modules/18_mes_vq/update
   - modules/20_my_account
   - modules/20_mon_compte/account_create
   - modules/20_mon_compte/account_log_in
