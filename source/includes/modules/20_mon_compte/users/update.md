@@ -23,7 +23,8 @@ PUT /api/v1/users/:user_id HTTP/1.1
       "line2": "",
       "city": "",
       "country": "",
-      "postal_code": ""
+      "postal_code": "",
+      "full": ""
     }
   }
 }

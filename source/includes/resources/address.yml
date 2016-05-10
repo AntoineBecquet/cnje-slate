@@ -19,3 +19,6 @@
   department_id:
     optional: true
     type: Integer
+  full:
+    type: String
+    description: "The full address given by Google Place"

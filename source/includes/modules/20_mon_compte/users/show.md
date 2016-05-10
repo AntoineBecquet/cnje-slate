@@ -25,7 +25,8 @@ GET /api/v1/users/:user_id HTTP/1.1
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 1001
+      "department_id": 1001,
+      "full": ""
     }
   }
 }
