@@ -48,7 +48,8 @@ includes:
   - modules/20_mon_compte/account_password_reset
   - modules/20_mon_compte/account_confirmation
   - modules/20_mon_compte/account_confirmation_resend
-  - modules/20_mon_compte/account_update
+  - modules/20_mon_compte/users/show
+  - modules/20_mon_compte/users/update
   - modules/21_junior_history
   - modules/21_junior_history/index
   - modules/21_junior_history/create

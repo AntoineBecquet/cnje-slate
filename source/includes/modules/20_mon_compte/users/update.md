@@ -1,4 +1,4 @@
-## Update Profile
+## Update an user
 
 ```http
 PUT /api/v1/users/:user_id HTTP/1.1
@@ -9,6 +9,7 @@ PUT /api/v1/users/:user_id HTTP/1.1
   "user": {
     "current_password": "foo",
     "new_password": "bar",
+    "privacy": "public",
     "profile": {
       "civility": "mr",             
       "first_name": "Foo",             
@@ -40,6 +41,7 @@ HTTP/1.1 201 Created
 ### Request Parameters
                                                                                                          | Default | Description
 -------------------------------------------------------------------------------------------------------- |-------- | ----------
+privacy | | Values are `public` / `email_only` / `private`
 civility                         <span class="details">String / Integer</span>                           |         | values for string are `ms`, `mrs`, or `mr`. Values for integer `0`, `1`, or `2` respectively
 first_name                       <span class="details">String</span>                                     |         |
 last_name                        <span class="details">String</span>                                     |         |
