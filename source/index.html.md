@@ -25,6 +25,7 @@ includes:
   - modules/03_audits/audits/auditors/create
   - modules/03_audits/audits/auditors/delete
   - modules/03_audits/audits/auditors/update
+  - modules/03_audits/auditors/index
   - modules/03_quality_inspections
   - modules/03_quality_inspections/quality_inspections/index
   - modules/04_auditeurs_conseils
