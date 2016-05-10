@@ -11,7 +11,7 @@
   country:
     optional: true
     type: String
-    default_value: FR
+    default: FR
     description: "As specified by the iso3166"
   postal_code:
     optional: true

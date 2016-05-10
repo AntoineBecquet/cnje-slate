@@ -33,12 +33,13 @@ class ApiDocumentation
         has_previous = true
       end
 
-      if v.has_key?("default_value")
+      puts v
+      if v.has_key?("default")
         # if has_previous == true
         #   t += ", "
         # end
 
-        t += "<span class=\"details\">Default is <b>#{v["default_value"]}</b></span>"
+        t += "<span class=\"details\">Default is <b>#{v["default"]}</b></span>"
       end
 
       # DESCRIPTION

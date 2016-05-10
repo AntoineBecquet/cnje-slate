@@ -1,13 +1,6 @@
-## Retrieve audits for an user
-
-```http
-GET /users/:user_id/staffed_audits HTTP/1.1
-```
-
 ```json
 {
   "staffed_audits": [{
-    "id": 1,
     "status": "pending",
     "response_at": null,
     "audit": {
@@ -24,8 +17,4 @@ GET /users/:user_id/staffed_audits HTTP/1.1
     }
   }]
 }
-```
-
-```http
-HTTP/1.1 200 OK
 ```

@@ -7,6 +7,8 @@ PUT /api/v1/users/:user_id HTTP/1.1
 ```json
 {
   "user": {
+    "current_password": "foo",
+    "new_password": "bar",
     "profile": {
       "civility": "mr",             
       "first_name": "Foo",             

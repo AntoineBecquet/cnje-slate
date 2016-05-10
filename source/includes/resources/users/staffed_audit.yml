@@ -1,0 +1,7 @@
+---
+  status:
+    description: "Values are `pending` / `refused` / `accepted`"
+    default: "pending"
+  response_at:
+    description: 'When the auditor `accept` or `refuse` the staffing'
+    default: "null"
