@@ -16,7 +16,8 @@ GET /users/:user_id/staffed_audits HTTP/1.1
       "final_decision": "pending",
       "specifications_url": null,
       "report_url": null,
-      "junior": { "id": 1,
+      "junior": {
+        "id": 1,
         "full_name": "Roux et Giraud",
         "common_name": "Paris SARL",
         "junior_type": "candidate"
