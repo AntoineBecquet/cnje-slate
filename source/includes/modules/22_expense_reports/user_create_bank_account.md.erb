@@ -1,0 +1,21 @@
+## Create a new bank account
+
+```http
+POST /users/:user_id/bank_accounts HTTP/1.1
+```
+
+```json
+{
+  "bank_account": {
+    "iban": "FR7613106005002000743520962",
+    "bic": "CMCIFR2A",
+    "sepa": ""
+  }
+}
+```
+
+```http
+HTTP/1.1 201 Created
+```
+
+<%= ApiDocumentation.resource_attributes("source/includes/resources/", "bank_account", "Request Parameters") %>

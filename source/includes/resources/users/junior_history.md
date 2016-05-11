@@ -1,22 +1,23 @@
 ```json
-{
-  "junior_history": {
-    "id": 1,
-    "starts_at": "2016-02-01",
-    "ends_at": "2020-09-01",
-    "job_title": "",
+{{
+  "junior_histories": [{
+    "id": 1008,
+    "starts_at": "2016-05-11",
+    "ends_at": "2017-05-11",
+    "job_title": "JobTitle",
     "application_status": "pending",
     "job_level": "candidate",
     "junior": {
-      "id": 1,
-      "full_name": "Boyer et Pons",
-      "common_name": "Garcia et Richard",
+      "id": 1016,
+      "full_name": "Michel SAS",
+      "common_name": "Schneider SAS",
       "junior_type": "candidate"
     },
     "job": {
-      "id": 1,
-      "name": "Président"
+      "id": 1018,
+      "name": "JuniorDivisionJobName",
+      "division_id": 1017
     }
-  }
+  }]
 }
 ```

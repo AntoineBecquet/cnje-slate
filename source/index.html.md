@@ -59,6 +59,8 @@ includes:
   - modules/21_junior_history/create
   - modules/21_junior_history/update
   - modules/21_junior_history/divisions/index
+  - modules/22_expense_reports
+  - modules/22_expense_reports/user_create_bank_account
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
   - modules/24_gestion_des_membres/formers/index
