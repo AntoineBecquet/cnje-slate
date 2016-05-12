@@ -1,5 +1,5 @@
 ```json
-{{
+{
   "junior_histories": [{
     "id": 1008,
     "starts_at": "2016-05-11",
