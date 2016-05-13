@@ -1,4 +1,6 @@
-## Retrieve all expense categories
+## Expense Categories
+
+### Retrieve all expense categories
 
 ```http
 GET /expense_reports/expense_categories HTTP/1.1

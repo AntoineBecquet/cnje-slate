@@ -61,6 +61,7 @@ includes:
   - modules/21_junior_history/divisions/index
   - modules/22_expense_reports
   - modules/22_expense_reports/expense_categories/index
+  - modules/22_expense_reports/transports/index
   - modules/22_expense_reports/user_create_bank_account
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
