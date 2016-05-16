@@ -7,9 +7,6 @@ POST /users/:user_id/expense_reports HTTP/1.1
 ```json
 {
   "expense_report": {
-    "supporting_document_limit_date": "2016-06-16",
-    "supporting_document_received_at": "2016-05-31",
-    "paid_at": null,
     "expenses": [{
       "junior_id": "1",
       "category_id": "2",
@@ -24,12 +21,7 @@ POST /users/:user_id/expense_reports HTTP/1.1
       "toll_amount": "50000",
       "total_amount": "100000",
       "documents": [{
-        "document": {
-          "tempfile": [],
-          "original_filename": "sad-cat.jpg",
-          "content_type": null,
-          "headers": null
-        }
+        "document": "" //MULTI PART
       }]
     }]
   }
