@@ -61,14 +61,16 @@ includes:
   - modules/21_junior_history/divisions/index
   - modules/22_expense_reports
   - modules/22_expense_reports/expense_categories/index
+  - modules/22_expense_reports/expenses/update
   - modules/22_expense_reports/transports/index
   - modules/22_expense_reports/users/index
   - modules/22_expense_reports/users/create
   - modules/22_expense_reports/user_create_bank_account
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
-  - modules/24_gestion_des_membres/formers/index
+  - modules/24_gestion_des_membres/create
   - modules/24_gestion_des_membres/update
+  - modules/24_gestion_des_membres/formers/index
   - modules/24_gestion_des_membres/application_forms/index
   - modules/24_gestion_des_membres/application_forms/accept
   - modules/24_gestion_des_membres/application_forms/refuse

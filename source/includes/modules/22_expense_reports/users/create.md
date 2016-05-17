@@ -42,6 +42,8 @@ HTTP/1.1 200 OK
     "status": "pending",
     "expenses": [{
       "id": 1,
+      "status": "pending",
+      "reason": "",
       "title": "TITLE",
       "at": "2016-04-16",
       "report_type": "digital",

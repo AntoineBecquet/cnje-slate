@@ -1,4 +1,6 @@
-## Retrieve all pending changes
+## Pending Changes
+
+### Retrieve all pending changes
 
 ```http
 GET /juniors/:junior_id/members/pending_changes HTTP/1.1

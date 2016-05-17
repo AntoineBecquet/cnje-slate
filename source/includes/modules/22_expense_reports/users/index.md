@@ -16,6 +16,8 @@ GET /users/:user_id/expense_reports HTTP/1.1
     "status": "pending",
     "expenses": [{
       "id": 1007,
+      "status": "pending",
+      "reason": "",
       "title": "Mme Paul Morin",
       "at": "2015-12-13",
       "report_type": "digital",

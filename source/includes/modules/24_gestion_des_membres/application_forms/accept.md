@@ -1,4 +1,4 @@
-## Accept an application
+### Accept an application
 
 ```http
 GET /juniors/:junior_id/members/:member_id/pending_applications/accept HTTP/1.1

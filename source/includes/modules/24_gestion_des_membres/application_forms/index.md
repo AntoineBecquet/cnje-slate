@@ -1,4 +1,6 @@
-## Retrieve all application forms
+## Application Forms
+
+### Retrieve all application forms
 
 ```http
 GET /juniors/:junior_id/members/pending_applications HTTP/1.1
