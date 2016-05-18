@@ -1,9 +1,9 @@
-## User
+## Expense Reports
 
 ### Retrieve all expense reports
 
 ```http
-GET /users/:user_id/expense_reports HTTP/1.1
+GET /expense_reports HTTP/1.1
 ```
 
 ```json
@@ -14,6 +14,11 @@ GET /users/:user_id/expense_reports HTTP/1.1
     "supporting_document_received_at": null,
     "paid_at": null,
     "status": "pending",
+    "user": {
+      "id": 1006,
+      "first_name": "foo",
+      "last_name": "bar",
+    },
     "expenses": [{
       "id": 1007,
       "status": "pending",

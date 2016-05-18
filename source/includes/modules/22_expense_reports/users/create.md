@@ -51,6 +51,8 @@ HTTP/1.1 200 OK
       "number_of_kilometers": 5,
       "toll_amount": 50000,
       "total_amount": 100000,
+      "starting_city": null,
+      "arrival_city": null,
       "category": {
         "id": 2,
         "name": "Lemoine Adrien"
