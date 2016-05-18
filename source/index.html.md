@@ -60,6 +60,7 @@ includes:
   - modules/21_junior_history/update
   - modules/21_junior_history/divisions/index
   - modules/22_expense_reports
+  - modules/22_expense_reports/expense_reports/index
   - modules/22_expense_reports/expense_categories/index
   - modules/22_expense_reports/expenses/update
   - modules/22_expense_reports/transports/index
