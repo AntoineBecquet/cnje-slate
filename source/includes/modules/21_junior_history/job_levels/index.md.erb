@@ -1,0 +1,34 @@
+## Retrieve all divisions
+
+```http
+GET /juniors/jobs HTTP/1.1
+```
+
+```json
+{
+  "job_levels": [{
+    "id": 1,
+    "name": "Candidat",
+    "divisions": [{
+      "id": 14,
+      "name": "Volontaire",
+      "jobs": [{
+        "id": 13,
+        "name": "Volontaire"
+      }]
+    }, {
+      "id": 15,
+      "name": "Candidats",
+      "jobs": [{
+        "id": 14,
+        "name": "Candidat"
+      }]
+    }]
+  }]
+}
+
+```
+
+```http
+HTTP/1.1 200 OK
+```

@@ -1,23 +1,29 @@
 ```json
 {
-  "junior_histories": [{
+  "junior_history": {
     "id": 1008,
-    "starts_at": "2016-05-11",
-    "ends_at": "2017-05-11",
+    "starts_at": "2016-05-19",
+    "ends_at": "2017-05-19",
     "job_title": "JobTitle",
     "application_status": "pending",
-    "job_level": "candidate",
     "junior": {
-      "id": 1016,
-      "full_name": "Michel SAS",
-      "common_name": "Schneider SAS",
+      "id": 1018,
+      "full_name": "Laine et Perrin",
+      "common_name": "Simon SCOP",
       "junior_type": "candidate"
     },
     "job": {
-      "id": 1018,
-      "name": "JuniorDivisionJobName",
-      "division_id": 1017
+      "id": 1019,
+      "name": "Chargé de Mission"
+    },
+    "job_level": {
+      "id": 1010,
+      "name": "Member du Bureau"
+    },
+    "division": {
+      "id": 1011,
+      "name": "Présidence"
     }
-  }]
+  }
 }
 ```

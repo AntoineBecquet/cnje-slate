@@ -9,24 +9,31 @@ GET /juniors/:junior_id/members/formers HTTP/1.1
   "members": [{
     "id": 1006,
     "application_status": "pending",
-    "starts_at": "2016-05-02",
-    "ends_at": "2017-05-02",
+    "starts_at": "2016-05-19",
+    "ends_at": "2017-05-19",
     "job_title": "JobTitle",
     "job": {
-      "id": 1010,
-      "name": "JuniorDivisionJobName"
+      "id": 1013,
+      "name": "Chargé de Mission"
+    },
+    "division": {
+      "id": 1009,
+      "name": "Présidence"
+    },
+    "job_level": {
+      "id": 1008,
+      "name": "Member du Bureau"
     },
     "user": {
-      "id": 1012,
-      "first_name": "Lou",
-      "last_name": "Muller",
-      "email": "jimmy.lemke@turcotte.com",
-      "junior_email": "tabitha_oreilly@osinski.info",
+      "id": 1015,
+      "first_name": "Rayan",
+      "last_name": "Deschamps",
+      "email": "jaunita@daugherty.io",
+      "junior_email": "kailey_bashirian@ortizwolf.name",
       "phone_number": "0101010101"
     }
   }]
 }
-
 ```
 
 ```http
