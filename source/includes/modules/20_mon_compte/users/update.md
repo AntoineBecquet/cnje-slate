@@ -7,6 +7,8 @@ PUT /api/v1/users/:user_id HTTP/1.1
 ```json
 {
   "user": {
+    "email": "new-email@new-email.com",
+    "junior_email": "new-junior-email@new-junior-email.com",
     "current_password": "foo",
     "new_password": "bar",
     "privacy": "public",
@@ -17,7 +19,6 @@ PUT /api/v1/users/:user_id HTTP/1.1
     "phone_number": "0101010101",           
     "allows_photos_on_events": true,
     "allows_newsletter": true,
-
     "address": {
       "line1": "",
       "line2": "",
