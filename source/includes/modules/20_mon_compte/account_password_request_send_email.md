@@ -1,4 +1,4 @@
-## Password reset send email
+## Password reset: send email with token
 
 ```http
 POST /api/v1/auth/password HTTP/1.1
