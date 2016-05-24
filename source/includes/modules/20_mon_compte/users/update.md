@@ -17,7 +17,7 @@ PUT /api/v1/users/:user_id HTTP/1.1
     "phone_number": "0101010101",           
     "allows_photos_on_events": true,
     "allows_newsletter": true,
-    },
+
     "address": {
       "line1": "",
       "line2": "",
