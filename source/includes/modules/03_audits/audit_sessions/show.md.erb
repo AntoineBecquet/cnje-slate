@@ -1,0 +1,15 @@
+### Retrieve Audit Session
+
+```http
+GET /audit_sessions/:audit_session_id HTTP/1.1
+```
+
+> <%= partial 'includes/request_response', locals: { file: __FILE__ } %>
+
+### Response Parameters
+
+Parameter           |  Value | Description
+------------------- | ------ | ------
+starts_at           | |
+ends_at             | |
+status              | | Values are `pending`, `archived`.

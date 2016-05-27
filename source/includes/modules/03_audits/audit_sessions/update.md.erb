@@ -14,24 +14,8 @@ PATCH /audit_sessions/:audit_session_id HTTP/1.1
 }
 ```
 
-```http
-HTTP/1.1 201 Created
-```
+> <%= partial 'includes/request_response', locals: { file: __FILE__ } %>
 
-```json
-{
-  "audit_session": {
-    "id": 5,
-    "starts_at": "2016-03-29T15:33:38.842+01:00",
-    "ends_at": "2016-04-30T15:33:38.842+02:00",
-    "status": "pending",
-    "audits": []
-  }
-}
-```
-
-
-Fetch audit sessions
 
 ### Response Parameters
 

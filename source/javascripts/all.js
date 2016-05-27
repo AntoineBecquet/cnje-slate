@@ -9,7 +9,11 @@ $(document).ready(function() {
         $(this).parent().addClass("current");
         $(this).parent().siblings().removeClass("current");
         var tab = $(this).attr("href");
-        $(".tab-content").not(tab).css("display", "none");
-        $(tab).show();
+
+        // $(this).parent().parent().first('.tab-content').not(tab).css("display", "none");
+        // $(".tab-content").not(tab).css("display", "none");
+        $(this).closest('.tabs-container').find('.tab-content').css("display", "none")
+        // $(tab).show();
+        $(this).closest('.tabs-container').find(tab).show();
     });
 });
