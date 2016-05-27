@@ -1,11 +1,3 @@
-## Audit Sessions
-### Retrieve all audit session
-
-```http
-GET /audit_sessions HTTP/1.1
-```
-
-```json
 {
   "audit_sessions": [{
     "id": 5,
@@ -42,18 +34,3 @@ GET /audit_sessions HTTP/1.1
     }]
   }]
 }
-```
-
-```http
-HTTP/1.1 200 Ok
-```
-
-Fetch audit sessions
-
-### Response Parameters
-
-Parameter           |  Value | Description
-------------------- | ------ | ------
-starts_at           | |
-ends_at             | |
-status              | | Values are `pending`, `archived`.

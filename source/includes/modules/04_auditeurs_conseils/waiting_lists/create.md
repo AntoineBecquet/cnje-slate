@@ -1,7 +1,7 @@
 ## Add an user to the waiting list
 
 ```http
-POST /auditor_recruitments/waiting_list HTTP/1.1
+POST /auditor_recruitments/user/:user_id/waiting_list HTTP/1.1
 ```
 
 ```http

@@ -1,0 +1,73 @@
+<%
+  STATUS_CODE_SUCCESS = {
+    ok: 200,
+    created: 201,
+    accepted: 202,
+    no_content: 204
+  }
+
+  STATUS_CODE_ERROR = {
+    bad_request: 400,
+    unauthorized: 401,
+    forbidden: 403,
+    not_found: 404,
+    not_acceptable: 406
+  }
+
+directory = file.split('/')[0...-1].join('/')
+action_name = file.split('/').last.split('.').first
+json_directory = "source/#{directory}/#{action_name}_response"
+
+puts __FILE__
+
+puts ' -- '* 20
+
+tabs_value = []
+json_file = []
+
+Dir["#{json_directory}/*.json"].each do |response|
+  puts response
+  type = response.match(/[\d+]\+(.+).json/)[1].to_sym
+
+  puts "TYPE"
+  puts type
+
+  puts 'CODE'
+  puts (STATUS_CODE_SUCCESS[type] || STATUS_CODE_ERROR[type])
+
+  tab_type = STATUS_CODE_SUCCESS.has_key?(type) ? 'success' : 'error'
+
+  tabs_value << [
+    (STATUS_CODE_SUCCESS[type] || STATUS_CODE_ERROR[type]),
+    type,
+    tab_type
+  ]
+  json_file << File.open(response)
+end
+
+puts ' -- '* 20
+%>
+<div class="request-response">
+  <h3 class="">Result Format</h3>
+  <div id="tabs-container">
+    <ul class="tabs-menu">
+      <% tabs_value.each_with_index do |tab_value, index| %>
+        <li class="<%= index == 0 ? 'current' : '' %> ">
+          <span class="status-icon status-icon-<%= tab_value[2] %>"></span>
+          <a href="#tab-<%= index + 1 %>">
+            <%= tab_value[0] %> <%= tab_value[1] %>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+    <div class="tab">
+      <% json_file.each_with_index do |file, index|  %>
+        <div id="tab-<%= index + 1 %>" class="tab-content">
+          <% code("json") do %>
+            <% file.read %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
