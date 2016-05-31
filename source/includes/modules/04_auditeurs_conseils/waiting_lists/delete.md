@@ -1,4 +1,4 @@
-## Remove an user from the waiting list
+### Remove an user from the waiting list
 
 ```http
 DELETE /auditor_recruitments/user/:user_id/waiting_list HTTP/1.1

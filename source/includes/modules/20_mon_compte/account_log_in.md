@@ -18,7 +18,32 @@ HTTP/1.1 201 Created
 ```json
 {
   "user": {
-    "id": 1
+    "id": 1,
+    "junior_membership": [{
+      "id": 1006,
+      "application_status": "pending",
+      "starts_at": "2016-05-31",
+      "ends_at": "2017-05-31",
+      "job_title": "JobTitle",
+      "job_level": {
+        "id": 1008,
+        "name": "Member du Bureau"
+      },
+      "job": {
+        "id": 1007,
+        "name": "Chargé de Mission"
+      },
+      "division": {
+        "id": 1009,
+        "name": "Présidence"
+      },
+      "junior": {
+        "id": 1005,
+        "full_name": "Prevost GIE",
+        "common_name": "Olivier SARL",
+        "junior_type": "candidate"
+      }
+    }]
   }
 }
 ```

@@ -18,7 +18,8 @@ HTTP/1.1 201 Created
 ```json
 {
   "user": {
-    "id": 1
+    "id": 1,
+    "junior_membership": []
   }
 }
 ```

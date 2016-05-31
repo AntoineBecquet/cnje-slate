@@ -1,4 +1,4 @@
-## Create a session
+### Create a session
 
 ```http
 POST /auditor_recruitments/sessions HTTP/1.1

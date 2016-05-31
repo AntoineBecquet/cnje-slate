@@ -1,0 +1,5 @@
+---
+  wefa_status:
+    description: "Values are `wefa_status_pending` / `wefa_status_accepted` / `wefa_status_refused`"
+  application_status:
+    description: "Values are `application_status_pending` / `application_status_refused` / `application_status_accepted`"

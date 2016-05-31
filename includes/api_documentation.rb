@@ -33,7 +33,6 @@ class ApiDocumentation
         has_previous = true
       end
 
-      puts v
       if v.has_key?("default")
         # if has_previous == true
         #   t += ", "

@@ -1,4 +1,5 @@
-## Get waiting list
+## Waiting Lists
+### Get waiting list
 
 ```http
 GET /auditor_recruitments/waiting_list HTTP/1.1

@@ -29,12 +29,15 @@ includes:
   - modules/03_quality_inspections
   - modules/03_quality_inspections/quality_inspections/index
   - modules/04_auditeurs_conseils
-  - modules/04_auditeurs_conseils/sessions/create
   - modules/04_auditeurs_conseils/sessions/index
+  - modules/04_auditeurs_conseils/sessions/create
   - modules/04_auditeurs_conseils/sessions/update
   - modules/04_auditeurs_conseils/sessions/show
-  - modules/04_auditeurs_conseils/waiting_lists/create
+  - modules/04_auditeurs_conseils/sessions/candidates/create
+  - modules/04_auditeurs_conseils/sessions/candidates/update
+  - modules/04_auditeurs_conseils/sessions/candidates/destroy
   - modules/04_auditeurs_conseils/waiting_lists/index
+  - modules/04_auditeurs_conseils/waiting_lists/create
   - modules/04_auditeurs_conseils/waiting_lists/delete
   - modules/06_labelisations
   - modules/06_labelisations/index

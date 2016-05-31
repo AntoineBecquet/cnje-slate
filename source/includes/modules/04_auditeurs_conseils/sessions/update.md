@@ -1,4 +1,4 @@
-## Update a session
+### Update a session
 
 ```http
 PATCH /auditor_recruitments/sessions/:auditor_recruitment_session_id HTTP/1.1

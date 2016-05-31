@@ -21,15 +21,7 @@ json_directory = "source/#{directory}/#{action_name}_response"
 tabs_value = []
 json_file = []
 
-puts '-- ' * 20
-puts file.inspect
-
-puts directory.inspect
-puts action_name.inspect
-puts json_directory.inspect
-
 Dir["#{json_directory}/*.json"].each do |response|
-  puts response
   type = response.match(/[\d+]\+(.+).json/)[1].to_sym
 
   tab_type = STATUS_CODE_SUCCESS.has_key?(type) ? 'success' : 'error'
@@ -42,7 +34,6 @@ Dir["#{json_directory}/*.json"].each do |response|
   json_file << File.open(response)
 end
 
-puts ' -- '* 20
 %>
 <div class="request-response">
   <h4>Result Format</h4>
