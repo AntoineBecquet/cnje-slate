@@ -19,6 +19,7 @@ PUT /api/v1/users/:user_id HTTP/1.1
     "phone_number": "0101010101",           
     "allows_photos_on_events": true,
     "allows_newsletter": true,
+    "curriculum": "QWE...",
     "address": {
       "line1": "",
       "line2": "",
@@ -50,8 +51,4 @@ birth_date                       <span class="details">String</span>            
 phone_number                     <span class="details">String</span>                                     |         | format: `'0101010101'`
 allows_photos_on_events          <span class="details">Boolean</span>                                    |         | Photo can be use
 allows_newsletter                <span class="details">Boolean</span>                                    |         |
-line1                            <span class="details">String</span>                                     |         |
-line2                            <span class="details">String</span>                                     |         |
-city                             <span class="details">String</span>                                     |         |
-country                          <span class="details">String</span>                                     |         |
-postal_code                      <span class="details">String</span>                                     |         |
+curriculum                                                                                               |         | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol).
