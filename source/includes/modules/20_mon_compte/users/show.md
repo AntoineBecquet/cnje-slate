@@ -18,6 +18,7 @@ GET /api/v1/users/:user_id HTTP/1.1
     "phone_number": "0101010101",
     "allows_photos_on_events": false,
     "allows_newsletter": false,
+    "curriculum_url": "/my/path/curriculum.pdf",
     "address": {
       "id": 1002,
       "line1": "line1",

@@ -62,6 +62,9 @@ includes:
   - modules/21_junior_history/create
   - modules/21_junior_history/update
   - modules/21_junior_history/job_levels/index
+  - modules/21_junior_history/divisions/create
+  - modules/21_junior_history/divisions/update
+  - modules/21_junior_history/divisions/destroy
   - modules/22_expense_reports
   - modules/22_expense_reports/expense_reports/index
   - modules/22_expense_reports/expense_categories/index
