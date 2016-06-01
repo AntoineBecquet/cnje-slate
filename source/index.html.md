@@ -90,7 +90,10 @@ includes:
   - modules/25_informations/junior/find_by
   - modules/25_informations/junior/domains/index
   - modules/25_informations/junior/domains/create
+  - modules/25_informations/junior/domains/update
   - modules/25_informations/junior/domains/destroy
+  - modules/25_informations/junior/junior_domains/create
+  - modules/25_informations/junior/junior_domains/destroy
   - modules/25_informations/junior/partners/create
   - modules/25_informations/junior/partners/destroy
   - modules/25_informations/junior/labelisations/index

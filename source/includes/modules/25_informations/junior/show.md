@@ -1,4 +1,5 @@
-## Retrieve a junior
+## Junior
+### Retrieve a junior
 
 ```http
 GET /juniors/:junior_id HTTP/1.1

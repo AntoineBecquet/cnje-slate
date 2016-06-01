@@ -1,4 +1,4 @@
-## Update a junior
+### Update a junior
 
 ```http
 PUT /juniors/:junior_id HTTP/1.1

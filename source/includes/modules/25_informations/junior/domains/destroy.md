@@ -1,11 +1,9 @@
-## Remove a domain from a junior
+### Remove a domain
 
 ```http
-DELETE /juniors/:junior_id/domains HTTP/1.1
+DELETE /juniors/domains/:domain_id HTTP/1.1
 ```
 
-```json
-{
-  "domain_ids": [1, 2]
-}
+```http
+HTTP/1.1 204 No-Content
 ```

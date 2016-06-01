@@ -1,0 +1,18 @@
+### Create a domain
+
+```http
+POST /juniors/domains HTTP/1.1
+```
+
+```json
+{
+  "domain": {
+    "name": "domain name",
+    "parent_id": 1
+  }
+}
+```
+
+> <%= partial 'includes/request_response', locals: { file: __FILE__ } %>
+
+<%= ApiDocumentation.resource_attributes("source/includes/resources/juniors/", "domain", "Request Parameters") %>

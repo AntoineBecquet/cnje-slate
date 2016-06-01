@@ -1,4 +1,5 @@
-## Add a domain to a junior
+## Junior Domains
+### Add a domain to a junior
 
 ```http
 POST /juniors/:junior_id/domains HTTP/1.1

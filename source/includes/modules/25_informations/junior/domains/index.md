@@ -1,4 +1,5 @@
-## List all domains
+## Domains
+### List all domains
 
 ```http
 GET /juniors/domains HTTP/1.1
@@ -7,8 +8,17 @@ GET /juniors/domains HTTP/1.1
 ```json
 {
   "domains": [{
-    "id": 0,
-    "name": "domain"
+    "id": 1001,
+    "name": "Legrand Lola",
+    "children": [{
+      "id": 1003,
+      "name": "Leclercq Maeva",
+      "children": []
+    }]
+  }, {
+    "id": 1002,
+    "name": "Jeanne Bonnet",
+    "children": []
   }]
 }
 ```

@@ -1,4 +1,5 @@
-## Add a partner to a junior
+## Partners
+### Add a partner to a junior
 
 ```http
 POST /juniors/:junior_id/partners HTTP/1.1

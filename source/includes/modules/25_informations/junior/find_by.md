@@ -1,4 +1,4 @@
-## Retrieve a junior by query
+### Retrieve a junior by query
 
 ```http
 GET /juniors/find_by?q[common_name_cont]=Junior HTTP/1.1
