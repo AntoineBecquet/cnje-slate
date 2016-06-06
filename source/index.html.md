@@ -14,6 +14,8 @@ includes:
   - error_codes
   - errors_example
   - resources
+  - modules/00_documents/index
+  - modules/00_documents/show
   - modules/03_audits
   - modules/03_audits/audit_sessions/index
   - modules/03_audits/audit_sessions/show

@@ -3,6 +3,10 @@ class ApiDocumentation
     hash.has_key?(key) && hash[key] == true
   end
 
+  def self.defined_and_is_false(hash, key)
+    hash.has_key?(key) && hash[key] == false
+  end
+
   def self.resource_attributes(path, resource_name, header="Attributes")
     file_path = "#{path}/#{resource_name}.yml"
 
@@ -25,6 +29,9 @@ class ApiDocumentation
       # PARAMETER
       if defined_and_is_true(v, "optional")
         t += "<span class=\"label\">optional</span>"
+        has_previous = true
+      elsif defined_and_is_false(v, "optional")
+        t += "<span class=\"label\">Mandatory</span>"
         has_previous = true
       end
 

@@ -10,6 +10,7 @@ GET /auditor_recruitments/sessions/:session_id HTTP/1.1
     "id": 1001,
     "starts_at": "2016-06-01T00:00:00.000+02:00",
     "ends_at": "2016-07-01T00:00:00.000+02:00",
+    "session_type": "treasury",
     "auditor_recruitment_session_candidates": [{
       "id": 1007,
       "wefa_status": "wefa_status_pending",
