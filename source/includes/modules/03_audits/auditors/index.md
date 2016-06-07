@@ -7,11 +7,15 @@ GET /audits/auditors HTTP/1.1
 ```json
 {
   "auditors": [{
-    "id": 1002,
-    "first_name": "Arthur",
-    "last_name": "Arnaud"
+    "type": "orga",
+    "user": {
+      "id": 1002,
+      "first_name": "Lina",
+      "last_name": "Dufour"
+    }
   }]
 }
+
 ```
 
 ```http
