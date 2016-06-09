@@ -1,5 +1,7 @@
 ## Static Pages
 
+### Retrieve all static pages
+
 ```http
 GET /static_pages HTTP/1.1
 ```
