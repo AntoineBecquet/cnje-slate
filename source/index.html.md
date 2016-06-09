@@ -106,6 +106,7 @@ includes:
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
+  - modules/core/static_page/index
 
 search: true
 ---
