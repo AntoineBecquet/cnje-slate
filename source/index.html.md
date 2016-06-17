@@ -44,6 +44,17 @@ includes:
   - modules/06_labelisations
   - modules/06_labelisations/index
   - modules/06_labelisations/create
+  - modules/14_tickets
+  - modules/14_tickets/tickets/index
+  - modules/14_tickets/tickets/show
+  - modules/14_tickets/tickets/create
+  - modules/14_tickets/tickets/update
+  - modules/14_tickets/tickets/themes/index
+  - modules/14_tickets/tickets/themes/create
+  - modules/14_tickets/tickets/themes/update
+  - modules/14_tickets/tickets/themes/divisions/create
+  - modules/14_tickets/tickets/themes/divisions/update
+  - modules/14_tickets/tickets/themes/divisions/destroy
   - modules/18_mes_audits
   - modules/18_mes_audits/index
   - modules/18_mes_audits/update

@@ -22,13 +22,14 @@ tabs_value = []
 json_file = []
 
 Dir["#{json_directory}/*.json"].each do |response|
-  type = response.match(/[\d+]\+(.+).json/)[1].to_sym
+  type = response.match(/[\d+]\+(.+).json/)[1].split('+')
 
-  tab_type = STATUS_CODE_SUCCESS.has_key?(type) ? 'success' : 'error'
+  status = type[0].to_sym
+  tab_type = STATUS_CODE_SUCCESS.has_key?(status) ? 'success' : 'error'
 
   tabs_value << [
-    (STATUS_CODE_SUCCESS[type] || STATUS_CODE_ERROR[type]),
-    type,
+    (STATUS_CODE_SUCCESS[status] || STATUS_CODE_ERROR[status]),
+    type.join(' '),
     tab_type
   ]
   json_file << File.open(response)
