@@ -41,6 +41,16 @@ includes:
   - modules/04_auditeurs_conseils/waiting_lists/index
   - modules/04_auditeurs_conseils/waiting_lists/create
   - modules/04_auditeurs_conseils/waiting_lists/delete
+  - modules/05_invoices
+  - modules/05_invoices/juniors/index  
+  - modules/05_cnje_memberships
+  - modules/05_cnje_memberships/fiscal_years/index
+  - modules/05_cnje_memberships/fiscal_years/show
+  - modules/05_cnje_memberships/fiscal_years/balance_fees/update
+  - modules/05_cnje_memberships/fiscal_years/balance_fees/brackets/create
+  - modules/05_cnje_memberships/fiscal_years/balance_fees/brackets/destroy
+  - modules/05_cnje_memberships/fiscal_years/deposit_fees/update
+  - modules/05_cnje_memberships/fiscal_years/fees/index
   - modules/06_labelisations
   - modules/06_labelisations/index
   - modules/06_labelisations/create
