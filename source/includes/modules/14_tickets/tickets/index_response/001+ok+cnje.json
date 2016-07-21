@@ -16,8 +16,10 @@
       "last_name": "Bar"
     },
     "junior": {
-      "id": 5,
-      "common_name": "Foo Bar"
+      "id": 1007,
+      "full_name": "Giraud SA",
+      "common_name": "Rey SARL",
+      "junior_type": "candidate"
     },
     "theme": {
       "id": 5,

@@ -1,0 +1,25 @@
+### Create a ticket
+
+```http
+POST /juniors/:junior_id/tickets HTTP/1.1
+```
+
+```json
+{
+  "ticket": {
+    "title": "Foo",
+    "theme_id": 5,
+    "content": "Ticket Content",
+    "additional_fields": [{
+      "field_id": 5
+      "value": 50
+    }]
+  }
+}
+```
+
+```http
+HTTP/1.1 201 Created
+```
+
+> <%= partial 'includes/request_response', locals: { file: __FILE__ } %>

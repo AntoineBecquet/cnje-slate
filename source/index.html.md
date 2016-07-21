@@ -51,6 +51,16 @@ includes:
   - modules/05_cnje_memberships/fiscal_years/balance_fees/brackets/destroy
   - modules/05_cnje_memberships/fiscal_years/deposit_fees/update
   - modules/05_cnje_memberships/fiscal_years/fees/index
+  - modules/05_maif_membership
+  - modules/05_maif_membership/index
+  - modules/05_maif_membership/show
+  - modules/05_maif_membership/create
+  - modules/05_maif_membership/update
+  - modules/05_maif_membership/juniors/index
+  - modules/05_maif_membership/juniors/create
+  - modules/05_maif_membership/juniors/destroy
+  - modules/05_maif_membership/generate/create
+  - modules/05_maif_membership/generate/create_test
   - modules/06_labelisations
   - modules/06_labelisations/index
   - modules/06_labelisations/create
@@ -59,12 +69,18 @@ includes:
   - modules/14_tickets/tickets/show
   - modules/14_tickets/tickets/create
   - modules/14_tickets/tickets/update
+  - modules/14_tickets/tickets/take
   - modules/14_tickets/tickets/themes/index
-  - modules/14_tickets/tickets/themes/create
   - modules/14_tickets/tickets/themes/update
   - modules/14_tickets/tickets/themes/divisions/create
   - modules/14_tickets/tickets/themes/divisions/update
   - modules/14_tickets/tickets/themes/divisions/destroy
+  - modules/14_tickets/tickets/themes/fixed_answers/create
+  - modules/14_tickets/tickets/themes/fixed_answers/destroy
+  - modules/14_tickets/juniors/index
+  - modules/14_tickets/juniors/create
+  - modules/14_tickets/messages/create
+  - modules/14_tickets/tickets/rates/create
   - modules/18_mes_audits
   - modules/18_mes_audits/index
   - modules/18_mes_audits/update

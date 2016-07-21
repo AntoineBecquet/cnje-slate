@@ -1,33 +1,36 @@
 {
   "ticket": {
-    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
-    "title": "Foo",
-    "content": "Bar",
-    "status": "pending_",
-    "will_reopen_at": "2016-07-26T00:00:00.000+02:00",
-    "created_at": "2016-07-26T00:00:00.000+02:00",
+    "id": "1ad4e23b-6b88-484a-829d-034615740ecd",
+    "title": "TicketTitle",
+    "content": "TicketContent",
+    "status": "pending_cnje_answer",
+    "created_at": "2016-07-04T17:42:22.422+02:00",
+    "will_reopen_at": null,
     "creator": {
-      "id": 5,
-      "first_name": "Foo",
-      "last_name": "Bar"
+      "id": 1004,
+      "first_name": "Lisa",
+      "last_name": "Roche"
     },
+    "last_message_at": "2016-07-04T17:42:22.422+02:00",
     "junior": {
-      "id": 5,
-      "common_name": "Foo Bar"
+      "id": 1007,
+      "full_name": "Giraud SA",
+      "common_name": "Rey SARL",
+      "junior_type": "candidate"
     },
+    "taken_by_user": null,
     "theme": {
-      "id": 5,
-      "name": "Foo"
+      "id": 1008,
+      "name": "ThemeName"
     },
     "messages": [{
-      "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
-      "content": "Foo",
+      "id": "24a1a273-0f6a-4d0c-ba42-2de418df7bc6",
+      "content": "MessageContent",
       "is_private": true,
       "user": {
         "id": 1,
-        "first_name": "Foo",
-        "last_name": "Bar"
+        "first_name": "Noa",
+        "last_name": "Renault"
       }
     }]
   }
-}
