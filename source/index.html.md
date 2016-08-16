@@ -70,6 +70,7 @@ includes:
   - modules/14_tickets/tickets/create
   - modules/14_tickets/tickets/update
   - modules/14_tickets/tickets/take
+  - modules/14_tickets/tickets/stats/index
   - modules/14_tickets/tickets/themes/index
   - modules/14_tickets/tickets/themes/update
   - modules/14_tickets/tickets/themes/divisions/create
