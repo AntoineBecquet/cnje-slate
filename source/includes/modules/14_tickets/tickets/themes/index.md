@@ -14,22 +14,30 @@ GET /tickets/themes HTTP/1.1
       "id": 1004,
       "name": "ThemeName",
       "children": [],
-      "fixed_answers": [],
-      "fields": []
+      "fields": [],
+      "permissions": []
     }],
     "fixed_answers": [{
-      "id": 1008,
+      "id": 1010,
       "title": "FixedAnswerTitle",
       "content": "FixedAnswerContent"
     }],
     "fields": [{
-      "id": 1009,
+      "id": 1011,
       "field_type": "number",
       "name": "Field Name",
       "required": false
+    }],
+    "permissions": [{
+      "permission": "read",
+      "division": {
+        "id": 1012,
+        "name": "Présidence"
+      }
     }]
   }]
 }
+
 ```
 
 ```http
