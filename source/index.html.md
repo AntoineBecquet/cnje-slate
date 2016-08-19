@@ -113,6 +113,11 @@ includes:
   - modules/22_expense_reports/users/index
   - modules/22_expense_reports/users/create
   - modules/22_expense_reports/user_create_bank_account
+  - modules/23_evenements
+  - modules/23_evenements/events/index
+  - modules/23_evenements/events/create
+  - modules/23_evenements/prices/create
+  - modules/23_evenements/prices/destroy  
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
   - modules/24_gestion_des_membres/create
