@@ -16,6 +16,10 @@ includes:
   - resources
   - modules/00_documents/index
   - modules/00_documents/show
+  - modules/02_call_for_tenders
+  - modules/02_call_for_tenders/index
+  - modules/02_call_for_tenders/show
+  - modules/02_call_for_tenders/create
   - modules/03_audits
   - modules/03_audits/audit_sessions/index
   - modules/03_audits/audit_sessions/show

@@ -1,7 +1,7 @@
 ## Create
 
 ```http
-POST /call_for_tenders HTTP/1.1
+POST /tenders HTTP/1.1
 ```
 
 ```http
@@ -10,24 +10,28 @@ HTTP/1.1 201 Created
 
 ```json
 {
-  "call_for_tender": {
-    "client_first_name": "Foo",
-    "client_last_name": "Bar",
-    "client_email": "foo@bar.fr",
-    "client_phone": "0102030405",
-    "client_company_name": "Foo",
-    "client_company_type": "TPE",
-    "region_ids": [1, 2, 3],
-    "field_of_competence": "Foo",
-    "project_description": "Bar",
-    "deadlines": "Foo",
-    "why_this_je": "Bar",
-    "is_partnership": true
+  "tender": {
+    "client_first_name": "Ambre",
+    "client_last_name": "Martin",
+    "client_email": "claudine_murphy@rosenbaumrowe.org",
+    "client_phone": "(590) 421-5724",
+    "client_company": "Robin et Lambert",
+    "client_company_category": "Collectivité",
+    "description": "Dolores corporis officiis quibusdam. Qui adipisci voluptas similique molestiae voluptas et. Et asperiores molestiae sunt ipsa eum sed repellat. Laboriosam autem fugiat possimus consequatur reprehenderit optio.",
+    "deadlines": "Maiores voluptatem autem quisquam ut temporibus quam ea. Repudiandae dolores nulla minus alias reiciendis. Reiciendis non mollitia et qui iusto. Vitae sit quibusdam.",
+    "heard_about": "Eveniet distinctio dolorem et eum.",
+    "partner": false,
+    "domain_ids": [
+      "1"
+    ],
+    "cnje_region_ids": [
+      "1"
+    ]
   }
 }
 ```
 
-Create a new call for tenders
+Create a new tender
 
 ### Parameters
 
@@ -37,11 +41,11 @@ client_first_name   | |
 client_last_name    | |
 client_email        | |
 client_phone        | |
-client_company_name | |
-client_company_type | particulier / collectivité / TPE / PME / PMI / Association |
-region_ids          | Array\<Int\> |
-field_of_competence | |
-project_description | |
+client_company      | |
+client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association |
+description         | |
 deadlines           | |
-why_this_je         | |
-is_partnership      | |
+heard_about         | |
+partner             | |
+cnje_region_ids     | Array\<Int\> |
+domain_ids          | Array\<Int\> |
