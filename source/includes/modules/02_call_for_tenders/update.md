@@ -1,33 +1,52 @@
-## Update
+## Update tender
 
 ```http
-PUT /call_for_tenders/:id HTTP/1.1
+PATCH /tenders/:id HTTP/1.1
 ```
 
 ```json
 {
-  "call_for_tender": [{
-    "status": "accepted",
-    "refused_reason": "Foo"
-  }]
+  "tender":{
+    "id": 4,
+    "created_at": "2016-08-22T18:44:15.570+02:00",
+    "client_first_name": "Gabriel",
+    "client_last_name": "Philippe",
+    "client_company": "Morel EI",
+    "client_company_category": "Association",
+    "partner": false,
+    "status": "waiting_for_treatment",
+    "client_email": "jalon@lowe.info",
+    "client_phone": "(520) 887-1504",
+    "description": "Sequi eos atque consectetur nam suscipit nihil. Blanditiis ut aut dolorem et sed rerum. Optio provident corrupti tempore.",
+    "deadlines": "Laudantium accusantium velit praesentium quisquam accusamus. Ut perferendis distinctio cupiditate voluptatem quod. Libero magni voluptates. Sed et aspernatur. Aut ex voluptatem itaque earum quia rerum.",
+    "heard_about":"Omnis est dolores quod.",
+    "cnje_notes": "Lisez bien les détails",
+    "refused_message": null,
+    "domains":[
+      {
+        "id": 4,
+        "name": "Informatique"
+      }
+    ],
+    "cnje_regions":[
+      {
+        "id":4,
+        "name": "Ile-de-France"
+      }
+    ],
+    "juniors":[
+    ]
+  }
 }
 ```
 
 ```http
-HTTP/1.1 204 No Content
+HTTP/1.1 204 No-Content
 ```
-
-```json
-{}
-```
-
-
-Update a call for tender. To accept one just change the status. If the status is
-"pending", you can update the requests, otherwise, you can't.
 
 ### Request Parameters
 
-Parameter           |  Value | Description
-------------------- | ------ | ------
-status              | accepted / refused |
-refused_reason      | |
+Parameter               | Description
+----------------------- | ------
+client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
+partner                 | Bool

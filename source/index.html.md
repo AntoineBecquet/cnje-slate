@@ -20,6 +20,7 @@ includes:
   - modules/02_call_for_tenders/index
   - modules/02_call_for_tenders/show
   - modules/02_call_for_tenders/create
+  - modules/02_call_for_tenders/update
   - modules/03_audits
   - modules/03_audits/audit_sessions/index
   - modules/03_audits/audit_sessions/show
