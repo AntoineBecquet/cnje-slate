@@ -1,11 +1,7 @@
-## Create
+## Create tender
 
 ```http
 POST /tenders HTTP/1.1
-```
-
-```http
-HTTP/1.1 201 Created
 ```
 
 ```json
@@ -31,21 +27,15 @@ HTTP/1.1 201 Created
 }
 ```
 
-Create a new tender
+```http
+HTTP/1.1 201 Created
+```
 
-### Parameters
+### Request Parameters
 
-Parameter           |  Value | Description
-------------------- | ------ | ------
-client_first_name   | |
-client_last_name    | |
-client_email        | |
-client_phone        | |
-client_company      | |
-client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association |
-description         | |
-deadlines           | |
-heard_about         | |
-partner             | |
-cnje_region_ids     | Array\<Int\> |
-domain_ids          | Array\<Int\> |
+Parameter               | Description
+----------------------- | ------
+client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
+partner                 | Boolean
+domain_ids              | Array<Integer>
+cnje_region_ids         | Array<Integer>

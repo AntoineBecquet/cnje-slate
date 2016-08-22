@@ -1,7 +1,7 @@
 ## Get tenders
 
 ```http
-GET /tenders/ HTTP/1.1
+GET /tenders HTTP/1.1
 ```
 
 ```json
@@ -36,5 +36,5 @@ HTTP/1.1 200 OK
 Parameter               | Description
 ----------------------- | ------
 client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
-partner                 | Bool
+partner                 | Boolean
 status                  | waiting_for_treatment / accepted / refused
