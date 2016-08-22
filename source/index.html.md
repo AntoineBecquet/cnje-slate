@@ -116,8 +116,11 @@ includes:
   - modules/23_evenements
   - modules/23_evenements/events/index
   - modules/23_evenements/events/create
-  - modules/23_evenements/prices/create
-  - modules/23_evenements/prices/destroy  
+  - modules/23_evenements/events/prices/create
+  - modules/23_evenements/events/prices/destroy  
+  - modules/23_evenements/events/prices/discounts/create
+  - modules/23_evenements/events/prices/discounts/update
+  - modules/23_evenements/events/prices/discounts/destroy
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
   - modules/24_gestion_des_membres/create

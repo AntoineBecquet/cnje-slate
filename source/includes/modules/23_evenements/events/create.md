@@ -30,12 +30,16 @@ POST /events/ HTTP/1.1
     },
     "prices": [{
       "description": "Event Price Description",
-      "price_in_cents": 1000
+      "price_in_cents": 1000,
+      "discounts": [{
+        "minimum_turnover_in_cents": 100,
+        "maximum_turnover_in_cents": 100,
+        "amount_in_cents": 100
+      }]
     }],
     "cover_photo": "MULTIPART/FORM"
   }
 }
-
 ```
 
 ```http
