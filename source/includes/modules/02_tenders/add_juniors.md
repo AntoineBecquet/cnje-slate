@@ -1,7 +1,7 @@
 ### Add juniors to the tender
 
 ```http
-PATCH /tenders/:tender_id/add_juniors HTTP/1.1
+POST /tenders/:tender_id/juniors HTTP/1.1
 ```
 
 ```json

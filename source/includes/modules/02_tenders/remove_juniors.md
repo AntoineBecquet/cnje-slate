@@ -1,7 +1,7 @@
 ### Remove juniors from the tender
 
 ```http
-PATCH /tenders/:tender_id/remove_juniors HTTP/1.1
+DELETE /tenders/:tender_id/juniors HTTP/1.1
 ```
 
 ```json
