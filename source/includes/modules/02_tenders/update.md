@@ -13,7 +13,7 @@ PATCH /tenders/:tender_id HTTP/1.1
     "client_last_name": "Philippe",
     "client_company": "Morel EI",
     "client_company_category": "Association",
-    "partner": false,
+    "is_partner": false,
     "status": "waiting_for_treatment",
     "client_email": "jalon@lowe.info",
     "client_phone": "(520) 887-1504",
@@ -44,4 +44,4 @@ HTTP/1.1 204 No-Content
 Parameter               | Description
 ----------------------- | ------
 client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
-partner                 | Bool
+is_partner              | Bool

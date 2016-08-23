@@ -13,7 +13,7 @@ GET /tenders/:tender_id HTTP/1.1
     "client_last_name": "Pierre",
     "client_company": "Fontaine SEM",
     "client_company_category": "Collectivité",
-    "partner": false,
+    "is_partner": false,
     "status": "waiting_for_treatment",
     "client_email": "pierre.windler@harvey.io",
     "client_phone": "1-619-654-7084",
@@ -49,5 +49,5 @@ HTTP/1.1 200 OK
 Parameter               | Description
 ----------------------- | ------
 client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
-partner                 | Boolean
+is_partner              | Boolean
 status                  | waiting_for_treatment / accepted / refused

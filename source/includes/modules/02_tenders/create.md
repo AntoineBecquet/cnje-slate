@@ -16,7 +16,7 @@ POST /tenders HTTP/1.1
     "description": "Dolores corporis officiis quibusdam. Qui adipisci voluptas similique molestiae voluptas et. Et asperiores molestiae sunt ipsa eum sed repellat. Laboriosam autem fugiat possimus consequatur reprehenderit optio.",
     "deadlines": "Maiores voluptatem autem quisquam ut temporibus quam ea. Repudiandae dolores nulla minus alias reiciendis. Reiciendis non mollitia et qui iusto. Vitae sit quibusdam.",
     "heard_about": "Eveniet distinctio dolorem et eum.",
-    "partner": false,
+    "is_partner": false,
     "domain_ids": [
       "1"
     ],
@@ -36,6 +36,6 @@ HTTP/1.1 201 Created
 Parameter               | Description
 ----------------------- | ------
 client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
-partner                 | Boolean
+is_partner                 | Boolean
 domain_ids              | Array<Integer>
 cnje_region_ids         | Array<Integer>

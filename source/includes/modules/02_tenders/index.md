@@ -14,7 +14,7 @@ GET /tenders HTTP/1.1
     "client_last_name": "Baron",
     "client_company": "Simon SEM",
     "client_company_category": "Autre",
-    "partner": false,
+    "is_partner": false,
     "status": "waiting_for_treatment",
     "domains": [{
       "id": 1,
@@ -37,5 +37,5 @@ HTTP/1.1 200 OK
 Parameter               | Description
 ----------------------- | ------
 client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
-partner                 | Boolean
+is_partner              | Boolean
 status                  | waiting_for_treatment / accepted / refused
