@@ -1,4 +1,5 @@
-## Get tenders
+## Tenders
+### Retrieve all tenders
 
 ```http
 GET /tenders HTTP/1.1

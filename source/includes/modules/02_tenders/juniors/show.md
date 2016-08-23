@@ -6,7 +6,7 @@ GET /:junior_id/tenders/:id HTTP/1.1
 
 ```json
 {
-  "tender":{
+  "tender": {
     "id": 1003,
     "created_at": "2016-08-22T21:55:16.928+02:00",
     "client_company_category": "Collectivité",
@@ -19,12 +19,10 @@ GET /:junior_id/tenders/:id HTTP/1.1
     "client_last_name": null,
     "client_email": null,
     "client_phone": null,
-    "domains":[
-      {
-        "id": 1008,
-        "name": "Informatique"
-      }
-    ]
+    "domains": [{ 
+      "id": 1008,
+      "name": "Informatique"
+    }]
   }
 }
 ```

@@ -1,26 +1,22 @@
 ## Juniors
-### Get tenders of the junior
+### Get juniors' tenders
 
 ```http
-GET /:junior_id/tenders HTTP/1.1
+GET juniors/:junior_id/tenders HTTP/1.1
 ```
 
 ```json
 {
-  "tenders": [
-    {
+  "tenders": [{
+    "id": 1,
+    "created_at": "2016-08-22T21:19:46.286+02:00",
+    "client_company_category": "Association",
+    "client_company": "Royer EI",
+    "domains": [{
       "id": 1,
-      "created_at": "2016-08-22T21:19:46.286+02:00",
-      "client_company_category": "Association",
-      "client_company": "Royer EI",
-      "domains": [
-        {
-          "id": 1,
-          "name": "Banque / Assurance"
-        }
-      ]
-    }
-  ]
+      "name": "Banque / Assurance"
+    }]
+  }]
 }
 ```
 

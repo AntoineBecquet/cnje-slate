@@ -1,10 +1,7 @@
-### Like tender
+### Like tenders
 
 ```http
-POST /:junior_id/tenders/:id/like HTTP/1.1
-```
-
-```json
+POST /juniors/:junior_id/tenders/:tender_id/like HTTP/1.1
 ```
 
 ```http

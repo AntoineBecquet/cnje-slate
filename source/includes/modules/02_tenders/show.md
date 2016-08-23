@@ -1,7 +1,7 @@
-## Show tender
+### Retrieve a tender
 
 ```http
-GET /tenders/:id HTTP/1.1
+GET /tenders/:tender_id HTTP/1.1
 ```
 
 ```json

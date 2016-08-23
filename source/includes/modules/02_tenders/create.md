@@ -1,4 +1,4 @@
-## Create tender
+### Create a tender
 
 ```http
 POST /tenders HTTP/1.1

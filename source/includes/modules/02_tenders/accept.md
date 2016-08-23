@@ -1,10 +1,7 @@
-## Accept tender
+### Accept tender
 
 ```http
 PUT /tenders/:id/accept HTTP/1.1
-```
-
-```json
 ```
 
 ```http

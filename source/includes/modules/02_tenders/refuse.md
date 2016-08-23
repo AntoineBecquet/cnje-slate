@@ -1,10 +1,7 @@
-## Refuse tender
+### Refuse tender
 
 ```http
-PUT /tenders/:id/refuse HTTP/1.1
-```
-
-```json
+PUT /tenders/:tender_id/refuse HTTP/1.1
 ```
 
 ```http
