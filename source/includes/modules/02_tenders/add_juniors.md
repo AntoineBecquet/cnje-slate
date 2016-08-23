@@ -4,6 +4,12 @@
 PATCH /tenders/:tender_id/add_juniors HTTP/1.1
 ```
 
+```json
+{
+  "junior_ids": [4, 6]
+}
+```
+
 ```http
 HTTP/1.1 201 Created
 ```
