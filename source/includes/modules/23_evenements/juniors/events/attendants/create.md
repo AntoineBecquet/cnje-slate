@@ -7,8 +7,8 @@ POST /juniors/:junior_id/events/:event_id/register HTTP/1.1
 
 ```json
 {
-  "attendant": {
-    "user_ids": [1, 2],
+  "attendant": [{
+    "user_id": 1
     "departure_at": "",
     "departure_kind_of_transport": "",
     "departure_place": "",
@@ -16,7 +16,7 @@ POST /juniors/:junior_id/events/:event_id/register HTTP/1.1
     "arrival_kind_of_transport": "",
     "arrival_place": "",
     "price_id": 1
-  }
+  }]
 }
 ```
 
