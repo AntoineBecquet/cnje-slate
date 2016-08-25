@@ -121,6 +121,9 @@ includes:
   - modules/23_evenements/events/prices/discounts/create
   - modules/23_evenements/events/prices/discounts/update
   - modules/23_evenements/events/prices/discounts/destroy
+  - modules/23_evenements/juniors/events/index
+  - modules/23_evenements/juniors/events/attendants/create
+  - modules/23_evenements/juniors/events/attendants/update
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
   - modules/24_gestion_des_membres/create

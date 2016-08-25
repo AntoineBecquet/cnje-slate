@@ -1,4 +1,4 @@
-## Events
+## Juniors
 ### Retrieve all events from a Junior
 
 ```http
@@ -44,7 +44,28 @@ GET /juniors/:junior_id/events/ HTTP/1.1
         "id": 1018,
         "first_name": "Lena",
         "last_name": "Perrin"
+      },
+      "issue": ""
+    }],
+    "waiting_list": [{
+      "id": 1027,
+      "departure_at": "2016-08-25T15:57:03.968+02:00",
+      "departure_kind_of_transport": "train",
+      "departure_place": "Paris",
+      "arrival_at": "2016-09-04T15:57:03.968+02:00",
+      "arrival_kind_of_transport": "train",
+      "arrival_place": "Paris",
+      "issue": null,
+      "position": 1,
+      "user": {
+        "id": 1032,
+        "first_name": "Arthur",
+        "last_name": "Prevost"
       }
+    }],
+    "documents": [{
+      "document": "MULTIPART/FORM",
+      "name": "Document's Name"
     }]
   }]
 }

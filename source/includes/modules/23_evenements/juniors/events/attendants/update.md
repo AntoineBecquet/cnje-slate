@@ -1,8 +1,7 @@
-## Events
-### Retrieve all events from a Junior
+### Update a Junior's Member attendant
 
 ```http
-POST /juniors/:junior_id/events/:event_id/attendant/:attendant_id HTTP/1.1
+PATCH /juniors/:junior_id/events/:event_id/attendants/:attendant_id HTTP/1.1
 ```
 
 ```json
@@ -13,11 +12,12 @@ POST /juniors/:junior_id/events/:event_id/attendant/:attendant_id HTTP/1.1
     "departure_place": "",
     "arrival_at": "",
     "arrival_kind_of_transport": "",
-    "arrival_place": ""
+    "arrival_place": "",
+    "issue": ""
   }
 }
 ```
 
 ```http
-HTTP/1.1 200 OK
+HTTP/1.1 202 Accepted
 ```
