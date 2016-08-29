@@ -1,7 +1,7 @@
 ### Archive a statutory warning
 
 ```http
-PUT /warnings/statutories/:statutory_id/archive HTTP/1.1
+PUT /warnings/statutories/:statutory_warning_id/archive HTTP/1.1
 ```
 
 ```http

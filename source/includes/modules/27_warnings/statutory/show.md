@@ -1,7 +1,7 @@
 ### Retrieve a statutory warning
 
 ```http
-GET /warnings/statutories/:statutory_id HTTP/1.1
+GET /warnings/statutories/:statutory_warning_id HTTP/1.1
 ```
 
 ```json
@@ -13,7 +13,8 @@ GET /warnings/statutories/:statutory_id HTTP/1.1
     "sanction_date": "2016-08-29",
     "warning_type": "AS",
     "ends_at": "2017-08-29",
-    "status": "in_progress"
+    "status": "in_progress",
+    "lifting_decision_date": null
   }
 }
 ```
