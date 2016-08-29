@@ -154,6 +154,7 @@ includes:
   - modules/26_liasses_fiscales/create
   - modules/27_warnings
   - modules/27_warnings/statutory/index
+  - modules/27_warnings/statutory/show
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
