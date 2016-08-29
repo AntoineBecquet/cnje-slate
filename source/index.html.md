@@ -168,6 +168,10 @@ includes:
   - modules/27_warnings/strong/show
   - modules/27_warnings/strong/create
   - modules/27_warnings/strong/update
+  - modules/27_warnings/strong/internal_notes/index
+  - modules/27_warnings/strong/internal_notes/show
+  - modules/27_warnings/strong/internal_notes/create
+  - modules/27_warnings/strong/internal_notes/update
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
