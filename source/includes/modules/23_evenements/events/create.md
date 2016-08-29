@@ -41,6 +41,10 @@ POST /events/ HTTP/1.1
     "documents": [{
       "document": "MULTIPART/FORM",
       "name": "Document's Name"
+    }],
+    "places": [{
+      "kind_of_transport": "train",
+      "arrival_place": "Somewhere over the rainbow"
     }]
   }
 }

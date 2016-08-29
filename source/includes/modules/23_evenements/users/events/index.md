@@ -72,6 +72,11 @@ GET /users/:user_id/events/ HTTP/1.1
         "first_name": "Axel",
         "last_name": "Roger"
       }
+    }],
+    "places": [{
+      "id": 1034,
+      "kind_of_transport": "train",
+      "arrival_place": "Somewhere over the rainbow"
     }]
   }]
 }

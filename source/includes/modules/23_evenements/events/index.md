@@ -38,7 +38,10 @@ GET /events/ HTTP/1.1
         "amount_in_cents": 10000
       }]
     }],
-    "documents": [],
+    "documents": [{
+      "id": "37278261-d819-4304-b350-960b3573eaad",
+      "name": "Document's Name"
+    }],
     "attendants": [{
       "id": 1021,
       "departure_at": "2016-08-25T15:57:03.957+02:00",
@@ -69,6 +72,11 @@ GET /events/ HTTP/1.1
         "first_name": "Arthur",
         "last_name": "Prevost"
       }
+    }],
+    "places": [{
+      "id": 1034,
+      "kind_of_transport": "train",
+      "arrival_place": "Somewhere over the rainbow"
     }]
   }]
 }
