@@ -155,6 +155,10 @@ includes:
   - modules/27_warnings
   - modules/27_warnings/statutory/index
   - modules/27_warnings/statutory/show
+  - modules/27_warnings/statutory/create
+  - modules/27_warnings/statutory/update
+  - modules/27_warnings/statutory/renew
+  - modules/27_warnings/statutory/archive
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
