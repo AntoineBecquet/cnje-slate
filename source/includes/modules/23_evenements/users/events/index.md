@@ -1,8 +1,8 @@
-## Juniors
-### Retrieve all events from a Junior
+## Users
+### Retrieve all events for a user
 
 ```http
-GET /juniors/:junior_id/events/ HTTP/1.1
+GET /users/:user_id/events/ HTTP/1.1
 ```
 
 ```json
