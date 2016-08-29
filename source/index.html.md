@@ -116,6 +116,8 @@ includes:
   - modules/23_evenements
   - modules/23_evenements/events/index
   - modules/23_evenements/events/create
+  - modules/23_evenements/events/attendants/no_account/create
+  - modules/23_evenements/events/attendants/no_account/confirm
   - modules/23_evenements/events/documents/create
   - modules/23_evenements/events/documents/destroy
   - modules/23_evenements/events/places/create
