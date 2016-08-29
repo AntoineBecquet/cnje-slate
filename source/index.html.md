@@ -152,6 +152,8 @@ includes:
   - modules/26_liasses_fiscales/index
   - modules/26_liasses_fiscales/update
   - modules/26_liasses_fiscales/create
+  - modules/27_warnings
+  - modules/27_warnings/statutory/index
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
