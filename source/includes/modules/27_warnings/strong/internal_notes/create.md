@@ -1,7 +1,7 @@
 ### Create an internal note for a strong warning
 
 ```http
-POST /warnings/strong/:strong_warning_id/internal_notes HTTP/1.1
+POST /warnings/strong/:strong_id/internal_notes HTTP/1.1
 ```
 
 ```json

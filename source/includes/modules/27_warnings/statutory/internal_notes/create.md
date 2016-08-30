@@ -1,7 +1,7 @@
 ### Create an internal note for a statutory warning
 
 ```http
-POST /warnings/statutories/:statutory_warning_id/internal_notes HTTP/1.1
+POST /warnings/statutories/:statutory_id/internal_notes HTTP/1.1
 ```
 
 ```json

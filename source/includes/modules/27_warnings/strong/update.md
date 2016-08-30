@@ -1,7 +1,7 @@
 ### Update a strong warning
 
 ```http
-PATCH /warnings/strong/:strong_warning_id HTTP/1.1
+PATCH /warnings/strong/:strong_id HTTP/1.1
 ```
 
 ```json

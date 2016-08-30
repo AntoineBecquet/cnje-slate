@@ -1,7 +1,7 @@
 ### Update an internal note of a storng warning
 
 ```http
-PATCH /warnings/strong/:strong_warning_id/internal_notes/:internal_note_id HTTP/1.1
+PATCH /warnings/strong/:strong_id/internal_notes/:internal_note_id HTTP/1.1
 ```
 
 ```json

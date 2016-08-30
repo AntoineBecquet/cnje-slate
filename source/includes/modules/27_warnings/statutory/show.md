@@ -1,7 +1,7 @@
 ### Retrieve a statutory warning
 
 ```http
-GET /warnings/statutories/:statutory_warning_id HTTP/1.1
+GET /warnings/statutories/:statutory_id HTTP/1.1
 ```
 
 ```json

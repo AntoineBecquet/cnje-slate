@@ -1,7 +1,7 @@
 ### Retrieve a strong warning
 
 ```http
-GET /warnings/strong/:strong_warning_id HTTP/1.1
+GET /warnings/strong/:strong_id HTTP/1.1
 ```
 
 ```json

@@ -1,7 +1,7 @@
 ### Renew a statutory warning
 
 ```http
-PUT /warnings/statutories/:statutory_warning_id/renew HTTP/1.1
+PUT /warnings/statutories/:statutory_id/renew HTTP/1.1
 ```
 
 ```http

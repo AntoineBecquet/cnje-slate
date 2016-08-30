@@ -1,7 +1,7 @@
 ### Retrieve all internal notes of a statutory warning
 
 ```http
-GET /warnings/statutories/:statutory_warning_id/internal_notes HTTP/1.1
+GET /warnings/statutories/:statutory_id/internal_notes HTTP/1.1
 ```
 
 ```json

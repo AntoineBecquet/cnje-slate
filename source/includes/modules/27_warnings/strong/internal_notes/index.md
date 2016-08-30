@@ -1,7 +1,7 @@
 ### Retrieve all internal notes of a strong warning
 
 ```http
-GET /warnings/strong/:strong_warning_id/internal_notes HTTP/1.1
+GET /warnings/strong/:strong_id/internal_notes HTTP/1.1
 ```
 
 ```json

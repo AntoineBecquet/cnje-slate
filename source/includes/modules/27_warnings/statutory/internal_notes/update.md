@@ -1,7 +1,7 @@
 ### Update an internal note of a statutory warning
 
 ```http
-PATCH /warnings/statutories/:statutory_warning_id/internal_notes/:internal_note_id HTTP/1.1
+PATCH /warnings/statutories/:statutory_id/internal_notes/:internal_note_id HTTP/1.1
 ```
 
 ```json
