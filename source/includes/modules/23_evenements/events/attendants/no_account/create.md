@@ -2,17 +2,25 @@
 ### Add an user without account to the event
 
 ```http
-POST /events/:event_id/attendants/no_accounts HTTP/1.1
+POST /events/:event_id/attendants/no_account_attendants HTTP/1.1
 ```
 
 ```json
 {
-  "no_account_attendant": {
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "company": "",
-    "comment": ""
+  "attendant": {
+    "departure_at": "",
+    "departure_kind_of_transport": "",
+    "departure_place": "",
+    "arrival_at": "",
+    "arrival_kind_of_transport": "",
+    "arrival_place": "",  
+    "profile": {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "company": "",
+      "comment": ""
+    }
   }
 }
 ```
@@ -23,12 +31,21 @@ HTTP/1.1 201 Accepted
 
 ```json
 {
-  "no_account_attendant": {
-    "first_name": "Mélissa",
-    "last_name": "Lefevre",
-    "email": "katelyn_bradtke@mueller.biz",
-    "company": "",
-    "comment": null
+  "attendant": {
+    "id": 5,
+    "departure_at": "",
+    "departure_kind_of_transport": "",
+    "departure_place": "",
+    "arrival_at": "",
+    "arrival_kind_of_transport": "",
+    "arrival_place": "",  
+    "profile": {
+      "first_name": "Mélissa",
+      "last_name": "Lefevre",
+      "email": "katelyn_bradtke@mueller.biz",
+      "company": "",
+      "comment": null
+    }
   }
 }
 ```
