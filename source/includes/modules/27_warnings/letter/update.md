@@ -7,7 +7,8 @@ PATCH /warnings/letters/:letter_id HTTP/1.1
 ```json
 {
   "warning_letter": {
-    "title": "A new title"
+    "title": "A new title",
+    "warning_letter_template_id": 1
   }
 }
 ```

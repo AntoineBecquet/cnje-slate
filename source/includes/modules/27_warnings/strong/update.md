@@ -7,7 +7,6 @@ PATCH /warnings/strong/:strong_id HTTP/1.1
 ```json
 {
   "strong_warning": {
-    "id": 1011,
     "junior_id": 1005,
     "audit_id": 1010,
     "quality_control_datetime": "2016-09-10T15:13:38.762+02:00",
@@ -20,6 +19,20 @@ PATCH /warnings/strong/:strong_id HTTP/1.1
 
 ```http
 HTTP/1.1 204 No-Content
+```
+
+```json
+{
+  "strong_warning": {
+    "id": 1011,
+    "junior_id": 1005,
+    "audit_id": 1010,
+    "quality_control_datetime": "2016-09-10T15:13:38.762+02:00",
+    "board_of_directors_datetime": null,
+    "board_of_directors_decision": "pending",
+    "decision_letter_availability_date": null
+  }
+}
 ```
 
 #### Response Parameters
