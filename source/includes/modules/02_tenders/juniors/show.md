@@ -1,7 +1,7 @@
 ### Show the junior's tender
 
 ```http
-GET /:junior_id/tenders/:id HTTP/1.1
+GET /juniors//:junior_id/tenders/:id HTTP/1.1
 ```
 
 ```json
@@ -12,14 +12,14 @@ GET /:junior_id/tenders/:id HTTP/1.1
     "client_company_category": "Collectivité",
     "client_company": "Louis SEM",
     "description": "Voluptate ut corrupti quae laudantium animi sint assumenda. Sed labore eius. Natus asperiores rerum eos et sequi. Ut molestias et rerum. At molestiae in.",
-    "deadlines": "Accusantium eos a quibusdam commodi omnis. Culpa quisquam eum velit reprehenderit sapiente labore. Placeat dolorum officiis mollitia qui odio molestiae. Dolorum non aut quis sequi inventore quos laudantium. Nobis nulla aut inventore.",
+    "deadlines": "Accusantium eos a quibusdam commodi omnis. Culpa quisquam eum velit reprehenderit sapiente labore. Placeat dolorum officiis mollitia qui odio.",
     "cnje_notes": "Lisez bien les détails des délais",
     "interested_in_tender": false,
     "client_first_name": null,
     "client_last_name": null,
     "client_email": null,
     "client_phone": null,
-    "domains": [{ 
+    "domains": [{
       "id": 1008,
       "name": "Informatique"
     }]

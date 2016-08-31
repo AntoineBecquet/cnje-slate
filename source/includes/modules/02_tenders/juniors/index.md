@@ -2,7 +2,7 @@
 ### Get juniors' tenders
 
 ```http
-GET juniors/:junior_id/tenders HTTP/1.1
+GET /juniors/:junior_id/tenders HTTP/1.1
 ```
 
 ```json
