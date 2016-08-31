@@ -175,6 +175,12 @@ includes:
   - modules/27_warnings/letter/show
   - modules/27_warnings/letter/create
   - modules/27_warnings/letter/update
+  - modules/27_warnings/letter/generate
+  - modules/27_warnings/letter/template/index
+  - modules/27_warnings/letter/template/show
+  - modules/27_warnings/letter/template/create
+  - modules/27_warnings/letter/template/update
+  - modules/27_warnings/letter/template/destroy
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
