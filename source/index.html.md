@@ -159,7 +159,6 @@ includes:
   - modules/27_warnings/statutory/update
   - modules/27_warnings/statutory/renew
   - modules/27_warnings/statutory/archive
-  - modules/27_warnings/statutory/download_decision_letter
   - modules/27_warnings/statutory/internal_notes/index
   - modules/27_warnings/statutory/internal_notes/show
   - modules/27_warnings/statutory/internal_notes/create
@@ -172,6 +171,10 @@ includes:
   - modules/27_warnings/strong/internal_notes/show
   - modules/27_warnings/strong/internal_notes/create
   - modules/27_warnings/strong/internal_notes/update
+  - modules/27_warnings/letter/index
+  - modules/27_warnings/letter/show
+  - modules/27_warnings/letter/create
+  - modules/27_warnings/letter/update
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
