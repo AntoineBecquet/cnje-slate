@@ -1,7 +1,7 @@
 ### Generate the PDF file of a letter
 
 ```http
-PUT /warnings/letters/:letter_id/generate HTTP/1.1
+PUT /warnings/letters/:warning_letter_id/generate HTTP/1.1
 ```
 
 ```http

@@ -1,7 +1,7 @@
 ### Update a warning letter
 
 ```http
-PATCH /warnings/letters/:letter_id HTTP/1.1
+PATCH /warnings/letters/:warning_letter_id HTTP/1.1
 ```
 
 ```json
