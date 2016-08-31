@@ -10,7 +10,6 @@ PATCH /tenders/:tender_id HTTP/1.1
     "is_partner": false,
     "description": "Sequi eos atque consectetur nam suscipit nihil. Blanditiis ut aut dolorem et sed rerum. Optio provident corrupti tempore.",
     "deadlines": "Laudantium accusantium velit praesentium quisquam accusamus. Ut perferendis distinctio cupiditate voluptatem quod. Libero magni voluptates. Sed et aspernatur. Aut ex voluptatem itaque earum quia rerum.",
-    "heard_about": "Omnis est dolores quod.",
     "cnje_notes": "Lisez bien les détails",
     "refused_message": null,
     "domains": [{
