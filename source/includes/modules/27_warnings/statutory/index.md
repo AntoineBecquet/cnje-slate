@@ -13,7 +13,7 @@ GET /warnings/statutories HTTP/1.1
     "junior_id": 1005,
     "reason": "Aut libero occaecati dignissimos maxime expedita. Dolorum asperiores vel. Qui sapiente ut. Odio a sint voluptate. Aperiam consequatur ducimus nihil harum non omnis.",
     "sanction_date": "2016-08-29",
-    "warning_type": "BS",
+    "warning_type": "bs",
     "ends_at": "2017-08-29",
     "status": "in_progress"
   }]
@@ -28,5 +28,5 @@ HTTP/1.1 200 OK
 
 Parameter               | Description
 ----------------------- | ------
-warning_type            | AS / BS
+warning_type            | 0: as, 1: bs
 status                  | in_progress / waiting_for_action / archived
