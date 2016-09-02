@@ -29,7 +29,6 @@ HTTP/1.1 202 Accepted
 ```
 
 ```json
-```json
 {
   "tender": {
     "id": 4,
