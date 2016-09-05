@@ -25,7 +25,6 @@ includes:
   - modules/02_tenders/refuse
   - modules/02_tenders/add_juniors
   - modules/02_tenders/remove_juniors
-  - modules/02_tenders/juniors
   - modules/02_tenders/juniors/index
   - modules/02_tenders/juniors/show
   - modules/02_tenders/juniors/like
