@@ -133,6 +133,8 @@ includes:
   - modules/23_evenements/users/events/index
   - modules/23_evenements/users/events/attendants/create
   - modules/23_evenements/users/events/attendants/update
+  - modules/09_AGP/apg_event/index
+  - modules/09_AGP/apg_event/create
   - modules/24_gestion_des_membres
   - modules/24_gestion_des_membres/index
   - modules/24_gestion_des_membres/create

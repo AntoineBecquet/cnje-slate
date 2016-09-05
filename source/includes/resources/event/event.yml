@@ -1,0 +1,5 @@
+---
+  registration_kind:
+    description: "Values are `user` (0) / `user_with_junior` (1)"
+  special_dates_are_active:
+    description: "When set to true, `last_registration_at` and `last_sort_at` are used"
