@@ -16,6 +16,18 @@ includes:
   - resources
   - modules/00_documents/index
   - modules/00_documents/show
+  - modules/02_tenders
+  - modules/02_tenders/index
+  - modules/02_tenders/show
+  - modules/02_tenders/create
+  - modules/02_tenders/update
+  - modules/02_tenders/accept
+  - modules/02_tenders/refuse
+  - modules/02_tenders/add_juniors
+  - modules/02_tenders/remove_juniors
+  - modules/02_tenders/juniors/index
+  - modules/02_tenders/juniors/show
+  - modules/02_tenders/juniors/like
   - modules/03_audits
   - modules/03_audits/audit_sessions/index
   - modules/03_audits/audit_sessions/show
