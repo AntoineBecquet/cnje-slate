@@ -1,13 +1,13 @@
-### Update a warning letter
+### Update a warning letter for a statutory warning
 
 ```http
-PATCH /warnings/letters/:warning_letter_id HTTP/1.1
+PATCH /warnings/statutories/:statutory_id/letters/:letter_id HTTP/1.1
 ```
 
 ```json
 {
   "warning_letter": {
-    "title": "A new title",
+    "title": "A title",
     "warning_letter_template_id": 1
   }
 }
@@ -21,7 +21,7 @@ HTTP/1.1 202 Accepted
 {
   "warning_letter": {
     "id": 1,
-    "title": "A new title",
+    "title": "A title",
     "warning_letter_template_id": 1
   }
 }

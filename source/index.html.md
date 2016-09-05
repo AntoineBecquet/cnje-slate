@@ -163,6 +163,11 @@ includes:
   - modules/27_warnings/statutory/internal_notes/show
   - modules/27_warnings/statutory/internal_notes/create
   - modules/27_warnings/statutory/internal_notes/update
+  - modules/27_warnings/statutory/letters/index
+  - modules/27_warnings/statutory/letters/show
+  - modules/27_warnings/statutory/letters/create
+  - modules/27_warnings/statutory/letters/update
+  - modules/27_warnings/statutory/letters/generate
   - modules/27_warnings/strong/index
   - modules/27_warnings/strong/show
   - modules/27_warnings/strong/create
@@ -171,11 +176,11 @@ includes:
   - modules/27_warnings/strong/internal_notes/show
   - modules/27_warnings/strong/internal_notes/create
   - modules/27_warnings/strong/internal_notes/update
-  - modules/27_warnings/letter/index
-  - modules/27_warnings/letter/show
-  - modules/27_warnings/letter/create
-  - modules/27_warnings/letter/update
-  - modules/27_warnings/letter/generate
+  - modules/27_warnings/strong/letters/index
+  - modules/27_warnings/strong/letters/show
+  - modules/27_warnings/strong/letters/create
+  - modules/27_warnings/strong/letters/update
+  - modules/27_warnings/strong/letters/generate
   - modules/27_warnings/letter/template/index
   - modules/27_warnings/letter/template/show
   - modules/27_warnings/letter/template/create

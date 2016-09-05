@@ -1,3 +1,4 @@
+## Letter Template
 ### Retrieve all warning letter templates
 
 ```http

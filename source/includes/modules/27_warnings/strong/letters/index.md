@@ -1,8 +1,7 @@
-## Letters
-### Retrieve all warning letters
+### Retrieve all warning letters of a strong warning
 
 ```http
-GET /warnings/letters HTTP/1.1
+GET /warnings/strong/:strong_id/letters HTTP/1.1
 ```
 
 ```json

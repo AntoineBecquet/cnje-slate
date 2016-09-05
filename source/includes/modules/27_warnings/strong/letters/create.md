@@ -1,7 +1,7 @@
-### Create a warning letter
+### Create a warning letter for a strong warning
 
 ```http
-POST /warnings/letters HTTP/1.1
+POST /warnings/strong/:strong_id/letters HTTP/1.1
 ```
 
 ```json

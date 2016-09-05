@@ -1,7 +1,7 @@
-### Retrieve a warning letter
+### Retrieve a warning letter of a strong warning
 
 ```http
-GET /warnings/letters/:warning_letter_id HTTP/1.1
+GET /warnings/strong/:strong_id/letters/:letter_id HTTP/1.1
 ```
 
 ```json
