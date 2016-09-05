@@ -19,7 +19,7 @@ PATCH /tenders/:tender_id HTTP/1.1
     "cnje_regions": [{
       "id": 4,
       "name": "Ile-de-France"
-    }],
+    }]
   }
 }
 ```
@@ -29,24 +29,26 @@ HTTP/1.1 202 Accepted
 ```
 
 ```json
-```json
 {
   "tender": {
-    "id": 4,
-    "created_at": "2016-08-22T18:44:15.570+02:00",
-    "client_first_name": "Gabriel",
-    "client_last_name": "Philippe",
-    "client_company": "Morel EI",
-    "client_company_category": "Association",
+    "id": 1,
+    "created_at": "2016-09-02T14:41:56.325+02:00",
+    "client_first_name": "Mathilde",
+    "client_last_name": "Fabre",
+    "client_company": "Leclercq et Meyer",
+    "client_company_category": "individual",
     "is_partner": false,
     "status": "waiting_for_treatment",
-    "client_email": "jalon@lowe.info",
-    "client_phone": "(520) 887-1504",
+    "concerned_regions_count": 1,
+    "interested_juniors_count": 0,
+    "concerned_juniors_count": 0,
+    "client_email": "gustave.hand@blockwiegand.info",
+    "client_phone": "337-357-5798",
     "description": "Sequi eos atque consectetur nam suscipit nihil. Blanditiis ut aut dolorem et sed rerum. Optio provident corrupti tempore.",
     "deadlines": "Laudantium accusantium velit praesentium quisquam accusamus. Ut perferendis distinctio cupiditate voluptatem quod. Libero magni voluptates. Sed et aspernatur. Aut ex voluptatem itaque earum quia rerum.",
-    "heard_about": "Omnis est dolores quod.",
     "cnje_notes": "Lisez bien les détails",
     "refused_message": null,
+    "juniors": [],
     "domains": [{
       "id": 4,
       "name": "Informatique"
@@ -54,16 +56,14 @@ HTTP/1.1 202 Accepted
     "cnje_regions": [{
       "id": 4,
       "name": "Ile-de-France"
-    }],
-    "juniors": []
+    }]
   }
 }
-```
 ```
 
 ### Request Parameters
 
 Parameter               | Description
 ----------------------- | ------
-client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
+client_company_category | 0: individual, 1: collectivity, 2: tpe_pme_pmi, 3: organization, 4: big_group, 5: other
 is_partner              | Bool

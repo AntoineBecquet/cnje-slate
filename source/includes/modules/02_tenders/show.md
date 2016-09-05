@@ -12,7 +12,7 @@ GET /tenders/:tender_id HTTP/1.1
     "client_first_name": "Noa",
     "client_last_name": "Pierre",
     "client_company": "Fontaine SEM",
-    "client_company_category": "Collectivité",
+    "client_company_category": "collectivity",
     "is_partner": false,
     "status": "waiting_for_treatment",
     "client_email": "pierre.windler@harvey.io",
@@ -48,6 +48,6 @@ HTTP/1.1 200 OK
 
 Parameter               | Description
 ----------------------- | ------
-client_company_category | Particulier, Collectivité, TPE / PME / PMI /, Association 
+client_company_category | 0: individual, 1: collectivity, 2: tpe_pme_pmi, 3: organization, 4: big_group, 5: other
 is_partner              | Boolean
 status                  | waiting_for_treatment / accepted / refused
