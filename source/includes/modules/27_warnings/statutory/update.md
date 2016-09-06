@@ -24,7 +24,12 @@ HTTP/1.1 202 Accepted
 {
   "statutory_warning": {
     "id": 1006,
-    "junior_id": 1005,
+    "junior": {
+      "id": 1005,
+      "full_name": "Fleury et Poirier",
+      "common_name": "Joly et Francois",
+      "junior_type": "candidate"
+    },
     "reason": "In eligendi odit molestiae. Quia libero quis aut commodi dignissimos. Voluptatibus temporibus voluptatem ut voluptatum.",
     "sanction_date": "2016-08-29",
     "warning_type": "as",

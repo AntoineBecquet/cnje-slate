@@ -7,8 +7,6 @@ PATCH /warnings/strong/:strong_id HTTP/1.1
 ```json
 {
   "strong_warning": {
-    "junior_id": 1005,
-    "audit_id": 1010,
     "quality_control_datetime": "2016-09-10T15:13:38.762+02:00",
     "board_of_directors_datetime": null,
     "board_of_directors_decision": "pending",
@@ -25,7 +23,12 @@ HTTP/1.1 204 No-Content
 {
   "strong_warning": {
     "id": 1011,
-    "junior_id": 1005,
+    "junior": {
+      "id": 1005,
+      "full_name": "Fleury et Poirier",
+      "common_name": "Joly et Francois",
+      "junior_type": "candidate"
+    },    
     "audit_id": 1010,
     "quality_control_datetime": "2016-09-10T15:13:38.762+02:00",
     "board_of_directors_datetime": null,

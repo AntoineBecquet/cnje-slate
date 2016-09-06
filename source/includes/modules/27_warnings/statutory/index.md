@@ -10,7 +10,12 @@ GET /warnings/statutories HTTP/1.1
 {
   "statutory_warnings": [{
     "id": 1006,
-    "junior_id": 1005,
+    "junior": {
+      "id": 1005,
+      "full_name": "Fleury et Poirier",
+      "common_name": "Joly et Francois",
+      "junior_type": "candidate"
+    },
     "reason": "Aut libero occaecati dignissimos maxime expedita. Dolorum asperiores vel. Qui sapiente ut. Odio a sint voluptate. Aperiam consequatur ducimus nihil harum non omnis.",
     "sanction_date": "2016-08-29",
     "warning_type": "bs",

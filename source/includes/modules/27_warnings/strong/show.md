@@ -8,7 +8,12 @@ GET /warnings/strong/:strong_id HTTP/1.1
 {
   "strong_warning": {
     "id": 1011,
-    "junior_id": 1005,
+    "junior": {
+      "id": 1005,
+      "full_name": "Fleury et Poirier",
+      "common_name": "Joly et Francois",
+      "junior_type": "candidate"
+    },
     "audit_id": 1010,
     "quality_control_datetime": "2016-09-10T15:13:38.762+02:00",
     "board_of_directors_datetime": null,
