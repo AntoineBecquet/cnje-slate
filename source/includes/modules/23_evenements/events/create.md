@@ -45,7 +45,11 @@ POST /events/ HTTP/1.1
     "places": [{
       "kind_of_transport": "train",
       "arrival_place": "Somewhere over the rainbow"
-    }]
+    }],
+    "linked_junior_ids": [
+      1,
+      2
+    ]
   }
 }
 ```

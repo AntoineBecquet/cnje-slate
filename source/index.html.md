@@ -40,6 +40,7 @@ includes:
   - modules/03_audits/audits/auditors/delete
   - modules/03_audits/audits/auditors/update
   - modules/03_audits/auditors/index
+  - modules/03_audits/auditors/destroy
   - modules/03_quality_inspections
   - modules/03_quality_inspections/quality_inspections/index
   - modules/04_auditeurs_conseils
@@ -128,6 +129,8 @@ includes:
   - modules/23_evenements
   - modules/23_evenements/events/index
   - modules/23_evenements/events/create
+  - modules/23_evenements/events/linked_juniors/create
+  - modules/23_evenements/events/linked_juniors/destroy
   - modules/23_evenements/events/attendants/no_account/create
   - modules/23_evenements/events/attendants/no_account/confirm
   - modules/23_evenements/events/documents/create
