@@ -1,7 +1,7 @@
-## Ends the job of an auditor
+### Ends the job of an auditor
 
 ```http
-DESTROY /audits/auditors/:auditor_id HTTP/1.1
+DELETE /audits/auditors/:auditor_id HTTP/1.1
 ```
 
 ```json

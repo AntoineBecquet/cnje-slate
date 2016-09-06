@@ -1,5 +1,5 @@
 ## Auditors
-## Retrieve all auditors
+### Retrieve all auditors
 
 ```http
 GET /audits/auditors HTTP/1.1
