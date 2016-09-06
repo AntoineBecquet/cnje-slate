@@ -8,31 +8,31 @@ GET /audits/:audit_id HTTP/1.1
 ```json
 {
   "audit": {
-    "id": 1,
-    "auditable_at": "2016-04-15",
-    "debriefing_date": "2016-04-30",
+    "id": 1007,
+    "auditable_at": null,
+    "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
-    "debriefing_url": null,
-    "report_url": null,
-    "audit_session_id": 5,
+    "audit_session_id": 1006,
     "junior": {
-      "id": 5,
-      "full_name": "Gonzalez EI",
-      "common_name": "Barbier GIE",
+      "id": 1005,
+      "full_name": "Blanc et Hubert",
+      "common_name": "Julien SARL",
       "junior_type": "candidate"
     },
     "auditors": [{
-      "id": 21,
-      "first_name": "Muller Hugo",
-      "last_name": "M Maxence Leroy",
+      "id": 1010,
+      "first_name": "Léo",
+      "last_name": "Nguyen",
       "response_at": null,
-      "status": "pending"
+      "status": "pending",
+      "report_url": null
     }],
     "debriefers": [{
-      "id": 21,
-      "first_name": "Muller Hugo",
-      "last_name": "M Maxence Leroy"
+      "id": 1013,
+      "first_name": "Louna",
+      "last_name": "Roger",
+      "debriefing_url": null
     }]
   }
 }

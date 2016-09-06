@@ -1,3 +1,4 @@
+## Auditors
 ## Retrieve all auditors
 
 ```http

@@ -11,8 +11,6 @@ PATCH /api/v1/audits/:audit_id HTTP/1.1
     "debriefing_date": "2016-04-02",
     "final_decision": "ac",
     "specification": "", // multipart
-    "debriefing": "", // multipart
-    "report": "" // multipart
   }
 }
 ```
