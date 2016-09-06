@@ -13,16 +13,20 @@ PATCH /warnings/strong/:strong_id/internal_notes/:internal_note_id HTTP/1.1
 ```
 
 ```http
-HTTP/1.1 204 No-Content
+HTTP/1.1 202 Accepted
 ```
 
 ```json
 {
-  "internal_note": {
-    "id": 1007,
-    "junior_id": 1006,
-    "author_id": 1005,
-    "content": "Commodi mollitia enim animi veritatis culpa. Eos dolorem nulla"
+  "warning_internal_note": {
+    "id": 1,
+    "content": "Commodi mollitia enim animi veritatis culpa. Eos dolorem nulla",
+    "created_at": "2016-09-06T10:59:18.963+02:00",
+    "user": {
+      "id": 1,
+      "first_name": "Benjamin",
+      "last_name": "Deschamps"
+    }
   }
 }
 ```

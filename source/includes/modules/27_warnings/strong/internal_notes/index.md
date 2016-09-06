@@ -6,13 +6,14 @@ GET /warnings/strong/:strong_id/internal_notes HTTP/1.1
 
 ```json
 {
-  "internal_notes": [{
+  "warning_internal_notes": [{
     "id": 1007,
-    "created_at": "2016-08-29T14:39:51.500+02:00",
+    "content": "Aut quibusdam natus assumenda. Possimus reiciendis dicta vel aut. Quis et quibusdam reprehenderit quis officiis ut eaque.",
+    "created_at": "2016-09-06T10:52:08.207+02:00",
     "user": {
       "id": 1002,
-      "first_name": "Noa",
-      "last_name": "Barbier"
+      "first_name": "Ethan",
+      "last_name": "Martin"
     }
   }]
 }
