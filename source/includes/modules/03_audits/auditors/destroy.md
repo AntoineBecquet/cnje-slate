@@ -6,14 +6,14 @@ DELETE /audits/auditors/:auditor_id HTTP/1.1
 
 ```json
 {
-  "auditors": [{
+  "auditor": {
     "type": "orga",
     "user": {
       "id": 1002,
       "first_name": "Lina",
       "last_name": "Dufour"
     }
-  }]
+  }
 }
 
 ```
