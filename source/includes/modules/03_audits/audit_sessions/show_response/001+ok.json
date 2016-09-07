@@ -13,6 +13,8 @@
       "debriefing_url": null,
       "report_url": null,
       "audit_session_id": 5,
+      "orga_grid_status" : "",
+      "treso_grid_status": "",
       "junior": {
         "id": 5,
         "full_name": "Gonzalez EI",

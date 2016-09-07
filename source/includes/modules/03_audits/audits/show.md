@@ -14,6 +14,8 @@ GET /audits/:audit_id HTTP/1.1
     "final_decision": "pending",
     "specifications_url": null,
     "audit_session_id": 1006,
+    "orga_grid_status" : "",
+    "treso_grid_status": "",
     "junior": {
       "id": 1005,
       "full_name": "Blanc et Hubert",

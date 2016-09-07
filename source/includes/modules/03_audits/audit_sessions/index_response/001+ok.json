@@ -11,6 +11,8 @@
       "final_decision": "pending",
       "specifications_url": null,
       "audit_session_id": 1,
+      "orga_grid_status,
+      "treso_grid_status"
       "junior": {
         "id": 1,
         "full_name": "Renault SCOP",

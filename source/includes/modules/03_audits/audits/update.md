@@ -10,7 +10,9 @@ PATCH /api/v1/audits/:audit_id HTTP/1.1
     "auditable_at": "2016-04-02",
     "debriefing_date": "2016-04-02",
     "final_decision": "ac",
-    "specification": "", // multipart
+    "specification": "", // multipart,
+    "orga_grid_status": "",
+    "treso_grid_status": ""
   }
 }
 ```
@@ -52,3 +54,5 @@ final_decision <span class="details">string</span> | Values are `pending` / `sat
 specification <span class="details"></span>  | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol).
 debriefing <span class="details">optional</span> | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol).
 report <span class="details">optional</span> | A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol).
+orga_grid_status | Values are `pending_distribution` / `pregrid_to_type` / `pending_pregrid` / `approval` / `grid_to_type` / `pending_grid` / `completed`
+treso_grid_status | Values are `pending_distribution` / `pregrid_to_type` / `pending_pregrid` / `approval` / `grid_to_type` / `pending_grid` / `completed`
