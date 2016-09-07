@@ -11,6 +11,7 @@ GET /events/ HTTP/1.1
     "id": 1005,
     "registration_kind": "user",
     "cv_is_mandatory": false,
+    "status": "draft",
     "special_dates_are_active": true,
     "starts_at": "2016-10-06T13:21:16.321+02:00",
     "ends_at": "2016-10-16T13:21:16.322+02:00",

@@ -7,7 +7,7 @@ POST /events/ HTTP/1.1
 ```json
 {
   "event": {
-    "registration_kind": "junior",
+    "registration_kind": "user_with_junior",
     "cv_is_mandatory": false,
     "special_dates_are_active": true,
     "starts_at": "2016-08-17T10:37:40.361+02:00",
@@ -57,3 +57,11 @@ POST /events/ HTTP/1.1
 ```http
 HTTP/1.1 201 Accepted
 ```
+
+Parameter | Description
+----------| -----------
+status | Values are `draft` (0) / `published` (1) / `locked` (2) / `archived` (3)
+registration_kind | Values are `user` / `user_with_junior`
+special_dates_are_active | If set to true `last_registration_at` and `last_sort_at` are mandatory
+online_at | Date on which the event will be publicly visible
+registration_starts_at | Date on which the registration will be available
