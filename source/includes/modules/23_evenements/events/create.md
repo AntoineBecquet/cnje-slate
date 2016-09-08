@@ -9,6 +9,7 @@ POST /events/ HTTP/1.1
   "event": {
     "registration_kind": "user_with_junior",
     "cv_is_mandatory": false,
+    "status": "draft",
     "special_dates_are_active": true,
     "starts_at": "2016-08-17T10:37:40.361+02:00",
     "ends_at": "2016-08-22T10:37:40.362+02:00",

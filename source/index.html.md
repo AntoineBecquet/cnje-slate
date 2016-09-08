@@ -16,6 +16,9 @@ includes:
   - resources
   - modules/00_documents/index
   - modules/00_documents/show
+  - modules/01_cnje_recruitment
+  - modules/01_cnje_recruitment/cnje_recruitment/index
+  - modules/01_cnje_recruitment/cnje_recruitment/create
   - modules/02_tenders
   - modules/02_tenders/index
   - modules/02_tenders/show
