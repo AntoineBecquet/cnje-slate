@@ -1,3 +1,4 @@
+## Auditors on Audit
 ### Add an auditor to an audit
 
 ```http
@@ -6,7 +7,10 @@ POST /api/v1/audits/:audit_id/auditors HTTP/1.1
 
 ```json
 {
-  "auditor_ids": [32, 2]
+  "auditor": {
+    "auditor_id": 1,
+    "auditor_type": "orga"
+  }
 }
 ```
 
@@ -30,3 +34,9 @@ HTTP/1.1 201 Created
 ```http
 HTTP/1.1 400 Bad Request
 ```
+
+### Request Parameters
+
+Parameter         | Description
+------------------|---------------------------------
+auditor_type      | Values are `orga` (0) / `treso` (1)

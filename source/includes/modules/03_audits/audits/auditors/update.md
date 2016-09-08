@@ -1,12 +1,13 @@
-### Add an auditor to an audit
+### Update an auditor on an Audit
 
 ```http
-POST /api/v1/audits/:audit_id/auditors HTTP/1.1
+POST /api/v1/audits/:audit_id/auditors/:auditor_id HTTP/1.1
 ```
 
 ```json
 {
-  "auditor_ids": [32, 2]
+  "status": "accepted",
+  "report": "MULTI-PART"
 }
 ```
 
@@ -25,8 +26,4 @@ HTTP/1.1 201 Created
     }
   ]
 }
-```
-
-```http
-HTTP/1.1 400 Bad Request
 ```

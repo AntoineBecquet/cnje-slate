@@ -1,13 +1,7 @@
 ### Remove an auditor from an audit
 
 ```http
-DELETE /api/v1/audits/:audit_id/auditors HTTP/1.1
-```
-
-```json
-{
-  "auditor_ids": [1, 2]
-}
+DELETE /api/v1/audits/:audit_id/auditors/:auditor_id HTTP/1.1
 ```
 
 ```http
