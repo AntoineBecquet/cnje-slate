@@ -7,7 +7,8 @@ PUT /users/:user_id/staffed_audits/:staffed_audit_id HTTP/1.1
 ```json
 {
   "staff_audit": {
-    "status": "accepted"
+    "status": "accepted",
+    "report": "MULTI-PART"
   }
 }
 ```
