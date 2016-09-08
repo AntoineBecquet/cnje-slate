@@ -24,22 +24,39 @@ HTTP/1.1 201 Created
 ```json
 {
   "audit": {
-    "id": 1,
-    "auditable_at": "2016-04-15",
-    "debriefing_date": "2016-04-30",
+    "id": 1940,
+    "auditable_at": null,
+    "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
-    "debriefing_url": null,
-    "report_url": null,
-    "audit_session_id": 5,
+    "orga_grid_status": "pending_distribution",
+    "treso_grid_status": "pending_distribution",
+    "audit_session_id": 1939,
     "junior": {
-      "id": 5,
-      "full_name": "Gonzalez EI",
-      "common_name": "Barbier GIE",
+      "id": 1938,
+      "full_name": "Robin et Charles",
+      "common_name": "Nicolas SA",
       "junior_type": "candidate"
     },
-    "auditors": [],
-    "debriefers": []
+    "auditors": [
+      {
+        "id": 1943,
+        "first_name": "Maëlys",
+        "last_name": "Vidal",
+        "response_at": null,
+        "status": "pending",
+        "report_url": null,
+        "auditor_type": "orga"
+      }
+    ],
+    "debriefers": [
+      {
+        "id": 1946,
+        "first_name": "Lola",
+        "last_name": "Aubry",
+        "debriefing_url": null
+      }
+    ]
   }
 }
 ```

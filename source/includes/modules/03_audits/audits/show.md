@@ -8,34 +8,39 @@ GET /audits/:audit_id HTTP/1.1
 ```json
 {
   "audit": {
-    "id": 1007,
+    "id": 1940,
     "auditable_at": null,
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
-    "audit_session_id": 1006,
-    "orga_grid_status" : "",
-    "treso_grid_status": "",
+    "orga_grid_status": "pending_distribution",
+    "treso_grid_status": "pending_distribution",
+    "audit_session_id": 1939,
     "junior": {
-      "id": 1005,
-      "full_name": "Blanc et Hubert",
-      "common_name": "Julien SARL",
+      "id": 1938,
+      "full_name": "Robin et Charles",
+      "common_name": "Nicolas SA",
       "junior_type": "candidate"
     },
-    "auditors": [{
-      "id": 1010,
-      "first_name": "Léo",
-      "last_name": "Nguyen",
-      "response_at": null,
-      "status": "pending",
-      "report_url": null
-    }],
-    "debriefers": [{
-      "id": 1013,
-      "first_name": "Louna",
-      "last_name": "Roger",
-      "debriefing_url": null
-    }]
+    "auditors": [
+      {
+        "id": 1943,
+        "first_name": "Maëlys",
+        "last_name": "Vidal",
+        "response_at": null,
+        "status": "pending",
+        "report_url": null,
+        "auditor_type": "orga"
+      }
+    ],
+    "debriefers": [
+      {
+        "id": 1946,
+        "first_name": "Lola",
+        "last_name": "Aubry",
+        "debriefing_url": null
+      }
+    ]
   }
 }
 ```
@@ -46,6 +51,7 @@ HTTP/1.1 200 Ok
 
 ### Response Parameters
 
-Parameter           |  Value | Description
-------------------- | ------ | ------
-          | |
+Parameter           |   Description
+------------------- | ------
+orga_grid_status    | Values are `pending_distribution` / `pregrid_to_type` / `pending_pregrid` / `approval` / `grid_to_type` / `pending_grid` / `completed` /
+treso_grid_status   | Values are `pending_distribution` / `pregrid_to_type` / `pending_pregrid` / `approval` / `grid_to_type` / `pending_grid` / `completed` /
