@@ -20,7 +20,8 @@ GET /users/:user_id/staffed_audits HTTP/1.1
         "id": 1,
         "full_name": "Roux et Giraud",
         "common_name": "Paris SARL",
-        "junior_type": "candidate"
+        "junior_type": "candidate",
+        "board_started_at": "2016-04-28T00:00:00.000+02:00"
       }
     }
   }]
