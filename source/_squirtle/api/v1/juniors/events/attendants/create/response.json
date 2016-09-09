@@ -1,0 +1,22 @@
+{
+  "attendants": [
+    {
+      "id": 16,
+      "created_at": "2016-09-09T10:55:57.475+02:00",
+      "type": "user_with_junior_attendant",
+      "departure_at": "2016-09-09T10:55:57.000+02:00",
+      "departure_kind_of_transport": "car",
+      "departure_place": "",
+      "arrival_at": "2016-09-14T10:55:57.000+02:00",
+      "arrival_kind_of_transport": "car",
+      "arrival_place": "",
+      "issue": null,
+      "user": {
+        "id": 127,
+        "first_name": "Louise",
+        "last_name": "Roy"
+      }
+    }
+  ],
+  "waiting_list": [  ]
+}

@@ -1,0 +1,11 @@
+{
+  "auditor_recruitment_waiting_list": {
+    "id": 2,
+    "created_at": "2016-09-09T10:56:18.239+02:00",
+    "user": {
+      "id": 195,
+      "first_name": "Maeva",
+      "last_name": "Richard"
+    }
+  }
+}

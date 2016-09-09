@@ -1,0 +1,45 @@
+{
+  "audit_session": {
+    "id": 19,
+    "starts_at": "2016-09-21T00:00:00.000+02:00",
+    "ends_at": "2016-10-21T00:00:00.000+02:00",
+    "status": "pending",
+    "audits": [
+      {
+        "id": 15,
+        "auditable_at": null,
+        "debriefing_date": null,
+        "final_decision": "pending",
+        "specifications_url": null,
+        "orga_grid_status": "pending_distribution",
+        "treso_grid_status": "pending_distribution",
+        "audit_session_id": 19,
+        "junior": {
+          "id": 123,
+          "full_name": "Vidal et Dupont",
+          "common_name": "Jean et Schneider",
+          "junior_type": "candidate"
+        },
+        "auditors": [
+          {
+            "id": 173,
+            "first_name": "Pierre",
+            "last_name": "Robin",
+            "response_at": null,
+            "status": "pending",
+            "report_url": null,
+            "auditor_type": "orga"
+          }
+        ],
+        "debriefers": [
+          {
+            "id": 173,
+            "first_name": "Pierre",
+            "last_name": "Robin",
+            "debriefing_url": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "maif_membership_juniors": [
+    {
+      "id": 2489,
+      "certificate_url": null,
+      "junior": {
+        "id": 2488,
+        "full_name": "Renard EURL",
+        "common_name": "Lambert et Benoit",
+        "junior_type": "candidate"
+      },
+      "invoice": {
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1285",
+        "title": "InvoiceTitle",
+        "generated_at": "2016-09-09",
+        "invoice_url": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+---
+:status: 201
+:verb: PUT
+:path: "/api/v1/invoices/maif_memberships/:year"

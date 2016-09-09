@@ -1,0 +1,4 @@
+---
+:status: 202
+:verb: PUT
+:path: "/api/v1/juniors/job_levels/:id"

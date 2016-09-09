@@ -1,0 +1,20 @@
+{
+  "domains": [
+    {
+      "id": 1163,
+      "name": "Lemoine Noah",
+      "children": [
+        {
+          "id": 1165,
+          "name": "Laura Renault",
+          "children": [          ]
+        }
+      ]
+    },
+    {
+      "id": 1164,
+      "name": "Barbier Noa",
+      "children": []
+    }
+  ]
+}

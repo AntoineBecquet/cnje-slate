@@ -1,0 +1,24 @@
+<div class="request-response">
+  <h4>Result Format</h4>
+  <div class="tabs-container">
+    <ul class="tabs-menu">
+      <% @t.response_for_partial[:statuses].each_with_index do |(status, status_name, tab_class), index| %>
+        <li class="<%= index == 0 ? 'current' : '' %> ">
+          <span class="status-icon status-icon-<%= tab_class %>"></span>
+          <a href="#tab-<%= index + 1 %>">
+            <%= status %> <%= status_name %>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+    <div class="tab">
+      <% @t.response_for_partial[:responses].each_with_index do |response, index|  %>
+        <div id="tab-<%= index + 1 %>" class="tab-content">
+          <% code("json") do %>
+            <% response %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

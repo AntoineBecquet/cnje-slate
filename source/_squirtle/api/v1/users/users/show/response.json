@@ -1,0 +1,26 @@
+{
+  "user": {
+    "id": 82,
+    "privacy": "public",
+    "email": "matilda@mitchell.name",
+    "junior_email": "odea.mcdermott@schinner.info",
+    "civility": "mrs",
+    "first_name": "Tom",
+    "last_name": "Girard",
+    "birth_date": "1996-09-09",
+    "phone_number": "0101010101",
+    "allows_photos_on_events": true,
+    "allows_newsletter": false,
+    "curriculum_url": null,
+    "address": {
+      "id": 1549,
+      "line1": "line1",
+      "line2": "line2",
+      "city": "Paris",
+      "country": "FR",
+      "postal_code": "75018",
+      "department_id": 1548,
+      "full": ""
+    }
+  }
+}

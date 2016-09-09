@@ -1,0 +1,37 @@
+{
+  "audit": {
+    "id": 1341,
+    "auditable_at": null,
+    "debriefing_date": null,
+    "final_decision": "pending",
+    "specifications_url": null,
+    "orga_grid_status": "pending_distribution",
+    "treso_grid_status": "pending_distribution",
+    "audit_session_id": 1340,
+    "junior": {
+      "id": 1339,
+      "full_name": "Roux et Vidal",
+      "common_name": "Faure et Lopez",
+      "junior_type": "candidate"
+    },
+    "auditors": [
+      {
+        "id": 1344,
+        "first_name": "Axel",
+        "last_name": "Guillot",
+        "response_at": null,
+        "status": "pending",
+        "report_url": null,
+        "auditor_type": "orga"
+      }
+    ],
+    "debriefers": [
+      {
+        "id": 1347,
+        "first_name": "Nathan",
+        "last_name": "Deschamps",
+        "debriefing_url": null
+      }
+    ]
+  }
+}

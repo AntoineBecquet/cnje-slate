@@ -107,5 +107,56 @@ class ApiDocumentation
   # <% end %>
   # <%= partial file.gsub('source/', '') %>
   # <%= ApiDocumentation.resource_attributes(File.dirname(file), File.basename(file, '.md')) %>
+end
 
+class Squirtle
+  attr_reader :path, :default_path, :request_yaml
+
+  DEFAULT_PATH = 'source/_squirtle/api/v1'
+  REQUEST_FILE_NAME = 'request.json'
+  RESPONSE_FILE_NAME = 'response.json'
+  REQUEST_PATH_FILE_NAME = 'response.yml'
+
+  def initialize(path:)
+    @path = path
+    @default_path = "#{DEFAULT_PATH}#{path}/"
+
+    request_path_file = File.open("#{default_path}#{REQUEST_PATH_FILE_NAME}")
+    @request_yaml = YAML.load(request_path_file.read)
+  end
+
+  def request_path
+    "```http\n#{request_yaml[:verb]} #{request_yaml[:path]} HTTP/1.1\n```"
+  end
+
+  def request
+    request_file = File.open("#{default_path}#{REQUEST_FILE_NAME}")
+
+    "> <h4>Request Example</h4>\n\n```json\n#{request_file.read}\n```"
+  end
+
+  def response_for_partial
+    response_file = File.open("#{default_path}#{RESPONSE_FILE_NAME}")
+
+    status = request_yaml[:status]
+    status_name = name_from_status(status: status)
+    tab_class = 'success'
+
+    {
+      statuses: [ [status, status_name, tab_class] ],
+      responses: [
+        response_file.read
+      ]
+    }
+  end
+
+  private
+
+  def name_from_status(status:)
+    puts "STATUS #{status}"
+    {
+      200 => 'OK',
+      201 => 'Created'
+    }.fetch(status.to_i) { "Unknown status #{status}" }
+  end
 end

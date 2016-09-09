@@ -1,0 +1,4 @@
+---
+:status: 201
+:verb: POST
+:path: "/api/v1/auditor_recruitments/users/:user_id/waiting_lists"

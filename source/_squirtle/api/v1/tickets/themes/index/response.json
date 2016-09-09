@@ -1,0 +1,34 @@
+{
+  "themes": [
+    {
+      "id": 1921,
+      "name": "ThemeName",
+      "children": [
+        {
+          "id": 1922,
+          "name": "ThemeName",
+          "children": [          ],
+          "fields": [          ],
+          "permissions": [          ]
+        }
+      ],
+      "fields": [
+        {
+          "id": 1927,
+          "field_type": "number",
+          "name": "Field Name",
+          "required": false
+        }
+      ],
+      "permissions": [
+        {
+          "permission": "read",
+          "division": {
+            "id": 1928,
+            "name": "Présidence"
+          }
+        }
+      ]
+    }
+  ]
+}

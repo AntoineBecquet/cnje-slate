@@ -1,0 +1,50 @@
+{
+  "cnje_recruitment": {
+    "year": "2016",
+    "open_locals": [
+      {
+        "name": "Event Name",
+        "description": "Event Description",
+        "status": "published",
+        "online_at": "2016-09-09T10:29:20+02:00",
+        "registration_starts_at": "2016-09-09T10:59:20+02:00",
+        "last_registration_at": "2016-09-14T11:29:20+02:00",
+        "last_sort_at": "2016-09-24T11:29:20+02:00",
+        "starts_at": "2016-10-09T11:29:20+02:00",
+        "ends_at": "2016-10-19T11:29:20+02:00",
+        "maximum_seats_capacity_per_junior": "10",
+        "seats_capacity": "100"
+      }
+    ],
+    "recruitment_weekends": [
+      {
+        "name": "Event Name",
+        "description": "Event Description",
+        "status": "published",
+        "online_at": "2016-09-09T10:29:20+02:00",
+        "registration_starts_at": "2016-09-09T10:59:20+02:00",
+        "last_registration_at": "2016-09-14T11:29:20+02:00",
+        "last_sort_at": "2016-09-24T11:29:20+02:00",
+        "starts_at": "2016-10-09T11:29:20+02:00",
+        "ends_at": "2016-10-19T11:29:20+02:00",
+        "maximum_seats_capacity_per_junior": "10",
+        "seats_capacity": "100"
+      }
+    ],
+    "handover_weekends": [
+      {
+        "name": "Event Name",
+        "description": "Event Description",
+        "status": "published",
+        "online_at": "2016-09-09T10:29:20+02:00",
+        "registration_starts_at": "2016-09-09T10:59:20+02:00",
+        "last_registration_at": "2016-09-14T11:29:20+02:00",
+        "last_sort_at": "2016-09-24T11:29:20+02:00",
+        "starts_at": "2016-10-09T11:29:20+02:00",
+        "ends_at": "2016-10-19T11:29:20+02:00",
+        "maximum_seats_capacity_per_junior": "10",
+        "seats_capacity": "100"
+      }
+    ]
+  }
+}

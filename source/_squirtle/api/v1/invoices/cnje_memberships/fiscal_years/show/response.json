@@ -1,0 +1,9 @@
+{
+  "fiscal_year": {
+    "year": "121",
+    "deposit_archive_url": null,
+    "balance_archive_url": null,
+    "total_deposit_amount_in_cents": 9999,
+    "total_balance_amount_in_cents": 9999
+  }
+}

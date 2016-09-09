@@ -1,0 +1,38 @@
+{
+  "expense_reports": [
+    {
+      "id": 1283,
+      "supporting_document_limit_date": null,
+      "supporting_document_received_at": null,
+      "paid_at": null,
+      "status": "pending",
+      "expenses": [
+        {
+          "id": 1289,
+          "title": "M Mathis Renault",
+          "at": "2016-04-05",
+          "report_type": "digital",
+          "amount": 0,
+          "number_of_kilometers": 0,
+          "toll_amount": 0,
+          "total_amount": 0,
+          "status": "pending",
+          "reason": "",
+          "starting_city": null,
+          "arrival_city": null,
+          "category": {
+            "id": 1288,
+            "name": "Roy Nicolas"
+          },
+          "transport": null,
+          "documents": [          ]
+        }
+      ],
+      "user": {
+        "id": 1282,
+        "first_name": "Sarah",
+        "last_name": "Renaud"
+      }
+    }
+  ]
+}

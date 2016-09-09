@@ -1,0 +1,17 @@
+{
+  "cnje_membership_fees": [
+    {
+      "id": 1103,
+      "status": "not_generated",
+      "error_message": "",
+      "deposit_invoice_url": null,
+      "balance_invoice_url": null,
+      "junior": {
+        "id": 1102,
+        "full_name": "Martinez GIE",
+        "common_name": "Brunet SCOP",
+        "junior_type": "candidate"
+      }
+    }
+  ]
+}

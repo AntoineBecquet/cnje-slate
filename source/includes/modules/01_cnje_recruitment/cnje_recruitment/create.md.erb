@@ -1,0 +1,6 @@
+### Create a new recruitment session
+
+<% @t = Squirtle.new(path: '/cnje_recruitments/create') %>
+<%= @t.request_path %>
+<%= @t.request %>
+> <%= partial 'includes/squirtle_request_response', locals: { responses: @t.response_for_partial } %>

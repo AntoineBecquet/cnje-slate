@@ -1,0 +1,28 @@
+{
+  "tickets": [
+    {
+      "id": "0b755728-5065-45fe-bf4f-c3c07d93bf0f",
+      "title": "TicketTitle",
+      "content": "TicketContent",
+      "status": "pending_cnje_answer",
+      "created_at": "2016-09-09T10:55:29.453+02:00",
+      "will_reopen_at": null,
+      "creator": {
+        "id": 1411,
+        "first_name": "Lilou",
+        "last_name": "Caron"
+      },
+      "junior": {
+        "id": 1414,
+        "full_name": "Rousseau et Collet",
+        "common_name": "Denis SCOP",
+        "junior_type": "candidate"
+      },
+      "taken_by_user": null,
+      "theme": {
+        "id": 1415,
+        "name": "ThemeName"
+      }
+    }
+  ]
+}

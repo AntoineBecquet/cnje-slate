@@ -1,0 +1,15 @@
+{
+  "expense_categories": [
+    {
+      "id": 1948,
+      "name": "Dr Carla Meyer",
+      "children": [
+        {
+          "id": 1949,
+          "name": "Alice Martinez",
+          "children": [          ]
+        }
+      ]
+    }
+  ]
+}

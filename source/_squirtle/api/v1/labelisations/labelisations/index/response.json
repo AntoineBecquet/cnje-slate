@@ -1,0 +1,16 @@
+{
+  "labelisations": [
+    {
+      "id": 2112,
+      "labelisation_type": "candidate",
+      "judgement": "pending",
+      "application_form_url": null,
+      "junior": {
+        "id": 2111,
+        "full_name": "Bourgeois SEM",
+        "common_name": "Bertrand SAS",
+        "junior_type": "candidate"
+      }
+    }
+  ]
+}

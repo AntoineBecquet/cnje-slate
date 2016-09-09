@@ -1,0 +1,4 @@
+---
+:status: 200
+:verb: POST
+:path: "/api/v1/agp_events"

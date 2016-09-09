@@ -1,0 +1,7 @@
+## CNJE Recruitment
+### Retrieve all recruitments sessions
+
+<% @t = Squirtle.new(path: '/cnje_recruitments/index') %>
+<%= @t.request_path %>
+<%= @t.request %>
+> <%= partial 'includes/squirtle_request_response', locals: { responses: @t.response_for_partial } %>
