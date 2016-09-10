@@ -6,8 +6,10 @@ POST /api/v1/audits/:audit_id/auditors/:auditor_id HTTP/1.1
 
 ```json
 {
-  "status": "accepted",
-  "report": "MULTI-PART"
+  "auditor": {
+    "status": "accepted",
+    "report": "MULTI-PART"
+  }
 }
 ```
 
