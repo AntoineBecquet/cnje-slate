@@ -1,4 +1,4 @@
-### Retrieve Audit
+### Send To Junior
 
 ```http
 PUT /audits/:audit_id/send_to_junior HTTP/1.1
