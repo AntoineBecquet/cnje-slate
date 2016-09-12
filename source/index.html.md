@@ -42,6 +42,9 @@ includes:
   - modules/03_audits/audits/auditors/create
   - modules/03_audits/audits/auditors/delete
   - modules/03_audits/audits/auditors/update
+  - modules/03_audits/audits/debriefers/create
+  - modules/03_audits/audits/debriefers/delete
+  - modules/03_audits/audits/debriefers/update
   - modules/03_audits/auditors/index
   - modules/03_audits/auditors/destroy
   - modules/03_quality_inspections
