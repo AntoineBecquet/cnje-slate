@@ -18,6 +18,7 @@ GET /audits/:audit_id HTTP/1.1
     "treso_grid_status": "pending_distribution",
     "audit_session_id": 1939,
     "status": "pending",
+    "send_to_junior_at": null,
     "junior": {
       "id": 1938,
       "full_name": "Robin et Charles",
