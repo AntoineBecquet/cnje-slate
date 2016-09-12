@@ -39,6 +39,7 @@ includes:
   - modules/03_audits/audits/show
   - modules/03_audits/audits/create
   - modules/03_audits/audits/update
+  - modules/03_audits/audits/send_to_junior
   - modules/03_audits/audits/auditors/create
   - modules/03_audits/audits/auditors/delete
   - modules/03_audits/audits/auditors/update
