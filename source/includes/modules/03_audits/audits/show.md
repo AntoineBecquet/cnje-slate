@@ -17,6 +17,7 @@ GET /audits/:audit_id HTTP/1.1
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
     "audit_session_id": 1939,
+    "status": "pending",
     "junior": {
       "id": 1938,
       "full_name": "Robin et Charles",
