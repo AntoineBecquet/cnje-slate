@@ -10,7 +10,8 @@ PATCH /api/v1/audits/:audit_id HTTP/1.1
     "auditable_at": "2016-04-02",
     "debriefing_date": "2016-04-02",
     "final_decision": "ac",
-    "specification": "", // multipart,
+    "specification": "", // multipart
+    "final_report": "", // multipart
     "orga_grid_status": "",
     "treso_grid_status": ""
   }
@@ -29,6 +30,7 @@ HTTP/1.1 201 Created
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
+    "final_report_url": null,
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
     "audit_session_id": 1939,

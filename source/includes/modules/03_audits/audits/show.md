@@ -13,6 +13,7 @@ GET /audits/:audit_id HTTP/1.1
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
+    "final_report_url": null,
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
     "audit_session_id": 1939,
