@@ -1,4 +1,4 @@
-### Remove an auditor from an audit
+### Remove a debriefer from an audit
 
 ```http
 DELETE /api/v1/audits/:audit_id/debriefers/:debriefer_id HTTP/1.1
