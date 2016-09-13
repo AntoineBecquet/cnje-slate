@@ -210,6 +210,22 @@ includes:
   - modules/27_warnings/letter/template/create
   - modules/27_warnings/letter/template/update
   - modules/27_warnings/letter/template/destroy
+  - modules/29_newsletters/global_list/subscribers/index
+  - modules/29_newsletters/global_list/subscribers/create
+  - modules/29_newsletters/global_list/subscribers/destroy
+  - modules/29_newsletters/global_list/unsubscribers/index
+  - modules/29_newsletters/active_junior_members_list/subscribers/index
+  - modules/29_newsletters/active_junior_members_list/subscribers/create
+  - modules/29_newsletters/active_junior_members_list/subscribers/destroy
+  - modules/29_newsletters/active_junior_members_list/unsubscribers/index
+  - modules/29_newsletters/former_junior_members_list/subscribers/index
+  - modules/29_newsletters/former_junior_members_list/subscribers/create
+  - modules/29_newsletters/former_junior_members_list/subscribers/destroy
+  - modules/29_newsletters/former_junior_members_list/unsubscribers/index
+  - modules/29_newsletters/non_junior_members_list/subscribers/index
+  - modules/29_newsletters/non_junior_members_list/subscribers/create
+  - modules/29_newsletters/non_junior_members_list/subscribers/destroy
+  - modules/29_newsletters/non_junior_members_list/unsubscribers/index
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
