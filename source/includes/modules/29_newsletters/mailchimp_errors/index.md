@@ -23,4 +23,5 @@ HTTP/1.1 200 OK
 Parameter               | Description
 ----------------------- | ------
 error_type              | 0: active_junior_members_list_unsubscription_failed, 
-                        | 1: former_junior_members_list_subscription_failed
+                        | 1: former_junior_members_list_subscription_failed,
+                        | 2: mandatory_member_resubscription_failed
