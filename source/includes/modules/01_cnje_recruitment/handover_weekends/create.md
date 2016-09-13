@@ -1,8 +1,8 @@
-## Open Locals
-### Create an Open Local
+## Handover Weekend
+### Create an Handover Weekend
 
 ```http
-POST /cnje_recruitment/:cnje_recruitment_id/open_locals HTTP/1.1
+POST /cnje_recruitment/:cnje_recruitment_id/handover_weekends HTTP/1.1
 ```
 
 ```json

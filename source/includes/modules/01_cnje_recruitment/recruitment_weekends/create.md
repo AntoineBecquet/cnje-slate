@@ -1,8 +1,8 @@
-## Open Locals
-### Create an Open Local
+## Recruitment Weekends
+### Create a Recruitment Weekend
 
 ```http
-POST /cnje_recruitment/:cnje_recruitment_id/open_locals HTTP/1.1
+POST /cnje_recruitment/:cnje_recruitment_id/recruitment_weekends HTTP/1.1
 ```
 
 ```json

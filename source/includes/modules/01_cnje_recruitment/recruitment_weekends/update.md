@@ -1,8 +1,7 @@
-## Open Locals
-### Create an Open Local
+### Update a Recruitment Weekend
 
 ```http
-POST /cnje_recruitment/:cnje_recruitment_id/open_locals HTTP/1.1
+PUT /cnje_recruitment/:cnje_recruitment_id/recruitment_weekends/:recruitment_weekend_id HTTP/1.1
 ```
 
 ```json
@@ -23,13 +22,11 @@ POST /cnje_recruitment/:cnje_recruitment_id/open_locals HTTP/1.1
     "description": "Event Description",
     "seats_capacity": 0,
     "special_seats_capacity": 0,
-    "cover_photo": "MULTIPART/FORM",
-    "address": {
-    },
-    "documents": [{
-      "document": "MULTIPART/FORM",
-      "name": "Document's Name"
-    }]
+    "cover_photo": "MULTIPART/FORM"
   }
 }
+```
+
+```http
+HTTP/1.1 201 Accepted
 ```

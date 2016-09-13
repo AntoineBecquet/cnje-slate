@@ -22,6 +22,12 @@ includes:
   - modules/01_cnje_recruitment/open_locals/create
   - modules/01_cnje_recruitment/open_locals/update
   - modules/01_cnje_recruitment/open_locals/destroy
+  - modules/01_cnje_recruitment/recruitment_weekends/create
+  - modules/01_cnje_recruitment/recruitment_weekends/update
+  - modules/01_cnje_recruitment/recruitment_weekends/destroy
+  - modules/01_cnje_recruitment/handover_weekends/create
+  - modules/01_cnje_recruitment/handover_weekends/update
+  - modules/01_cnje_recruitment/handover_weekends/destroy
   - modules/02_tenders
   - modules/02_tenders/index
   - modules/02_tenders/show
