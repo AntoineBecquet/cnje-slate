@@ -1,13 +1,19 @@
+## Recruitment Weekend Attendants
 ### Create an attendant
 
 ```http
-POST /open_local_events/:event_id/attendants HTTP/1.1
+PUT /recruitment_weekend_events/:event_id/attendants/:attendant_id HTTP/1.1
 ```
 
 ```json
 {
   "attendant": {
-    "user_id": 1,
-    "junior_id": 1,
+    "departure_at": "",
+    "departure_kind_of_transport": "",
+    "departure_place": "",
+    "arrival_at": "",
+    "arrival_kind_of_transport": "",
+    "arrival_place": ""
   }
 }
+```

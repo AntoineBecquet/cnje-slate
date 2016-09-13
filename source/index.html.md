@@ -27,6 +27,8 @@ includes:
   - modules/01_cnje_recruitment/recruitment_weekends/create
   - modules/01_cnje_recruitment/recruitment_weekends/update
   - modules/01_cnje_recruitment/recruitment_weekends/destroy
+  - modules/01_cnje_recruitment/recruitment_weekends/attendants/create
+  - modules/01_cnje_recruitment/recruitment_weekends/attendants/update
   - modules/01_cnje_recruitment/handover_weekends/create
   - modules/01_cnje_recruitment/handover_weekends/update
   - modules/01_cnje_recruitment/handover_weekends/destroy
