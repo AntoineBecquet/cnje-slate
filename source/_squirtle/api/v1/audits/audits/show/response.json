@@ -1,24 +1,24 @@
 {
   "audit": {
-    "id": 2454,
+    "id": 1555,
     "auditable_at": null,
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
-    "audit_session_id": 2453,
+    "audit_session_id": 1554,
     "junior": {
-      "id": 2452,
-      "full_name": "Menard SAS",
-      "common_name": "Cousin et Fournier",
+      "id": 1553,
+      "full_name": "Robert et Dumas",
+      "common_name": "Roger SCOP",
       "junior_type": "candidate"
     },
     "auditors": [
       {
-        "id": 2457,
-        "first_name": "Célia",
-        "last_name": "Marchal",
+        "id": 1558,
+        "first_name": "Mathéo",
+        "last_name": "Dupont",
         "response_at": null,
         "status": "pending",
         "report_url": null,
@@ -27,9 +27,9 @@
     ],
     "debriefers": [
       {
-        "id": 2460,
-        "first_name": "Lola",
-        "last_name": "Lecomte",
+        "id": 1561,
+        "first_name": "Chloé",
+        "last_name": "Marty",
         "debriefing_url": null
       }
     ]

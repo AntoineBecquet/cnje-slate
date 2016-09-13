@@ -1,17 +1,17 @@
 {
   "events": [
     {
-      "id": 2577,
+      "id": 1898,
       "cv_is_mandatory": false,
-      "starts_at": "2016-10-13T16:08:16.241+02:00",
-      "ends_at": "2016-10-23T16:08:16.241+02:00",
+      "starts_at": "2016-10-13T16:11:31.132+02:00",
+      "ends_at": "2016-10-23T16:11:31.133+02:00",
       "invoice_for_junior": false,
       "name": "Event Name",
       "organizer": "CNJE",
-      "last_registration_at": "2016-09-18T16:08:16.241+02:00",
-      "last_sort_at": "2016-09-28T16:08:16.241+02:00",
-      "online_at": "2016-09-13T15:08:16.241+02:00",
-      "registration_starts_at": "2016-09-13T15:38:16.241+02:00",
+      "last_registration_at": "2016-09-18T16:11:31.132+02:00",
+      "last_sort_at": "2016-09-28T16:11:31.132+02:00",
+      "online_at": "2016-09-13T15:11:31.132+02:00",
+      "registration_starts_at": "2016-09-13T15:41:31.132+02:00",
       "description": "Event Description",
       "seats_capacity": 100,
       "special_seats_capacity": 0,
@@ -22,32 +22,32 @@
       "type": null,
       "attendants": [
         {
-          "id": 2586,
-          "created_at": "2016-09-13T16:08:16.285+02:00",
+          "id": 1907,
+          "created_at": "2016-09-13T16:11:31.182+02:00",
           "type": null,
-          "departure_at": "2016-09-13T16:08:16.278+02:00",
+          "departure_at": "2016-09-13T16:11:31.174+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T16:08:16.278+02:00",
+          "arrival_at": "2016-09-23T16:11:31.174+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "user": {
-            "id": 2591,
-            "first_name": "Léa",
-            "last_name": "Durand"
+            "id": 1912,
+            "first_name": "Théo",
+            "last_name": "Arnaud"
           }
         }
       ],
       "address": null,
       "prices": [
         {
-          "id": 2592,
+          "id": 1913,
           "description": "Event Price Description",
           "price_in_cents": 1000,
           "discounts": [
             {
-              "id": 2594,
+              "id": 1915,
               "minimum_turnover_in_cents": 100,
               "maximum_turnover_in_cents": 1000,
               "amount_in_cents": 10000
@@ -57,32 +57,32 @@
       ],
       "documents": [
         {
-          "id": "d7f6fd48-633f-43ad-a48b-b87bd6fb8489",
+          "id": "851100dc-575c-4d4d-8014-13a8cb9e9fc7",
           "name": "Document's Name"
         }
       ],
       "waiting_list": [
         {
-          "id": 2595,
-          "created_at": "2016-09-13T16:08:16.309+02:00",
+          "id": 1916,
+          "created_at": "2016-09-13T16:11:31.211+02:00",
           "type": "waiting_list_attendant",
-          "departure_at": "2016-09-13T16:08:16.298+02:00",
+          "departure_at": "2016-09-13T16:11:31.195+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T16:08:16.298+02:00",
+          "arrival_at": "2016-09-23T16:11:31.196+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "position": 0,
           "user": {
-            "id": 2600,
-            "first_name": "Lisa",
-            "last_name": "Gautier"
+            "id": 1921,
+            "first_name": "Lucie",
+            "last_name": "Carpentier"
           }
         }
       ],
-      "places": [],
-      "linked_juniors": []
+      "places": [      ],
+      "linked_juniors": [      ]
     }
   ]
 }

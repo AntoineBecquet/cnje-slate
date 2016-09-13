@@ -1,21 +1,21 @@
 {
   "quality_inspections": [
     {
-      "id": 2319,
-      "at": "2016-10-18T00:00:00.000+02:00",
+      "id": 1125,
+      "at": "2016-10-23T00:00:00.000+02:00",
       "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
       "final_decision": "pending",
       "junior": {
-        "id": 2332,
-        "full_name": "Dupuis GIE",
-        "common_name": "Garnier et Lecomte",
+        "id": 1138,
+        "full_name": "Philippe et Le roux",
+        "common_name": "Lopez et Gauthier",
         "junior_type": "candidate"
       },
       "inspectors": [
         {
-          "id": 2334,
-          "first_name": "Sacha",
-          "last_name": "Schmitt",
+          "id": 1140,
+          "first_name": "Lola",
+          "last_name": "Guillaume",
           "report_url": null,
           "report_status": "pending"
         }

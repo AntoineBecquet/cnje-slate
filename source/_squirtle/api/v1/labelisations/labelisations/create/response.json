@@ -1,13 +1,13 @@
 {
   "labelisation": {
-    "id": 1,
+    "id": 2,
     "labelisation_type": "candidate",
     "judgement": "pending",
     "application_form_url": null,
     "junior": {
-      "id": 17,
-      "full_name": "Lecomte et Louis",
-      "common_name": "Le roux SCOP",
+      "id": 46,
+      "full_name": "Denis SA",
+      "common_name": "Da silva et Berger",
       "junior_type": "candidate"
     }
   }

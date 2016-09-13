@@ -4,14 +4,14 @@
       "report_status": "pending",
       "report_url": null,
       "quality_inspection": {
-        "id": 1521,
-        "at": "2016-11-18T00:00:00.000+01:00",
+        "id": 1288,
+        "at": "2016-10-21T00:00:00.000+02:00",
         "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
         "final_decision": "pending",
         "junior": {
-          "id": 1520,
-          "full_name": "Carre et Maillard",
-          "common_name": "Philippe GIE",
+          "id": 1287,
+          "full_name": "Barre et David",
+          "common_name": "Martin et Deschamps",
           "junior_type": "candidate"
         }
       }

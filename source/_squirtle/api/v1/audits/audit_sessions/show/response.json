@@ -1,30 +1,30 @@
 {
   "audit_session": {
-    "id": 23,
-    "starts_at": "2016-09-14T00:00:00.000+02:00",
-    "ends_at": "2016-10-14T00:00:00.000+02:00",
+    "id": 25,
+    "starts_at": "2016-10-01T00:00:00.000+02:00",
+    "ends_at": "2016-11-01T00:00:00.000+01:00",
     "status": "pending",
     "audits": [
       {
-        "id": 14,
+        "id": 17,
         "auditable_at": null,
         "debriefing_date": null,
         "final_decision": "pending",
         "specifications_url": null,
         "orga_grid_status": "pending_distribution",
         "treso_grid_status": "pending_distribution",
-        "audit_session_id": 23,
+        "audit_session_id": 25,
         "junior": {
-          "id": 77,
-          "full_name": "Bonnet SARL",
-          "common_name": "Lopez et Louis",
+          "id": 137,
+          "full_name": "Rey et Poirier",
+          "common_name": "Adam et Lambert",
           "junior_type": "candidate"
         },
         "auditors": [
           {
-            "id": 116,
-            "first_name": "Baptiste",
-            "last_name": "Girard",
+            "id": 190,
+            "first_name": "Mathéo",
+            "last_name": "Nicolas",
             "response_at": null,
             "status": "pending",
             "report_url": null,
@@ -33,9 +33,9 @@
         ],
         "debriefers": [
           {
-            "id": 116,
-            "first_name": "Baptiste",
-            "last_name": "Girard",
+            "id": 190,
+            "first_name": "Mathéo",
+            "last_name": "Nicolas",
             "debriefing_url": null
           }
         ]

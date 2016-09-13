@@ -1,50 +1,50 @@
 {
   "junior": {
     "id": 1,
-    "full_name": "Muller EI",
-    "common_name": "Lemaire SA",
-    "email": "carley.franecki@hammes.org",
-    "phone_number": "0537351115",
-    "website": "http://mckenzie.org/stacey",
+    "full_name": "Royer et Picard",
+    "common_name": "Le roux et Leroy",
+    "email": "kendrick_macgyver@gerholdrunolfsdottir.name",
+    "phone_number": "+33 448392145",
+    "website": "http://hartmannmonahan.org/albin.wolff",
     "organization_created_at": null,
     "accountant_closed_at": null,
     "board_started_at": null,
-    "description": "Barre SCOP",
+    "description": "Meunier et Fontaine",
     "nb_members": 200,
     "junior_sponsor_id": 1,
-    "logo": "/uploads/cache/juniors/1a19a34e6db674781c15e80b6f98a6/23329a04d89ed0bd6f41fee3e820f1/logos/d1362aa4a6.jpg",
-    "status": "/uploads/cache/versioneddocument/document/c5b9bcfada.jpg",
-    "internal_policy": "/uploads/cache/versioneddocument/document/a1b4699285.jpg",
+    "logo": "/uploads/cache/juniors/07002c41737ab0788ec85fde1eca9a/286c4a2a9a7b7117c5d3782099f8c0/logos/6199357bb7.jpg",
+    "status": "/uploads/cache/versioneddocument/document/452d35cc2d.jpg",
+    "internal_policy": "/uploads/cache/versioneddocument/document/a99f9a4951.jpg",
     "address": {
-      "id": 167,
+      "id": 164,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 63,
+      "department_id": 61,
       "full": ""
     },
     "domains": [
       {
-        "id": 14,
-        "name": "M Charlotte Dufour"
+        "id": 10,
+        "name": "M Théo Menard"
       }
     ],
     "partners": [
       {
-        "id": 1804,
-        "full_name": "Fabre et Prevost",
-        "common_name": "Baron et Leroy",
+        "id": 1740,
+        "full_name": "Prevost et Legrand",
+        "common_name": "Garcia EURL",
         "junior_type": "candidate"
       }
     ],
     "bank_accounts": [
       {
-        "id": 1805,
+        "id": 1741,
         "iban": "FR7613106005002000743520962",
         "bic": "CMCIFR2A",
-        "sepa": "/uploads/cache/bank_accounts/ba450d51926c3dae78db08c2e39c42/acdd8ee93d9846fabca7c4abb05729/85f1c2a6bb.jpg"
+        "sepa": "/uploads/cache/bank_accounts/a0e6840347554db3e6ccc73c1d3870/c32f87bda0e566fbd6b15f7a6a1306/7db8a714c5.jpg"
       }
     ],
     "status_versions": [    ],

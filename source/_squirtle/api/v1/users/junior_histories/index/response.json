@@ -1,7 +1,7 @@
 {
   "junior_histories": [
     {
-      "id": 1662,
+      "id": 2141,
       "starts_at": "2016-09-12",
       "ends_at": "2017-09-13",
       "job_title": "JobTitle",
@@ -9,21 +9,21 @@
       "changes": {
       },
       "junior": {
-        "id": 1672,
-        "full_name": "Bourgeois GIE",
-        "common_name": "Barre SAS",
+        "id": 2151,
+        "full_name": "Pierre et Brunet",
+        "common_name": "Rey et Philippe",
         "junior_type": "candidate"
       },
       "job": {
-        "id": 1673,
+        "id": 2152,
         "name": "Chargé de Mission"
       },
       "job_level": {
-        "id": 1664,
+        "id": 2143,
         "name": "Member du Bureau"
       },
       "division": {
-        "id": 1665,
+        "id": 2144,
         "name": "Présidence"
       }
     }

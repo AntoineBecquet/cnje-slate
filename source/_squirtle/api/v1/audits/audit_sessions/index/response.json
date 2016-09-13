@@ -1,30 +1,30 @@
 {
   "audit_sessions": [
     {
-      "id": 20,
-      "starts_at": "2016-09-23T00:00:00.000+02:00",
-      "ends_at": "2016-10-23T00:00:00.000+02:00",
+      "id": 24,
+      "starts_at": "2016-10-11T00:00:00.000+02:00",
+      "ends_at": "2016-11-11T00:00:00.000+01:00",
       "status": "pending",
       "audits": [
         {
-          "id": 13,
+          "id": 16,
           "auditable_at": null,
           "debriefing_date": null,
           "final_decision": "pending",
           "specifications_url": null,
           "orga_grid_status": "pending_distribution",
           "treso_grid_status": "pending_distribution",
-          "audit_session_id": 20,
+          "audit_session_id": 24,
           "junior": {
-            "id": 76,
-            "full_name": "Bonnet EURL",
-            "common_name": "Perrin et Legrand",
+            "id": 136,
+            "full_name": "Rousseau et Huet",
+            "common_name": "Colin SCOP",
             "junior_type": "candidate"
           },
           "auditors": [
             {
-              "id": 115,
-              "first_name": "Yanis",
+              "id": 189,
+              "first_name": "Maëlle",
               "last_name": "Simon",
               "response_at": null,
               "status": "pending",
@@ -34,8 +34,8 @@
           ],
           "debriefers": [
             {
-              "id": 115,
-              "first_name": "Yanis",
+              "id": 189,
+              "first_name": "Maëlle",
               "last_name": "Simon",
               "debriefing_url": null
             }

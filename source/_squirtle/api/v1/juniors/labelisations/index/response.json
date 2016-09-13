@@ -1,14 +1,14 @@
 {
   "labelisations": [
     {
-      "id": 1894,
+      "id": 1767,
       "labelisation_type": "candidate",
       "judgement": "pending",
       "application_form_url": null,
       "junior": {
-        "id": 1893,
-        "full_name": "Rousseau et Garnier",
-        "common_name": "Barbier SCOP",
+        "id": 1766,
+        "full_name": "Marchal et Fournier",
+        "common_name": "Perrot et Gauthier",
         "junior_type": "candidate"
       }
     }

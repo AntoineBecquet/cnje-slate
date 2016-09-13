@@ -1,20 +1,20 @@
 {
   "events": [
     {
-      "id": 2926,
+      "id": 1717,
       "registration_kind": "user",
       "cv_is_mandatory": false,
       "special_dates_are_active": false,
-      "starts_at": "2016-10-13T16:08:34.235+02:00",
-      "ends_at": "2016-10-23T16:08:34.235+02:00",
+      "starts_at": "2016-10-13T16:11:13.322+02:00",
+      "ends_at": "2016-10-23T16:11:13.322+02:00",
       "can_register_without_account": false,
       "invoice_for_junior": false,
       "name": "Event Name",
       "organizer": "CNJE",
-      "last_registration_at": "2016-09-18T16:08:34.235+02:00",
-      "last_sort_at": "2016-09-28T16:08:34.235+02:00",
-      "online_at": "2016-09-13T15:08:34.235+02:00",
-      "registration_starts_at": "2016-09-13T15:38:34.235+02:00",
+      "last_registration_at": "2016-09-18T16:11:13.322+02:00",
+      "last_sort_at": "2016-09-28T16:11:13.322+02:00",
+      "online_at": "2016-09-13T15:11:13.321+02:00",
+      "registration_starts_at": "2016-09-13T15:41:13.321+02:00",
       "description": "Event Description",
       "seats_capacity": 100,
       "special_seats_capacity": 0,
@@ -24,23 +24,23 @@
       "cover_photo_url": null,
       "status": "published",
       "address": {
-        "id": 2925,
+        "id": 1716,
         "line1": "line1",
         "line2": "line2",
         "city": "Paris",
         "country": "FR",
         "postal_code": "75018",
-        "department_id": 2924,
+        "department_id": 1715,
         "full": ""
       },
       "prices": [
         {
-          "id": 2935,
+          "id": 1726,
           "description": "Event Price Description",
           "price_in_cents": 1000,
           "discounts": [
             {
-              "id": 2937,
+              "id": 1728,
               "minimum_turnover_in_cents": 100,
               "maximum_turnover_in_cents": 1000,
               "amount_in_cents": 10000
@@ -50,29 +50,29 @@
       ],
       "documents": [
         {
-          "id": "d0700e34-3102-407a-bdaa-9e9962bd5284",
+          "id": "565e818b-8175-45db-973a-cfb17aa73fda",
           "name": "Document's Name"
         }
       ],
       "attendants": [
         {
-          "id": 2938,
-          "created_at": "2016-09-13T16:08:34.289+02:00",
+          "id": 1729,
+          "created_at": "2016-09-13T16:11:13.384+02:00",
           "type": "junior_attendant",
           "presence_status": "unknown",
           "junior": {
-            "id": 2941,
-            "full_name": "Leclerc SA",
-            "common_name": "Gauthier GIE",
+            "id": 1732,
+            "full_name": "Lacroix et Martinez",
+            "common_name": "Bernard GIE",
             "junior_type": "candidate"
           }
         }
       ],
-      "waiting_list": [],
+      "waiting_list": [      ],
       "places": [
         {
-          "id": 2944,
-          "kind_of_transport": "other",
+          "id": 1735,
+          "kind_of_transport": "coach",
           "arrival_place": "Somewhere over the rainbow"
         }
       ]
