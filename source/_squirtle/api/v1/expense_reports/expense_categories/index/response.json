@@ -1,12 +1,12 @@
 {
   "expense_categories": [
     {
-      "id": 1816,
-      "name": "Mlle Ambre Mercier",
+      "id": 2837,
+      "name": "Meyer Jade",
       "children": [
         {
-          "id": 1817,
-          "name": "Antoine Dupont",
+          "id": 2838,
+          "name": "Henry Elisa",
           "children": [          ]
         }
       ]

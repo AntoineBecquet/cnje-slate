@@ -1,25 +1,25 @@
 {
   "user": {
-    "id": 205,
+    "id": 19,
     "privacy": "public",
-    "email": "lawrence@mertz.net",
-    "junior_email": "eliseo@herzog.io",
+    "email": "felicia@schamberger.info",
+    "junior_email": "dejon_ritchie@bogan.io",
     "civility": "mrs",
-    "first_name": "Hugo",
-    "last_name": "Thomas",
+    "first_name": "Julien",
+    "last_name": "Le roux",
     "birth_date": "1996-09-13",
     "phone_number": "0101010101",
     "allows_photos_on_events": true,
     "allows_newsletter": false,
     "curriculum_url": null,
     "address": {
-      "id": 2363,
+      "id": 1038,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 2362,
+      "department_id": 1037,
       "full": ""
     }
   }

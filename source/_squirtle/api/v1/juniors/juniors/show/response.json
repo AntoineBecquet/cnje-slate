@@ -1,50 +1,50 @@
 {
   "junior": {
     "id": 1,
-    "full_name": "Aubert et Thomas",
-    "common_name": "Brun SCOP",
-    "email": "olin.stroman@lubowitz.com",
-    "phone_number": "0732316142",
-    "website": "http://halvorsonrowe.io/maritza_dietrich",
+    "full_name": "Muller EI",
+    "common_name": "Lemaire SA",
+    "email": "carley.franecki@hammes.org",
+    "phone_number": "0537351115",
+    "website": "http://mckenzie.org/stacey",
     "organization_created_at": null,
     "accountant_closed_at": null,
     "board_started_at": null,
-    "description": "Duval SARL",
+    "description": "Barre SCOP",
     "nb_members": 200,
     "junior_sponsor_id": 1,
-    "logo": "/uploads/cache/juniors/eaaa34444fe0b6580fc5992c4586f1/691ecce067a99e6760d3d5c4eed3e1/logos/b9de165f58.jpg",
-    "status": "/uploads/cache/versioneddocument/document/c8009e8388.jpg",
-    "internal_policy": "/uploads/cache/versioneddocument/document/7edd5cdb38.jpg",
+    "logo": "/uploads/cache/juniors/1a19a34e6db674781c15e80b6f98a6/23329a04d89ed0bd6f41fee3e820f1/logos/d1362aa4a6.jpg",
+    "status": "/uploads/cache/versioneddocument/document/c5b9bcfada.jpg",
+    "internal_policy": "/uploads/cache/versioneddocument/document/a1b4699285.jpg",
     "address": {
-      "id": 9,
+      "id": 167,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 2,
+      "department_id": 63,
       "full": ""
     },
     "domains": [
       {
-        "id": 1,
-        "name": "Noa Guerin"
+        "id": 14,
+        "name": "M Charlotte Dufour"
       }
     ],
     "partners": [
       {
-        "id": 1005,
-        "full_name": "Laine EI",
-        "common_name": "Charpentier et Durand",
+        "id": 1804,
+        "full_name": "Fabre et Prevost",
+        "common_name": "Baron et Leroy",
         "junior_type": "candidate"
       }
     ],
     "bank_accounts": [
       {
-        "id": 1006,
+        "id": 1805,
         "iban": "FR7613106005002000743520962",
         "bic": "CMCIFR2A",
-        "sepa": "/uploads/cache/bank_accounts/0d597a810700bc68cc7476c9a19dd7/db9e3077fce72a4e570aa1d3ca0b57/6471413062.jpg"
+        "sepa": "/uploads/cache/bank_accounts/ba450d51926c3dae78db08c2e39c42/acdd8ee93d9846fabca7c4abb05729/85f1c2a6bb.jpg"
       }
     ],
     "status_versions": [    ],

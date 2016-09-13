@@ -1,26 +1,26 @@
 {
   "tickets": [
     {
-      "id": "7a16756b-05b5-4c2c-be9d-f3676a036bf7",
+      "id": "f8023a82-5d11-4e5b-be53-7898ac266864",
       "title": "TicketTitle",
       "content": "TicketContent",
       "status": "pending_cnje_answer",
-      "created_at": "2016-09-13T12:02:22.416+02:00",
+      "created_at": "2016-09-13T16:07:51.098+02:00",
       "will_reopen_at": null,
       "creator": {
-        "id": 1128,
-        "first_name": "Alice",
-        "last_name": "Roux"
+        "id": 2036,
+        "first_name": "Laura",
+        "last_name": "Maillard"
       },
       "junior": {
-        "id": 1131,
-        "full_name": "Fournier et Rodriguez",
-        "common_name": "Remy et Gonzalez",
+        "id": 2039,
+        "full_name": "Joly et Berger",
+        "common_name": "Denis GIE",
         "junior_type": "candidate"
       },
       "taken_by_user": null,
       "theme": {
-        "id": 1132,
+        "id": 2040,
         "name": "ThemeName"
       }
     }

@@ -1,16 +1,16 @@
 {
   "maif_membership_juniors": [
     {
-      "id": 2263,
+      "id": 1072,
       "certificate_url": null,
       "junior": {
-        "id": 2262,
-        "full_name": "Schmitt EURL",
-        "common_name": "Bourgeois SAS",
+        "id": 1071,
+        "full_name": "Lecomte et Michel",
+        "common_name": "Moreau EI",
         "junior_type": "candidate"
       },
       "invoice": {
-        "id": "79239441-bfd5-4981-a70c-55c3f15c1285",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1282",
         "title": "InvoiceTitle",
         "generated_at": "2016-09-13",
         "invoice_url": null

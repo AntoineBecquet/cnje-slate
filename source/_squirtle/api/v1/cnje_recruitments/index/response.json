@@ -1,84 +1,135 @@
 {
   "cnje_recruitments": [
     {
-      "id": 2340,
+      "id": 1912,
       "year": "",
       "open_locals": [
         {
-          "id": 2345,
+          "id": 1917,
           "registration_kind": "user",
           "cv_is_mandatory": false,
           "special_dates_are_active": false,
-          "starts_at": "2016-10-13T12:03:19.120+02:00",
-          "ends_at": "2016-10-23T12:03:19.121+02:00",
+          "starts_at": "2016-10-13T16:07:47.000+02:00",
+          "ends_at": "2016-10-23T16:07:47.000+02:00",
           "name": "Event Name",
           "organizer": "CNJE",
-          "last_registration_at": "2016-09-18T12:03:19.120+02:00",
-          "last_sort_at": "2016-09-28T12:03:19.120+02:00",
-          "online_at": "2016-09-13T11:03:19.120+02:00",
-          "registration_starts_at": "2016-09-13T11:33:19.120+02:00",
+          "last_registration_at": "2016-09-18T16:07:47.000+02:00",
+          "last_sort_at": "2016-09-28T16:07:47.000+02:00",
+          "online_at": "2016-09-13T15:07:47.000+02:00",
+          "registration_starts_at": "2016-09-13T15:37:47.000+02:00",
           "description": "Event Description",
           "seats_capacity": 100,
           "special_seats_capacity": 0,
           "cover_photo_url": null,
-          "attendants": [          ],
           "status": "published",
           "type": "open_local",
           "address": null,
           "documents": [          ],
-          "places": [          ]
+          "places": [          ],
+          "attendants": [
+            {
+              "id": 1924,
+              "departure_at": "2016-09-13T16:07:47.015+02:00",
+              "departure_kind_of_transport": "car",
+              "departure_place": "Paris",
+              "arrival_at": "2016-09-23T16:07:47.015+02:00",
+              "arrival_kind_of_transport": "car",
+              "arrival_place": "Paris",
+              "presence_status": 0,
+              "created_at": "2016-09-13T16:07:47.024+02:00",
+              "user": {
+                "id": 1929,
+                "first_name": "Evan",
+                "last_name": "Faure"
+              }
+            }
+          ]
         }
       ],
       "recruitment_weekends": [
         {
-          "id": 2346,
+          "id": 1930,
           "registration_kind": "user",
           "cv_is_mandatory": false,
           "special_dates_are_active": false,
-          "starts_at": "2016-10-13T12:03:19.131+02:00",
-          "ends_at": "2016-10-23T12:03:19.131+02:00",
+          "starts_at": "2016-10-13T16:07:47.025+02:00",
+          "ends_at": "2016-10-23T16:07:47.026+02:00",
           "name": "Event Name",
           "organizer": "CNJE",
-          "last_registration_at": "2016-09-18T12:03:19.131+02:00",
-          "last_sort_at": "2016-09-28T12:03:19.131+02:00",
-          "online_at": "2016-09-13T11:03:19.131+02:00",
-          "registration_starts_at": "2016-09-13T11:33:19.131+02:00",
+          "last_registration_at": "2016-09-18T16:07:47.025+02:00",
+          "last_sort_at": "2016-09-28T16:07:47.025+02:00",
+          "online_at": "2016-09-13T15:07:47.025+02:00",
+          "registration_starts_at": "2016-09-13T15:37:47.025+02:00",
           "description": "Event Description",
           "seats_capacity": 100,
           "special_seats_capacity": 0,
           "cover_photo_url": null,
-          "attendants": [          ],
           "status": "published",
           "type": "recruitment_weekend",
           "address": null,
           "documents": [          ],
-          "places": [          ]
+          "places": [          ],
+          "attendants": [
+            {
+              "id": 1937,
+              "departure_at": "2016-09-13T16:07:47.041+02:00",
+              "departure_kind_of_transport": "car",
+              "departure_place": "Paris",
+              "arrival_at": "2016-09-23T16:07:47.041+02:00",
+              "arrival_kind_of_transport": "car",
+              "arrival_place": "Paris",
+              "presence_status": 0,
+              "created_at": "2016-09-13T16:07:47.048+02:00",
+              "user": {
+                "id": 1942,
+                "first_name": "Emilie",
+                "last_name": "Charpentier"
+              }
+            }
+          ]
         }
       ],
       "handover_weekends": [
         {
-          "id": 2347,
+          "id": 1943,
           "registration_kind": "user",
           "cv_is_mandatory": false,
           "special_dates_are_active": false,
-          "starts_at": "2016-10-13T12:03:19.146+02:00",
-          "ends_at": "2016-10-23T12:03:19.146+02:00",
+          "starts_at": "2016-10-13T16:07:47.049+02:00",
+          "ends_at": "2016-10-23T16:07:47.049+02:00",
           "name": "Event Name",
           "organizer": "CNJE",
-          "last_registration_at": "2016-09-18T12:03:19.146+02:00",
-          "last_sort_at": "2016-09-28T12:03:19.146+02:00",
-          "online_at": "2016-09-13T11:03:19.146+02:00",
-          "registration_starts_at": "2016-09-13T11:33:19.146+02:00",
+          "last_registration_at": "2016-09-18T16:07:47.049+02:00",
+          "last_sort_at": "2016-09-28T16:07:47.049+02:00",
+          "online_at": "2016-09-13T15:07:47.049+02:00",
+          "registration_starts_at": "2016-09-13T15:37:47.049+02:00",
           "description": "Event Description",
           "seats_capacity": 100,
           "special_seats_capacity": 0,
           "cover_photo_url": null,
-          "attendants": [          ],
           "status": "published",
           "type": "handover_weekend",
           "address": null,
           "documents": [          ],
-          "places": [          ]
+          "places": [          ],
+          "attendants": [
+            {
+              "id": 1950,
+              "departure_at": "2016-09-13T16:07:47.063+02:00",
+              "departure_kind_of_transport": "car",
+              "departure_place": "Paris",
+              "arrival_at": "2016-09-23T16:07:47.063+02:00",
+              "arrival_kind_of_transport": "car",
+              "arrival_place": "Paris",
+              "presence_status": 0,
+              "created_at": "2016-09-13T16:07:47.071+02:00",
+              "user": {
+                "id": 1955,
+                "first_name": "Clémence",
+                "last_name": "Lefevre"
+              }
+            }
+          ]
         }
       ]
     }

@@ -1,21 +1,21 @@
 {
   "quality_inspections": [
     {
-      "id": 1246,
-      "at": "2016-09-14T00:00:00.000+02:00",
+      "id": 2319,
+      "at": "2016-10-18T00:00:00.000+02:00",
       "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
       "final_decision": "pending",
       "junior": {
-        "id": 1259,
-        "full_name": "Riviere SAS",
-        "common_name": "Garnier et Berger",
+        "id": 2332,
+        "full_name": "Dupuis GIE",
+        "common_name": "Garnier et Lecomte",
         "junior_type": "candidate"
       },
       "inspectors": [
         {
-          "id": 1261,
-          "first_name": "Léa",
-          "last_name": "Gaillard",
+          "id": 2334,
+          "first_name": "Sacha",
+          "last_name": "Schmitt",
           "report_url": null,
           "report_status": "pending"
         }

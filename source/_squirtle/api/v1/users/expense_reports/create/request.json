@@ -2,8 +2,8 @@
   "expense_report": {
     "expenses": [
       {
-        "junior_id": "70",
-        "category_id": "19",
+        "junior_id": "133",
+        "category_id": "44",
         "transport_id": "1",
         "starting_city": "STARTING_CITY",
         "arrival_city": "ARRIVAL_CITY",
@@ -16,7 +16,7 @@
         "total_amount": "100000",
         "documents": [
           {
-            "document": "#<ActionDispatch::Http::UploadedFile:0x007ff8b2bf2478>"
+            "document": "#<ActionDispatch::Http::UploadedFile:0x007f9f442fd650>"
           }
         ]
       }

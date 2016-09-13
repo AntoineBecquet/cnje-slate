@@ -4,14 +4,14 @@
       "report_status": "pending",
       "report_url": null,
       "quality_inspection": {
-        "id": 1396,
-        "at": "2016-11-01T00:00:00.000+01:00",
+        "id": 1521,
+        "at": "2016-11-18T00:00:00.000+01:00",
         "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
         "final_decision": "pending",
         "junior": {
-          "id": 1395,
-          "full_name": "Joly SA",
-          "common_name": "Barbier SAS",
+          "id": 1520,
+          "full_name": "Carre et Maillard",
+          "common_name": "Philippe GIE",
           "junior_type": "candidate"
         }
       }

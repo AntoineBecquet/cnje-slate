@@ -1,24 +1,24 @@
 {
   "audit": {
-    "id": 1379,
+    "id": 2454,
     "auditable_at": null,
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
-    "audit_session_id": 1378,
+    "audit_session_id": 2453,
     "junior": {
-      "id": 1377,
-      "full_name": "Roux EI",
-      "common_name": "Lacroix et Richard",
+      "id": 2452,
+      "full_name": "Menard SAS",
+      "common_name": "Cousin et Fournier",
       "junior_type": "candidate"
     },
     "auditors": [
       {
-        "id": 1382,
-        "first_name": "Léa",
-        "last_name": "Lemaire",
+        "id": 2457,
+        "first_name": "Célia",
+        "last_name": "Marchal",
         "response_at": null,
         "status": "pending",
         "report_url": null,
@@ -27,9 +27,9 @@
     ],
     "debriefers": [
       {
-        "id": 1385,
-        "first_name": "Sacha",
-        "last_name": "Morin",
+        "id": 2460,
+        "first_name": "Lola",
+        "last_name": "Lecomte",
         "debriefing_url": null
       }
     ]

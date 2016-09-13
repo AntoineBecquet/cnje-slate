@@ -1,37 +1,37 @@
 {
   "ticket": {
-    "id": "7a322893-f409-47cb-ae72-477c421626ea",
+    "id": "c00bf994-a06e-4522-8700-acb71ac50ae8",
     "title": "TicketTitle",
     "content": "TicketContent",
     "status": "pending_cnje_answer",
-    "created_at": "2016-09-13T11:36:09.835+02:00",
+    "created_at": "2016-09-13T16:08:29.636+02:00",
     "will_reopen_at": null,
     "creator": {
-      "id": 2452,
-      "first_name": "Nathan",
-      "last_name": "Gerard"
+      "id": 2795,
+      "first_name": "Mael",
+      "last_name": "Durand"
     },
     "junior": {
-      "id": 2455,
-      "full_name": "Berger et Francois",
-      "common_name": "Perrot SEM",
+      "id": 2798,
+      "full_name": "Le gall et Aubert",
+      "common_name": "Barre SAS",
       "junior_type": "candidate"
     },
     "taken_by_user": null,
     "theme": {
-      "id": 2456,
+      "id": 2799,
       "name": "ThemeName",
       "fields": [],
       "permissions": []
     },
     "messages": [
       {
-        "id": "81615d5c-2110-4684-9ce4-ba9215e63ec8",
+        "id": "38c95fb1-9656-4ee1-b0ce-48f8fbc98234",
         "content": "MessageContent",
         "user": {
-          "id": 229,
-          "first_name": "Emilie",
-          "last_name": "Lefevre"
+          "id": 265,
+          "first_name": "Carla",
+          "last_name": "Marty"
         }
       }
     ]
