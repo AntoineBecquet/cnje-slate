@@ -1,16 +1,16 @@
 {
   "maif_membership_juniors": [
     {
-      "id": 1081,
+      "id": 2263,
       "certificate_url": null,
       "junior": {
-        "id": 1080,
-        "full_name": "Boyer et Menard",
-        "common_name": "Marchand SARL",
+        "id": 2262,
+        "full_name": "Schmitt EURL",
+        "common_name": "Bourgeois SAS",
         "junior_type": "candidate"
       },
       "invoice": {
-        "id": "79239441-bfd5-4981-a70c-55c3f15c1282",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1285",
         "title": "InvoiceTitle",
         "generated_at": "2016-09-13",
         "invoice_url": null

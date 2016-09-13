@@ -1,25 +1,25 @@
 {
   "user": {
-    "id": 238,
+    "id": 205,
     "privacy": "public",
-    "email": "esmeralda.romaguera@koeppbernier.biz",
-    "junior_email": "kallie@greenreinger.net",
+    "email": "lawrence@mertz.net",
+    "junior_email": "eliseo@herzog.io",
     "civility": "mrs",
-    "first_name": "Emilie",
-    "last_name": "Royer",
+    "first_name": "Hugo",
+    "last_name": "Thomas",
     "birth_date": "1996-09-13",
     "phone_number": "0101010101",
     "allows_photos_on_events": true,
     "allows_newsletter": false,
     "curriculum_url": null,
     "address": {
-      "id": 2691,
+      "id": 2363,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 2690,
+      "department_id": 2362,
       "full": ""
     }
   }

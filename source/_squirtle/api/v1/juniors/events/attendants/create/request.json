@@ -1,11 +1,11 @@
 {
   "attendants": [
     {
-      "user_id": "90",
-      "departure_at": "2016-09-13T11:04:07+02:00",
+      "user_id": "44",
+      "departure_at": "2016-09-13T12:02:28+02:00",
       "departure_kind_of_transport": "car",
       "departure_place": "",
-      "arrival_at": "2016-09-18T11:04:07+02:00",
+      "arrival_at": "2016-09-18T12:02:28+02:00",
       "arrival_kind_of_transport": "car",
       "arrival_place": ""
     }

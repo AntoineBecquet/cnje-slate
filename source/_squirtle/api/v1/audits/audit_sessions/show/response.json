@@ -1,30 +1,30 @@
 {
   "audit_session": {
-    "id": 31,
-    "starts_at": "2016-09-23T00:00:00.000+02:00",
-    "ends_at": "2016-10-23T00:00:00.000+02:00",
+    "id": 2,
+    "starts_at": "2016-09-30T00:00:00.000+02:00",
+    "ends_at": "2016-10-30T00:00:00.000+02:00",
     "status": "pending",
     "audits": [
       {
-        "id": 21,
+        "id": 1,
         "auditable_at": null,
         "debriefing_date": null,
         "final_decision": "pending",
         "specifications_url": null,
         "orga_grid_status": "pending_distribution",
         "treso_grid_status": "pending_distribution",
-        "audit_session_id": 31,
+        "audit_session_id": 2,
         "junior": {
-          "id": 197,
-          "full_name": "Blanc EI",
-          "common_name": "Arnaud et Dupont",
+          "id": 11,
+          "full_name": "Rey et Robert",
+          "common_name": "Francois et Vasseur",
           "junior_type": "candidate"
         },
         "auditors": [
           {
-            "id": 256,
-            "first_name": "Célia",
-            "last_name": "Louis",
+            "id": 12,
+            "first_name": "Clara",
+            "last_name": "Paris",
             "response_at": null,
             "status": "pending",
             "report_url": null,
@@ -33,9 +33,9 @@
         ],
         "debriefers": [
           {
-            "id": 256,
-            "first_name": "Célia",
-            "last_name": "Louis",
+            "id": 12,
+            "first_name": "Clara",
+            "last_name": "Paris",
             "debriefing_url": null
           }
         ]

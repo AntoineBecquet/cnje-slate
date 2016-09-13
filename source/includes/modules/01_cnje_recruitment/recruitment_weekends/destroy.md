@@ -1,4 +1,4 @@
-### Remove a recruitment weekend
+### Remove a Recruitment Weekend
 
 ```http
 DELETE /cnje_recruitment/:cnje_recruitment_id/recruitment_weekends/:recruitment_weekend_id HTTP/1.1

@@ -1,50 +1,50 @@
 {
   "junior": {
     "id": 1,
-    "full_name": "Leclerc GIE",
-    "common_name": "Arnaud et Gonzalez",
-    "email": "aubrey.larson@damore.net",
-    "phone_number": "0422071183",
-    "website": "http://witting.info/garrison",
+    "full_name": "Aubert et Thomas",
+    "common_name": "Brun SCOP",
+    "email": "olin.stroman@lubowitz.com",
+    "phone_number": "0732316142",
+    "website": "http://halvorsonrowe.io/maritza_dietrich",
     "organization_created_at": null,
     "accountant_closed_at": null,
     "board_started_at": null,
-    "description": "Olivier EURL",
+    "description": "Duval SARL",
     "nb_members": 200,
     "junior_sponsor_id": 1,
-    "logo": "/uploads/cache/juniors/4acba7013a845a9c191f2f0d3c0af8/85cbde005afa52bd65cfb3dff0576f/logos/655c6b1030.jpg",
-    "status": "/uploads/cache/versioneddocument/document/798d585691.jpg",
-    "internal_policy": "/uploads/cache/versioneddocument/document/139e1341c5.jpg",
+    "logo": "/uploads/cache/juniors/eaaa34444fe0b6580fc5992c4586f1/691ecce067a99e6760d3d5c4eed3e1/logos/b9de165f58.jpg",
+    "status": "/uploads/cache/versioneddocument/document/c8009e8388.jpg",
+    "internal_policy": "/uploads/cache/versioneddocument/document/7edd5cdb38.jpg",
     "address": {
-      "id": 119,
+      "id": 9,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 54,
+      "department_id": 2,
       "full": ""
     },
     "domains": [
       {
         "id": 1,
-        "name": "Camille Renault"
+        "name": "Noa Guerin"
       }
     ],
     "partners": [
       {
-        "id": 1517,
-        "full_name": "Boyer EURL",
-        "common_name": "Brunet et Bertrand",
+        "id": 1005,
+        "full_name": "Laine EI",
+        "common_name": "Charpentier et Durand",
         "junior_type": "candidate"
       }
     ],
     "bank_accounts": [
       {
-        "id": 1518,
+        "id": 1006,
         "iban": "FR7613106005002000743520962",
         "bic": "CMCIFR2A",
-        "sepa": "/uploads/cache/bank_accounts/65ef028d4c61a49d6f895b9fefac0f/2366bbb3613fdf4c480a5a2f231293/dac954610c.jpg"
+        "sepa": "/uploads/cache/bank_accounts/0d597a810700bc68cc7476c9a19dd7/db9e3077fce72a4e570aa1d3ca0b57/6471413062.jpg"
       }
     ],
     "status_versions": [    ],

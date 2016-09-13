@@ -1,20 +1,20 @@
 {
   "events": [
     {
-      "id": 1184,
+      "id": 2882,
       "registration_kind": "user",
       "cv_is_mandatory": false,
       "special_dates_are_active": false,
-      "starts_at": "2016-10-13T11:03:30.842+02:00",
-      "ends_at": "2016-10-23T11:03:30.842+02:00",
+      "starts_at": "2016-10-13T11:36:31.660+02:00",
+      "ends_at": "2016-10-23T11:36:31.660+02:00",
       "can_register_without_account": true,
       "invoice_for_junior": false,
       "name": "Event Name",
       "organizer": "CNJE",
-      "last_registration_at": "2016-09-18T11:03:30.842+02:00",
-      "last_sort_at": "2016-09-28T11:03:30.842+02:00",
-      "online_at": "2016-09-13T10:03:30.842+02:00",
-      "registration_starts_at": "2016-09-13T10:33:30.842+02:00",
+      "last_registration_at": "2016-09-18T11:36:31.659+02:00",
+      "last_sort_at": "2016-09-28T11:36:31.660+02:00",
+      "online_at": "2016-09-13T10:36:31.659+02:00",
+      "registration_starts_at": "2016-09-13T11:06:31.659+02:00",
       "description": "Event Description",
       "seats_capacity": 100,
       "special_seats_capacity": 0,
@@ -23,62 +23,62 @@
       "cover_photo_url": null,
       "attendants": [
         {
-          "id": 1205,
-          "created_at": "2016-09-13T11:03:30.952+02:00",
+          "id": 2903,
+          "created_at": "2016-09-13T11:36:31.715+02:00",
           "type": "no_account_attendant",
-          "departure_at": "2016-09-13T11:03:30.936+02:00",
+          "departure_at": "2016-09-13T11:36:31.698+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T11:03:30.937+02:00",
+          "arrival_at": "2016-09-23T11:36:31.698+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "profile": {
-            "first_name": "Anaïs",
-            "last_name": "Le gall",
-            "email": "jayce.dickinson@adamsoreilly.net",
+            "first_name": "Noémie",
+            "last_name": "Gauthier",
+            "email": "stacy@schusterrempel.name",
             "company": "",
             "comment": null
           }
         },
         {
-          "id": 1211,
-          "created_at": "2016-09-13T11:03:30.953+02:00",
+          "id": 2909,
+          "created_at": "2016-09-13T11:36:31.716+02:00",
           "type": "junior_attendant",
-          "departure_at": "2016-09-13T11:03:30.944+02:00",
+          "departure_at": "2016-09-13T11:36:31.707+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T11:03:30.945+02:00",
+          "arrival_at": "2016-09-23T11:36:31.707+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "user": {
-            "id": 1216,
-            "first_name": "Lucas",
-            "last_name": "Leclercq"
+            "id": 2914,
+            "first_name": "Antoine",
+            "last_name": "Nicolas"
           }
         }
       ],
       "status": "published",
       "type": null,
       "address": {
-        "id": 1183,
+        "id": 2881,
         "line1": "line1",
         "line2": "line2",
         "city": "Paris",
         "country": "FR",
         "postal_code": "75018",
-        "department_id": 1182,
+        "department_id": 2880,
         "full": ""
       },
       "prices": [
         {
-          "id": 1217,
+          "id": 2915,
           "description": "Event Price Description",
           "price_in_cents": 1000,
           "discounts": [
             {
-              "id": 1219,
+              "id": 2917,
               "minimum_turnover_in_cents": 100,
               "maximum_turnover_in_cents": 1000,
               "amount_in_cents": 10000
@@ -88,46 +88,46 @@
       ],
       "documents": [
         {
-          "id": "fa04f389-442b-4a3b-a1c2-669e1bdb6bfa",
+          "id": "84817cc5-e1c2-46da-ae98-452fbd1ddcc0",
           "name": "Document's Name"
         }
       ],
       "waiting_list": [
         {
-          "id": 1220,
-          "created_at": "2016-09-13T11:03:30.976+02:00",
+          "id": 2918,
+          "created_at": "2016-09-13T11:36:31.739+02:00",
           "type": "waiting_list_attendant",
-          "departure_at": "2016-09-13T11:03:30.965+02:00",
+          "departure_at": "2016-09-13T11:36:31.732+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T11:03:30.965+02:00",
+          "arrival_at": "2016-09-23T11:36:31.732+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "position": 0,
           "user": {
-            "id": 1225,
-            "first_name": "Ambre",
-            "last_name": "Dupuis"
+            "id": 2923,
+            "first_name": "Emilie",
+            "last_name": "Michel"
           }
         }
       ],
       "pending_no_account_attendants": [
         {
-          "id": 1227,
-          "created_at": "2016-09-13T11:03:30.988+02:00",
+          "id": 2925,
+          "created_at": "2016-09-13T11:36:31.749+02:00",
           "type": "pending_no_account_attendant",
-          "departure_at": "2016-09-13T11:03:30.978+02:00",
+          "departure_at": "2016-09-13T11:36:31.741+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T11:03:30.978+02:00",
+          "arrival_at": "2016-09-23T11:36:31.741+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "profile": {
-            "first_name": "Océane",
-            "last_name": "David",
-            "email": "rick_hegmann@greenkertzmann.org",
+            "first_name": "Jeanne",
+            "last_name": "Carre",
+            "email": "bridgette@mooreparker.info",
             "company": "",
             "comment": null
           }
@@ -135,16 +135,16 @@
       ],
       "places": [
         {
-          "id": 1233,
-          "kind_of_transport": "plane",
+          "id": 2931,
+          "kind_of_transport": "coach",
           "arrival_place": "Somewhere over the rainbow"
         }
       ],
       "linked_juniors": [
         {
-          "id": 1236,
-          "full_name": "Francois et Durand",
-          "common_name": "Boyer et Paul",
+          "id": 2934,
+          "full_name": "Le gall SAS",
+          "common_name": "Marchand et Roche",
           "junior_type": "candidate"
         }
       ]

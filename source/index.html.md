@@ -22,6 +22,8 @@ includes:
   - modules/01_cnje_recruitment/open_locals/create
   - modules/01_cnje_recruitment/open_locals/update
   - modules/01_cnje_recruitment/open_locals/destroy
+  - modules/01_cnje_recruitment/open_locals/attendants/create
+  - modules/01_cnje_recruitment/open_locals/attendants/update
   - modules/01_cnje_recruitment/recruitment_weekends/create
   - modules/01_cnje_recruitment/recruitment_weekends/update
   - modules/01_cnje_recruitment/recruitment_weekends/destroy

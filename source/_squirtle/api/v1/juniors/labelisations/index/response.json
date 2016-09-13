@@ -1,14 +1,14 @@
 {
   "labelisations": [
     {
-      "id": 1013,
+      "id": 1607,
       "labelisation_type": "candidate",
       "judgement": "pending",
       "application_form_url": null,
       "junior": {
-        "id": 1012,
-        "full_name": "Lambert et Masson",
-        "common_name": "Collet GIE",
+        "id": 1606,
+        "full_name": "Nicolas EI",
+        "common_name": "Lefebvre SCOP",
         "junior_type": "candidate"
       }
     }

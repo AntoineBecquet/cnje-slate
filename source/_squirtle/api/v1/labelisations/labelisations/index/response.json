@@ -1,14 +1,14 @@
 {
   "labelisations": [
     {
-      "id": 1935,
+      "id": 1016,
       "labelisation_type": "candidate",
       "judgement": "pending",
       "application_form_url": null,
       "junior": {
-        "id": 1934,
-        "full_name": "Meunier GIE",
-        "common_name": "Laurent SARL",
+        "id": 1015,
+        "full_name": "Simon et Nicolas",
+        "common_name": "Collet EI",
         "junior_type": "candidate"
       }
     }

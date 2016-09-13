@@ -1,25 +1,25 @@
 {
   "ticket": {
-    "id": "1593b111-6589-47e3-9557-7fecd6445cc0",
+    "id": "cb8f2462-1b11-4a0c-a089-b6425c3826a9",
     "title": "TicketTitle",
     "content": "TicketContent",
     "status": "pending_cnje_answer",
-    "created_at": "2016-09-13T11:03:27.588+02:00",
+    "created_at": "2016-09-13T12:02:21.637+02:00",
     "will_reopen_at": null,
     "creator": {
-      "id": 13,
-      "first_name": "Lola",
-      "last_name": "Sanchez"
+      "id": 15,
+      "first_name": "Sacha",
+      "last_name": "Huet"
     },
     "junior": {
-      "id": 6,
-      "full_name": "Louis et Charles",
-      "common_name": "Francois et Boyer",
+      "id": 14,
+      "full_name": "Guillot et Carpentier",
+      "common_name": "Thomas et Deschamps",
       "junior_type": "candidate"
     },
     "taken_by_user": null,
     "theme": {
-      "id": 4,
+      "id": 8,
       "name": "ThemeName"
     }
   }

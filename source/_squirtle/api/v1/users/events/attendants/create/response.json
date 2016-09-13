@@ -1,20 +1,20 @@
 {
   "attendants": [
     {
-      "id": 7,
-      "created_at": "2016-09-13T11:04:29.879+02:00",
+      "id": 19,
+      "created_at": "2016-09-13T12:03:13.402+02:00",
       "type": "user_with_junior_attendant",
-      "departure_at": "2016-09-13T11:04:29.000+02:00",
+      "departure_at": "2016-09-13T12:03:13.000+02:00",
       "departure_kind_of_transport": "car",
       "departure_place": "",
-      "arrival_at": "2016-09-18T11:04:29.000+02:00",
+      "arrival_at": "2016-09-18T12:03:13.000+02:00",
       "arrival_kind_of_transport": "car",
       "arrival_place": "",
       "issue": null,
       "user": {
-        "id": 148,
-        "first_name": "Lucie",
-        "last_name": "Breton"
+        "id": 159,
+        "first_name": "Lisa",
+        "last_name": "Fernandez"
       }
     }
   ],

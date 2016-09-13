@@ -4,14 +4,14 @@
       "report_status": "pending",
       "report_url": null,
       "quality_inspection": {
-        "id": 2316,
-        "at": "2016-12-11T00:00:00.000+01:00",
+        "id": 1396,
+        "at": "2016-11-01T00:00:00.000+01:00",
         "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
         "final_decision": "pending",
         "junior": {
-          "id": 2315,
-          "full_name": "Guillaume et Lemaire",
-          "common_name": "Bonnet et Collet",
+          "id": 1395,
+          "full_name": "Joly SA",
+          "common_name": "Barbier SAS",
           "junior_type": "candidate"
         }
       }
