@@ -1,13 +1,13 @@
 {
   "auditor_recruitment_session_candidate": {
-    "id": 9,
+    "id": 13,
     "wefa_status": "wefa_status_pending",
     "wefa_date": null,
     "application_status": "application_status_pending",
     "user": {
-      "id": 264,
-      "first_name": "Lilou",
-      "last_name": "Pons"
+      "id": 83,
+      "first_name": "Lola",
+      "last_name": "Meunier"
     }
   }
 }

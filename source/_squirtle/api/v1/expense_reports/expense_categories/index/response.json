@@ -1,12 +1,12 @@
 {
   "expense_categories": [
     {
-      "id": 1948,
-      "name": "Dr Carla Meyer",
+      "id": 2937,
+      "name": "Morel Louis",
       "children": [
         {
-          "id": 1949,
-          "name": "Alice Martinez",
+          "id": 2938,
+          "name": "Prof Manon Garnier",
           "children": [          ]
         }
       ]

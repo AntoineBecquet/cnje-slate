@@ -1,0 +1,4 @@
+---
+:status: 202
+:verb: PUT
+:path: "/api/v1/cnje_recruitments/:cnje_recruitment_id/open_locals/:open_local_id"

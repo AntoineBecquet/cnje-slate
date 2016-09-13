@@ -1,37 +1,37 @@
 {
   "ticket": {
-    "id": "85a73704-a48c-4ab1-bd80-252c53910027",
+    "id": "31a98e34-0724-4cc7-ab90-acc2bd169b7e",
     "title": "TicketTitle",
     "content": "TicketContent",
     "status": "pending_cnje_answer",
-    "created_at": "2016-09-09T10:55:47.286+02:00",
+    "created_at": "2016-09-13T11:04:17.647+02:00",
     "will_reopen_at": null,
     "creator": {
-      "id": 1805,
-      "first_name": "Julie",
-      "last_name": "Guyot"
+      "id": 2141,
+      "first_name": "Théo",
+      "last_name": "Meyer"
     },
     "junior": {
-      "id": 1808,
-      "full_name": "Chevalier et Dubois",
-      "common_name": "Fournier et Roux",
+      "id": 2144,
+      "full_name": "Berger SEM",
+      "common_name": "Denis et Fournier",
       "junior_type": "candidate"
     },
     "taken_by_user": null,
     "theme": {
-      "id": 1809,
+      "id": 2145,
       "name": "ThemeName",
       "fields": [],
       "permissions": []
     },
     "messages": [
       {
-        "id": "5bd8a38a-0345-4105-9c4a-c41387011828",
+        "id": "07310e91-0f5c-4e13-aba7-52679f0477a8",
         "content": "MessageContent",
         "user": {
-          "id": 108,
-          "first_name": "Pauline",
-          "last_name": "Pons"
+          "id": 128,
+          "first_name": "Alicia",
+          "last_name": "Philippe"
         }
       }
     ]

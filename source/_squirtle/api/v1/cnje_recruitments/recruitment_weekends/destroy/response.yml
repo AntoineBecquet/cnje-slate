@@ -1,0 +1,4 @@
+---
+:status: 204
+:verb: DELETE
+:path: "/api/v1/cnje_recruitments/:cnje_recruitment_id/recruitment_weekends/:recruitment_weekend_id"

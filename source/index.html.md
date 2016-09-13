@@ -19,6 +19,9 @@ includes:
   - modules/01_cnje_recruitment
   - modules/01_cnje_recruitment/cnje_recruitment/index
   - modules/01_cnje_recruitment/cnje_recruitment/create
+  - modules/01_cnje_recruitment/open_locals/create
+  - modules/01_cnje_recruitment/open_locals/update
+  - modules/01_cnje_recruitment/open_locals/destroy
   - modules/02_tenders
   - modules/02_tenders/index
   - modules/02_tenders/show

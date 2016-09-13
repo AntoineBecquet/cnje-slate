@@ -1,24 +1,24 @@
 {
   "audit": {
-    "id": 1341,
+    "id": 2009,
     "auditable_at": null,
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
-    "audit_session_id": 1340,
+    "audit_session_id": 2008,
     "junior": {
-      "id": 1339,
-      "full_name": "Roux et Vidal",
-      "common_name": "Faure et Lopez",
+      "id": 2007,
+      "full_name": "Carre et Martinez",
+      "common_name": "Mercier et Roux",
       "junior_type": "candidate"
     },
     "auditors": [
       {
-        "id": 1344,
-        "first_name": "Axel",
-        "last_name": "Guillot",
+        "id": 2012,
+        "first_name": "Maxence",
+        "last_name": "Denis",
         "response_at": null,
         "status": "pending",
         "report_url": null,
@@ -27,9 +27,9 @@
     ],
     "debriefers": [
       {
-        "id": 1347,
-        "first_name": "Nathan",
-        "last_name": "Deschamps",
+        "id": 2015,
+        "first_name": "Baptiste",
+        "last_name": "Carre",
         "debriefing_url": null
       }
     ]

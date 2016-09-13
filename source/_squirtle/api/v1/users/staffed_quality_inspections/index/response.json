@@ -4,14 +4,14 @@
       "report_status": "pending",
       "report_url": null,
       "quality_inspection": {
-        "id": 1838,
-        "at": "2016-10-01T00:00:00.000+02:00",
+        "id": 2316,
+        "at": "2016-12-11T00:00:00.000+01:00",
         "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
         "final_decision": "pending",
         "junior": {
-          "id": 1837,
-          "full_name": "Muller SARL",
-          "common_name": "Lemoine et Marchand",
+          "id": 2315,
+          "full_name": "Guillaume et Lemaire",
+          "common_name": "Bonnet et Collet",
           "junior_type": "candidate"
         }
       }

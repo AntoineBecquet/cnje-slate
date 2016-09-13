@@ -1,0 +1,4 @@
+---
+:status: 201
+:verb: POST
+:path: "/api/v1/cnje_recruitments/:cnje_recruitment_id/handover_weekends"

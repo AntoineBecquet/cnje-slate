@@ -1,18 +1,18 @@
 {
   "maif_membership_juniors": [
     {
-      "id": 2489,
+      "id": 1081,
       "certificate_url": null,
       "junior": {
-        "id": 2488,
-        "full_name": "Renard EURL",
-        "common_name": "Lambert et Benoit",
+        "id": 1080,
+        "full_name": "Boyer et Menard",
+        "common_name": "Marchand SARL",
         "junior_type": "candidate"
       },
       "invoice": {
-        "id": "79239441-bfd5-4981-a70c-55c3f15c1285",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1282",
         "title": "InvoiceTitle",
-        "generated_at": "2016-09-09",
+        "generated_at": "2016-09-13",
         "invoice_url": null
       }
     }

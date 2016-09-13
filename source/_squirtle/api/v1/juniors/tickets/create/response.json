@@ -1,25 +1,25 @@
 {
   "ticket": {
-    "id": "44e2ac16-5829-4954-ad16-8cec3d1712d9",
+    "id": "1593b111-6589-47e3-9557-7fecd6445cc0",
     "title": "TicketTitle",
     "content": "TicketContent",
     "status": "pending_cnje_answer",
-    "created_at": "2016-09-09T10:55:30.710+02:00",
+    "created_at": "2016-09-13T11:03:27.588+02:00",
     "will_reopen_at": null,
     "creator": {
-      "id": 54,
-      "first_name": "Justine",
-      "last_name": "Gonzalez"
+      "id": 13,
+      "first_name": "Lola",
+      "last_name": "Sanchez"
     },
     "junior": {
-      "id": 40,
-      "full_name": "Robin SA",
-      "common_name": "Aubry et Paul",
+      "id": 6,
+      "full_name": "Louis et Charles",
+      "common_name": "Francois et Boyer",
       "junior_type": "candidate"
     },
     "taken_by_user": null,
     "theme": {
-      "id": 47,
+      "id": 4,
       "name": "ThemeName"
     }
   }

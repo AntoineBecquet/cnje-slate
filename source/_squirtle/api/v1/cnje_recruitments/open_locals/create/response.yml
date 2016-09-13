@@ -1,0 +1,4 @@
+---
+:status: 200
+:verb: POST
+:path: "/api/v1/cnje_recruitments/:cnje_recruitment_id/open_locals"

@@ -1,19 +1,19 @@
 {
   "attendant": {
     "id": 18,
-    "created_at": "2016-09-09T10:56:10.219+02:00",
+    "created_at": "2016-09-13T11:05:02.824+02:00",
     "type": "pending_no_account_attendant",
-    "departure_at": "2016-09-09T10:56:10.000+02:00",
+    "departure_at": "2016-09-13T11:05:02.000+02:00",
     "departure_kind_of_transport": "car",
     "departure_place": "",
-    "arrival_at": "2016-09-14T10:56:10.000+02:00",
+    "arrival_at": "2016-09-18T11:05:02.000+02:00",
     "arrival_kind_of_transport": "car",
     "arrival_place": "",
     "issue": null,
     "profile": {
-      "first_name": "Ethan",
-      "last_name": "Girard",
-      "email": "stevie_grant@walsh.biz",
+      "first_name": "Célia",
+      "last_name": "Hubert",
+      "email": "curt.howe@johnston.info",
       "company": "",
       "comment": null
     }

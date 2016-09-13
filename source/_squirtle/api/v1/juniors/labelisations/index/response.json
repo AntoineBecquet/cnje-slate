@@ -1,14 +1,14 @@
 {
   "labelisations": [
     {
-      "id": 1845,
+      "id": 1013,
       "labelisation_type": "candidate",
       "judgement": "pending",
       "application_form_url": null,
       "junior": {
-        "id": 1844,
-        "full_name": "Olivier GIE",
-        "common_name": "Faure et Le roux",
+        "id": 1012,
+        "full_name": "Lambert et Masson",
+        "common_name": "Collet GIE",
         "junior_type": "candidate"
       }
     }

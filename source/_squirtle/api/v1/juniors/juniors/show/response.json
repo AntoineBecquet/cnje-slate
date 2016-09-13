@@ -1,50 +1,50 @@
 {
   "junior": {
     "id": 1,
-    "full_name": "Legrand et Marchand",
-    "common_name": "Blanchard EI",
-    "email": "deangelo.kiehn@krajcik.biz",
-    "phone_number": "0476439329",
-    "website": "http://harber.io/tania",
+    "full_name": "Leclerc GIE",
+    "common_name": "Arnaud et Gonzalez",
+    "email": "aubrey.larson@damore.net",
+    "phone_number": "0422071183",
+    "website": "http://witting.info/garrison",
     "organization_created_at": null,
     "accountant_closed_at": null,
     "board_started_at": null,
-    "description": "Pierre GIE",
+    "description": "Olivier EURL",
     "nb_members": 200,
     "junior_sponsor_id": 1,
-    "logo": "/uploads/cache/juniors/f65a9d0aa3fa20e475ff38b98395c1/be006a336cc09085618a71cbf8efe0/logos/cbb6ac5a56.jpg",
-    "status": "/uploads/cache/versioneddocument/document/14097b2829.jpg",
-    "internal_policy": "/uploads/cache/versioneddocument/document/f9126462a8.jpg",
+    "logo": "/uploads/cache/juniors/4acba7013a845a9c191f2f0d3c0af8/85cbde005afa52bd65cfb3dff0576f/logos/655c6b1030.jpg",
+    "status": "/uploads/cache/versioneddocument/document/798d585691.jpg",
+    "internal_policy": "/uploads/cache/versioneddocument/document/139e1341c5.jpg",
     "address": {
-      "id": 214,
+      "id": 119,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 83,
+      "department_id": 54,
       "full": ""
     },
     "domains": [
       {
-        "id": 26,
-        "name": "Enzo Barbier"
+        "id": 1,
+        "name": "Camille Renault"
       }
     ],
     "partners": [
       {
-        "id": 1880,
-        "full_name": "Rey SA",
-        "common_name": "Remy et Renard",
+        "id": 1517,
+        "full_name": "Boyer EURL",
+        "common_name": "Brunet et Bertrand",
         "junior_type": "candidate"
       }
     ],
     "bank_accounts": [
       {
-        "id": 1881,
+        "id": 1518,
         "iban": "FR7613106005002000743520962",
         "bic": "CMCIFR2A",
-        "sepa": "/uploads/cache/bank_accounts/31b06e26f40b56bb2d9c3330918ed7/b2fdbf905e0c60f902ddaf87c1d236/f22f12a017.jpg"
+        "sepa": "/uploads/cache/bank_accounts/65ef028d4c61a49d6f895b9fefac0f/2366bbb3613fdf4c480a5a2f231293/dac954610c.jpg"
       }
     ],
     "status_versions": [    ],

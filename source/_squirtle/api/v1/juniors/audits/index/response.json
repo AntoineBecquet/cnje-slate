@@ -1,0 +1,13 @@
+{
+  "audits": [
+    {
+      "id": 2631,
+      "auditable_at": null,
+      "final_decision": "ac",
+      "specifications_url": "/uploads/cache/audit/a0e42c82db04c984c9deafb9156bb2/5e9f4e15ebc3e5449a547703dfe88f/specifications/84810edfcc6d00722f7325a0c8e3543c59b72d54.jpg",
+      "final_report_url": "/uploads/cache/audit/d314f756ddd5b25fc0fdc4005d1652/16a6144dc2d0891e7617214c034e5c/final_report/18a82aef3cee38278773fc6225ca0b/933ec16554.jpg",
+      "status": "pending",
+      "send_to_junior_at": null
+    }
+  ]
+}

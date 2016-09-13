@@ -1,0 +1,4 @@
+---
+:status: 204
+:verb: DELETE
+:path: "/api/v1/audits/:audit_id/debriefers/:debriefer_id"
