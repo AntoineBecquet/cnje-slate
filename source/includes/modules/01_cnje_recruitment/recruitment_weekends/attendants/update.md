@@ -12,7 +12,8 @@ PUT /recruitment_weekend_events/:event_id/attendants/:attendant_id HTTP/1.1
     "departure_place": "",
     "arrival_at": "",
     "arrival_kind_of_transport": "",
-    "arrival_place": ""
+    "arrival_place": "",
+    "presence_status": ""
   }
 }
 ```
