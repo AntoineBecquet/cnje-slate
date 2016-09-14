@@ -18,6 +18,10 @@ PUT /open_local_events/:event_id/attendants HTTP/1.1
 }
 ```
 
+```http
+HTTP/1.1 202 Accepted
+```
+
 ### Request Parameters
 
 Parameter         | Description

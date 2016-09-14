@@ -33,3 +33,7 @@ POST /cnje_recruitment/:cnje_recruitment_id/open_locals HTTP/1.1
   }
 }
 ```
+
+```http
+HTTP/1.1 201 Created
+```

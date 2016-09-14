@@ -18,6 +18,10 @@ PUT /recruitment_weekend_events/:event_id/attendants/:attendant_id HTTP/1.1
 }
 ```
 
+```http
+HTTP/1.1 202 Accepted
+```
+
 ### Request Parameters
 
 Parameter         | Description
