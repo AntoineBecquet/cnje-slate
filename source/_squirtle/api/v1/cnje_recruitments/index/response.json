@@ -1,22 +1,22 @@
 {
   "cnje_recruitments": [
     {
-      "id": 2021,
+      "id": 1003,
       "year": "2016",
       "open_locals": [
         {
-          "id": 2025,
+          "id": 1008,
           "registration_kind": "user",
           "cv_is_mandatory": false,
           "special_dates_are_active": false,
-          "starts_at": "2016-10-15T11:49:06.605+02:00",
-          "ends_at": "2016-10-25T11:49:06.605+02:00",
+          "starts_at": "2016-10-15T11:54:08.901+02:00",
+          "ends_at": "2016-10-25T11:54:08.901+02:00",
           "name": "Event Name",
           "organizer": "CNJE",
-          "last_registration_at": "2016-09-20T11:49:06.604+02:00",
-          "last_sort_at": "2016-09-30T11:49:06.605+02:00",
-          "online_at": "2016-09-15T10:49:06.604+02:00",
-          "registration_starts_at": "2016-09-15T11:19:06.604+02:00",
+          "last_registration_at": "2016-09-20T11:54:08.901+02:00",
+          "last_sort_at": "2016-09-30T11:54:08.901+02:00",
+          "online_at": "2016-09-15T10:54:08.900+02:00",
+          "registration_starts_at": "2016-09-15T11:24:08.901+02:00",
           "description": "Event Description",
           "seats_capacity": 100,
           "special_seats_capacity": 0,
@@ -26,23 +26,40 @@
           "address": null,
           "documents": [],
           "places": [],
-          "attendants": []
+          "attendants": [
+            {
+              "id": 1015,
+              "departure_at": "2016-09-15T11:54:09.119+02:00",
+              "departure_kind_of_transport": "car",
+              "departure_place": "Paris",
+              "arrival_at": "2016-09-25T11:54:09.119+02:00",
+              "arrival_kind_of_transport": "car",
+              "arrival_place": "Paris",
+              "presence_status": "unknown",
+              "created_at": "2016-09-15T11:54:09.128+02:00",
+              "user": {
+                "id": 1020,
+                "first_name": "Gabriel",
+                "last_name": "Barre"
+              }
+            }
+          ]
         }
       ],
       "recruitment_weekends": [
         {
-          "id": 2026,
+          "id": 1021,
           "registration_kind": "user",
           "cv_is_mandatory": false,
           "special_dates_are_active": false,
-          "starts_at": "2016-10-15T11:49:06.615+02:00",
-          "ends_at": "2016-10-25T11:49:06.616+02:00",
+          "starts_at": "2016-10-15T11:54:09.130+02:00",
+          "ends_at": "2016-10-25T11:54:09.130+02:00",
           "name": "Event Name",
           "organizer": "CNJE",
-          "last_registration_at": "2016-09-20T11:49:06.615+02:00",
-          "last_sort_at": "2016-09-30T11:49:06.615+02:00",
-          "online_at": "2016-09-15T10:49:06.615+02:00",
-          "registration_starts_at": "2016-09-15T11:19:06.615+02:00",
+          "last_registration_at": "2016-09-20T11:54:09.130+02:00",
+          "last_sort_at": "2016-09-30T11:54:09.130+02:00",
+          "online_at": "2016-09-15T10:54:09.130+02:00",
+          "registration_starts_at": "2016-09-15T11:24:09.130+02:00",
           "description": "Event Description",
           "seats_capacity": 100,
           "special_seats_capacity": 0,
@@ -52,23 +69,49 @@
           "address": null,
           "documents": [],
           "places": [],
-          "attendants": []
+          "attendants": [
+            {
+              "id": 1040,
+              "departure_at": "2016-09-15T11:54:09.177+02:00",
+              "departure_kind_of_transport": "car",
+              "departure_place": "Paris",
+              "arrival_at": "2016-09-25T11:54:09.177+02:00",
+              "arrival_kind_of_transport": "car",
+              "arrival_place": "Paris",
+              "presence_status": "unknown",
+              "created_at": "2016-09-15T11:54:09.195+02:00",
+              "user": {
+                "id": 1045,
+                "first_name": "Emilie",
+                "last_name": "Gautier"
+              },
+              "presences": [
+                {
+                  "id": 1047,
+                  "is_present": false,
+                  "present_at": "2016-09-15",
+                  "informations": "Informations",
+                  "presence_status": "unknown"
+                }
+              ]
+            }
+          ]
         }
       ],
       "handover_weekends": [
         {
-          "id": 2027,
+          "id": 1048,
           "registration_kind": "user",
           "cv_is_mandatory": false,
           "special_dates_are_active": false,
-          "starts_at": "2016-10-15T11:49:06.631+02:00",
-          "ends_at": "2016-10-25T11:49:06.631+02:00",
+          "starts_at": "2016-10-15T11:54:09.197+02:00",
+          "ends_at": "2016-10-25T11:54:09.198+02:00",
           "name": "Event Name",
           "organizer": "CNJE",
-          "last_registration_at": "2016-09-20T11:49:06.631+02:00",
-          "last_sort_at": "2016-09-30T11:49:06.631+02:00",
-          "online_at": "2016-09-15T10:49:06.630+02:00",
-          "registration_starts_at": "2016-09-15T11:19:06.630+02:00",
+          "last_registration_at": "2016-09-20T11:54:09.197+02:00",
+          "last_sort_at": "2016-09-30T11:54:09.197+02:00",
+          "online_at": "2016-09-15T10:54:09.197+02:00",
+          "registration_starts_at": "2016-09-15T11:24:09.197+02:00",
           "description": "Event Description",
           "seats_capacity": 100,
           "special_seats_capacity": 0,
@@ -78,7 +121,24 @@
           "address": null,
           "documents": [],
           "places": [],
-          "attendants": []
+          "attendants": [
+            {
+              "id": 1055,
+              "departure_at": "2016-09-15T11:54:09.211+02:00",
+              "departure_kind_of_transport": "car",
+              "departure_place": "Paris",
+              "arrival_at": "2016-09-25T11:54:09.211+02:00",
+              "arrival_kind_of_transport": "car",
+              "arrival_place": "Paris",
+              "presence_status": "unknown",
+              "created_at": "2016-09-15T11:54:09.217+02:00",
+              "user": {
+                "id": 1060,
+                "first_name": "Mohamed",
+                "last_name": "Schmitt"
+              }
+            }
+          ]
         }
       ]
     }
