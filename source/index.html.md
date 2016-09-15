@@ -122,7 +122,6 @@ includes:
   - modules/14_tickets/tickets/rates/create
   - modules/18_mes_audits
   - modules/18_mes_audits/index
-  - modules/18_mes_audits/update
   - modules/18_mes_vq
   - modules/18_mes_vq/index
   - modules/18_mes_vq/update
