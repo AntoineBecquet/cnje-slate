@@ -1,24 +1,24 @@
 {
   "audit": {
-    "id": 1555,
+    "id": 2241,
     "auditable_at": null,
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
-    "audit_session_id": 1554,
+    "audit_session_id": 2240,
     "junior": {
-      "id": 1553,
-      "full_name": "Robert et Dumas",
-      "common_name": "Roger SCOP",
+      "id": 2239,
+      "full_name": "Aubry SA",
+      "common_name": "Joly et Rey",
       "junior_type": "candidate"
     },
     "auditors": [
       {
-        "id": 1558,
-        "first_name": "Mathéo",
-        "last_name": "Dupont",
+        "id": 2244,
+        "first_name": "Jules",
+        "last_name": "Laine",
         "response_at": null,
         "status": "pending",
         "report_url": null,
@@ -27,9 +27,9 @@
     ],
     "debriefers": [
       {
-        "id": 1561,
-        "first_name": "Chloé",
-        "last_name": "Marty",
+        "id": 2247,
+        "first_name": "Jeanne",
+        "last_name": "Denis",
         "debriefing_url": null
       }
     ]

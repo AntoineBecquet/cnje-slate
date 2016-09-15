@@ -1,15 +1,15 @@
 {
   "cnje_membership_fees": [
     {
-      "id": 2583,
+      "id": 1437,
       "status": "not_generated",
       "error_message": "",
       "deposit_invoice_url": null,
       "balance_invoice_url": null,
       "junior": {
-        "id": 2582,
-        "full_name": "Riviere GIE",
-        "common_name": "Moreau et Leroux",
+        "id": 1436,
+        "full_name": "Dupuy et Caron",
+        "common_name": "Vasseur et Lambert",
         "junior_type": "candidate"
       }
     }

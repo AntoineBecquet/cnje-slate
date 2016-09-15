@@ -1,6 +1,6 @@
 {
   "auditor": {
-    "report": "#<ActionDispatch::Http::UploadedFile:0x007f8cb2baa478>",
+    "report": "#<ActionDispatch::Http::UploadedFile:0x007ff1cdc604f0>",
     "status": "refused"
   }
 }

@@ -1,12 +1,12 @@
 {
   "auditor_recruitment_waiting_lists": [
     {
-      "id": 1332,
-      "created_at": "2016-09-13T16:11:01.883+02:00",
+      "id": 3020,
+      "created_at": "2016-09-15T11:50:08.198+02:00",
       "user": {
-        "id": 1331,
-        "first_name": "Clémence",
-        "last_name": "Fleury"
+        "id": 3019,
+        "first_name": "Mathéo",
+        "last_name": "Aubert"
       }
     }
   ]

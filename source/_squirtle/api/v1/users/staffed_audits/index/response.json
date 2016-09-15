@@ -12,19 +12,19 @@
         "orga_grid_status": "pending_distribution",
         "treso_grid_status": "pending_distribution",
         "junior": {
-          "id": 130,
-          "full_name": "Paris SAS",
-          "common_name": "Clement EI",
+          "id": 177,
+          "full_name": "Julien et Hubert",
+          "common_name": "Robert et Brunet",
           "junior_type": "candidate",
           "board_started_at": null,
           "address": {
-            "id": 335,
+            "id": 467,
             "line1": "line1",
             "line2": "line2",
             "city": "Paris",
             "country": "FR",
             "postal_code": "75018",
-            "department_id": 136,
+            "department_id": 183,
             "full": ""
           }
         }

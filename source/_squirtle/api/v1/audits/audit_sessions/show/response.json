@@ -1,30 +1,30 @@
 {
   "audit_session": {
-    "id": 25,
-    "starts_at": "2016-10-01T00:00:00.000+02:00",
-    "ends_at": "2016-11-01T00:00:00.000+01:00",
+    "id": 18,
+    "starts_at": "2016-10-13T00:00:00.000+02:00",
+    "ends_at": "2016-11-13T00:00:00.000+01:00",
     "status": "pending",
     "audits": [
       {
-        "id": 17,
+        "id": 12,
         "auditable_at": null,
         "debriefing_date": null,
         "final_decision": "pending",
         "specifications_url": null,
         "orga_grid_status": "pending_distribution",
         "treso_grid_status": "pending_distribution",
-        "audit_session_id": 25,
+        "audit_session_id": 18,
         "junior": {
-          "id": 137,
-          "full_name": "Rey et Poirier",
-          "common_name": "Adam et Lambert",
+          "id": 153,
+          "full_name": "Schmitt SAS",
+          "common_name": "Le gall SEM",
           "junior_type": "candidate"
         },
         "auditors": [
           {
-            "id": 190,
-            "first_name": "Mathéo",
-            "last_name": "Nicolas",
+            "id": 224,
+            "first_name": "Elisa",
+            "last_name": "Carre",
             "response_at": null,
             "status": "pending",
             "report_url": null,
@@ -33,9 +33,9 @@
         ],
         "debriefers": [
           {
-            "id": 190,
-            "first_name": "Mathéo",
-            "last_name": "Nicolas",
+            "id": 224,
+            "first_name": "Elisa",
+            "last_name": "Carre",
             "debriefing_url": null
           }
         ]

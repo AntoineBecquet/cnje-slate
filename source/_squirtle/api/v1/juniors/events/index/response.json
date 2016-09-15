@@ -1,17 +1,17 @@
 {
   "events": [
     {
-      "id": 1997,
+      "id": 1396,
       "cv_is_mandatory": false,
-      "starts_at": "2016-10-13T16:11:35.677+02:00",
-      "ends_at": "2016-10-23T16:11:35.677+02:00",
+      "starts_at": "2016-10-15T11:48:28.802+02:00",
+      "ends_at": "2016-10-25T11:48:28.802+02:00",
       "invoice_for_junior": false,
       "name": "Event Name",
       "organizer": "CNJE",
-      "last_registration_at": "2016-09-18T16:11:35.677+02:00",
-      "last_sort_at": "2016-09-28T16:11:35.677+02:00",
-      "online_at": "2016-09-13T15:11:35.676+02:00",
-      "registration_starts_at": "2016-09-13T15:41:35.676+02:00",
+      "last_registration_at": "2016-09-20T11:48:28.802+02:00",
+      "last_sort_at": "2016-09-30T11:48:28.802+02:00",
+      "online_at": "2016-09-15T10:48:28.801+02:00",
+      "registration_starts_at": "2016-09-15T11:18:28.802+02:00",
       "description": "Event Description",
       "seats_capacity": 100,
       "special_seats_capacity": 0,
@@ -22,32 +22,32 @@
       "type": null,
       "attendants": [
         {
-          "id": 2007,
-          "created_at": "2016-09-13T16:11:35.708+02:00",
+          "id": 1406,
+          "created_at": "2016-09-15T11:48:28.923+02:00",
           "type": null,
-          "departure_at": "2016-09-13T16:11:35.701+02:00",
+          "departure_at": "2016-09-15T11:48:28.911+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T16:11:35.701+02:00",
+          "arrival_at": "2016-09-25T11:48:28.911+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "user": {
-            "id": 2012,
-            "first_name": "Charlotte",
-            "last_name": "Meunier"
+            "id": 1411,
+            "first_name": "Mélissa",
+            "last_name": "Gerard"
           }
         }
       ],
       "address": null,
       "prices": [
         {
-          "id": 2013,
+          "id": 1412,
           "description": "Event Price Description",
           "price_in_cents": 1000,
           "discounts": [
             {
-              "id": 2015,
+              "id": 1414,
               "minimum_turnover_in_cents": 100,
               "maximum_turnover_in_cents": 1000,
               "amount_in_cents": 10000
@@ -58,28 +58,28 @@
       "documents": [      ],
       "waiting_list": [
         {
-          "id": 2016,
-          "created_at": "2016-09-13T16:11:35.718+02:00",
+          "id": 1415,
+          "created_at": "2016-09-15T11:48:28.956+02:00",
           "type": "waiting_list_attendant",
-          "departure_at": "2016-09-13T16:11:35.711+02:00",
+          "departure_at": "2016-09-15T11:48:28.937+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-23T16:11:35.711+02:00",
+          "arrival_at": "2016-09-25T11:48:28.939+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "position": 0,
           "user": {
-            "id": 2021,
-            "first_name": "Adrien",
-            "last_name": "Fontaine"
+            "id": 1420,
+            "first_name": "Romane",
+            "last_name": "Marchand"
           }
         }
       ],
       "places": [
         {
-          "id": 2022,
-          "kind_of_transport": "plane",
+          "id": 1421,
+          "kind_of_transport": "train",
           "arrival_place": "Somewhere over the rainbow"
         }
       ],

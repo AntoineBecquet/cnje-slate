@@ -1,50 +1,50 @@
 {
   "junior": {
     "id": 1,
-    "full_name": "Royer et Picard",
-    "common_name": "Le roux et Leroy",
-    "email": "kendrick_macgyver@gerholdrunolfsdottir.name",
-    "phone_number": "+33 448392145",
-    "website": "http://hartmannmonahan.org/albin.wolff",
+    "full_name": "Thomas SAS",
+    "common_name": "Riviere et Fleury",
+    "email": "esther@hyatt.name",
+    "phone_number": "+33 419622535",
+    "website": "http://hamill.co/garrett",
     "organization_created_at": null,
     "accountant_closed_at": null,
     "board_started_at": null,
-    "description": "Meunier et Fontaine",
+    "description": "Adam et Roger",
     "nb_members": 200,
     "junior_sponsor_id": 1,
-    "logo": "/uploads/cache/juniors/07002c41737ab0788ec85fde1eca9a/286c4a2a9a7b7117c5d3782099f8c0/logos/6199357bb7.jpg",
-    "status": "/uploads/cache/versioneddocument/document/452d35cc2d.jpg",
-    "internal_policy": "/uploads/cache/versioneddocument/document/a99f9a4951.jpg",
+    "logo": "/uploads/cache/juniors/ad19ca2d4cffe0de80731ef49e0d5e/72abcf448401001317295035fdb433/logos/b15829665f.jpg",
+    "status": "/uploads/cache/versioneddocument/document/fd18868ec7.jpg",
+    "internal_policy": "/uploads/cache/versioneddocument/document/206b370080.jpg",
     "address": {
-      "id": 164,
+      "id": 500,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 61,
+      "department_id": 202,
       "full": ""
     },
     "domains": [
       {
-        "id": 10,
-        "name": "M Théo Menard"
+        "id": 31,
+        "name": "Berger Antoine"
       }
     ],
     "partners": [
       {
-        "id": 1740,
-        "full_name": "Prevost et Legrand",
-        "common_name": "Garcia EURL",
+        "id": 2950,
+        "full_name": "Rousseau GIE",
+        "common_name": "Robert et Cousin",
         "junior_type": "candidate"
       }
     ],
     "bank_accounts": [
       {
-        "id": 1741,
+        "id": 2951,
         "iban": "FR7613106005002000743520962",
         "bic": "CMCIFR2A",
-        "sepa": "/uploads/cache/bank_accounts/a0e6840347554db3e6ccc73c1d3870/c32f87bda0e566fbd6b15f7a6a1306/7db8a714c5.jpg"
+        "sepa": "/uploads/cache/bank_accounts/b50f5d2b24313ca2c91c013e8f5ff4/3b92ff430bbb24efa07c85df72d037/f02c109f33.jpg"
       }
     ],
     "status_versions": [    ],

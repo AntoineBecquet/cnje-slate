@@ -1,25 +1,25 @@
 {
   "user": {
-    "id": 19,
+    "id": 245,
     "privacy": "public",
-    "email": "marjorie_keebler@friesen.net",
-    "junior_email": "korey_renner@hills.org",
+    "email": "loren_lowe@littel.net",
+    "junior_email": "german@wymankozey.net",
     "civility": "mrs",
-    "first_name": "Zoe",
-    "last_name": "Bernard",
-    "birth_date": "1996-09-13",
+    "first_name": "Mathéo",
+    "last_name": "Meyer",
+    "birth_date": "1996-09-15",
     "phone_number": "0101010101",
     "allows_photos_on_events": true,
     "allows_newsletter": false,
     "curriculum_url": null,
     "address": {
-      "id": 1002,
+      "id": 2780,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 1001,
+      "department_id": 2779,
       "full": ""
     }
   }

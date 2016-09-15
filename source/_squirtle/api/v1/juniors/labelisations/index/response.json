@@ -1,14 +1,14 @@
 {
   "labelisations": [
     {
-      "id": 1767,
+      "id": 1006,
       "labelisation_type": "candidate",
       "judgement": "pending",
       "application_form_url": null,
       "junior": {
-        "id": 1766,
-        "full_name": "Marchal et Fournier",
-        "common_name": "Perrot et Gauthier",
+        "id": 1005,
+        "full_name": "Roussel et Simon",
+        "common_name": "Dupuis et Leroux",
         "junior_type": "candidate"
       }
     }

@@ -1,20 +1,20 @@
 {
   "auditor_recruitment_sessions": [
     {
-      "id": 1097,
-      "starts_at": "2016-10-01T00:00:00.000+02:00",
-      "ends_at": "2016-11-01T00:00:00.000+01:00",
+      "id": 1123,
+      "starts_at": "2016-09-26T00:00:00.000+02:00",
+      "ends_at": "2016-10-26T00:00:00.000+02:00",
       "session_type": "treasury",
       "auditor_recruitment_session_candidates": [
         {
-          "id": 1103,
+          "id": 1129,
           "wefa_status": "wefa_status_pending",
-          "wefa_date": "2016-09-24T00:00:00.000+02:00",
+          "wefa_date": "2016-09-25T00:00:00.000+02:00",
           "application_status": "application_status_pending",
           "user": {
-            "id": 1102,
+            "id": 1128,
             "first_name": "Camille",
-            "last_name": "Marchal"
+            "last_name": "Charpentier"
           }
         }
       ]

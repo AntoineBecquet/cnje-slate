@@ -1,0 +1,4 @@
+---
+:status: 202
+:verb: PUT
+:path: "/api/v1/recruitment_weekend_events/:event_id/attendants/:attendant_id/refuse"
