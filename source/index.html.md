@@ -207,6 +207,7 @@ includes:
   - modules/core/department/index
   - modules/core/static_page/index
   - modules/core/static_page/show
+  - modules/users/permissions/index
 
 search: true
 ---
