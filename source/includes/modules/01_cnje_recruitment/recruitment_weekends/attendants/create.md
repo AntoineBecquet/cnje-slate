@@ -2,7 +2,7 @@
 ### Create an attendant
 
 ```http
-PUT /recruitment_weekend_events/:event_id/attendants/:attendant_id HTTP/1.1
+POST /recruitment_weekend_events/:event_id/attendants/:attendant_id HTTP/1.1
 ```
 
 ```json
