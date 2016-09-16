@@ -153,6 +153,7 @@ includes:
   - modules/23_evenements
   - modules/23_evenements/events/index
   - modules/23_evenements/events/create
+  - modules/23_evenements/events/update
   - modules/23_evenements/events/linked_juniors/create
   - modules/23_evenements/events/linked_juniors/destroy
   - modules/23_evenements/events/attendants/no_account/create

@@ -1,7 +1,7 @@
-### Create an event
+### Update an event
 
 ```http
-POST /events/ HTTP/1.1
+PUT /events/:event_id HTTP/1.1
 ```
 
 ```json
@@ -26,37 +26,13 @@ POST /events/ HTTP/1.1
     "special_seats_capacity": 0,
     "minimum_seats_capacity_per_junior": 0,
     "event_type": 0,
-    "maximum_seats_capacity_per_junior": 0,
-    "address": {
-    },
-    "prices": [{
-      "description": "Event Price Description",
-      "price_in_cents": 1000,
-      "discounts": [{
-        "minimum_turnover_in_cents": 100,
-        "maximum_turnover_in_cents": 100,
-        "amount_in_cents": 100
-      }]
-    }],
-    "cover_photo": "MULTIPART/FORM",
-    "documents": [{
-      "document": "MULTIPART/FORM",
-      "name": "Document's Name"
-    }],
-    "places": [{
-      "kind_of_transport": "train",
-      "arrival_place": "Somewhere over the rainbow"
-    }],
-    "linked_junior_ids": [
-      1,
-      2
-    ]
+    "maximum_seats_capacity_per_junior": 0
   }
 }
 ```
 
 ```http
-HTTP/1.1 201 Created
+HTTP/1.1 202 Accepted
 ```
 
 Parameter | Description
