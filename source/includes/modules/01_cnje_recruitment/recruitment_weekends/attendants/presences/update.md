@@ -25,4 +25,4 @@ HTTP/1.1 202 Accepted
 Parameter         | Description
 ------------------|---------------------------------
 is_present        | Whether or not the attendant will attend
-presence_status   | Values are `unknown` / `present` / `absent`
+presence_status   | Values are `unknown` / `present` / `absent` *Only for authorized users*
