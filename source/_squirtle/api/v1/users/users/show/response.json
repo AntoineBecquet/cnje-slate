@@ -1,25 +1,25 @@
 {
   "user": {
-    "id": 245,
+    "id": 55,
     "privacy": "public",
-    "email": "loren_lowe@littel.net",
-    "junior_email": "german@wymankozey.net",
+    "email": "velda_keeling@lesch.io",
+    "junior_email": "willow@schmeler.io",
     "civility": "mrs",
-    "first_name": "Mathéo",
-    "last_name": "Meyer",
-    "birth_date": "1996-09-15",
+    "first_name": "Julien",
+    "last_name": "Meunier",
+    "birth_date": "1996-09-16",
     "phone_number": "0101010101",
     "allows_photos_on_events": true,
     "allows_newsletter": false,
     "curriculum_url": null,
     "address": {
-      "id": 2780,
+      "id": 1450,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 2779,
+      "department_id": 1449,
       "full": ""
     }
   }

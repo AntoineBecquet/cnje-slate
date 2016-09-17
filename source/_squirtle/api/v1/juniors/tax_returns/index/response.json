@@ -1,20 +1,20 @@
 {
   "tax_returns": [
     {
-      "id": 2485,
+      "id": 2107,
       "status": "processing",
       "accounting_starts_at": "2016-07-07",
       "accounting_ends_at": "2016-12-12",
-      "turnover_in_cents": 86155,
-      "grants_in_cents": 85792,
-      "other_products_in_cents": 37409,
-      "net_income_in_cents": 29963,
-      "equity_in_cents": 72565,
+      "turnover_in_cents": 52689,
+      "grants_in_cents": 29858,
+      "other_products_in_cents": 19130,
+      "net_income_in_cents": 75948,
+      "equity_in_cents": 58020,
       "tax_return_url": null,
       "junior": {
-        "id": 2484,
-        "full_name": "Brunet SCOP",
-        "common_name": "Denis GIE",
+        "id": 2106,
+        "full_name": "Le gall et Joly",
+        "common_name": "Barbier et Meunier",
         "junior_type": "candidate"
       }
     }

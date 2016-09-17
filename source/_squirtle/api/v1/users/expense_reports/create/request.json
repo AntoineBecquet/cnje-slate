@@ -2,13 +2,13 @@
   "expense_report": {
     "expenses": [
       {
-        "junior_id": "138",
-        "category_id": "41",
+        "junior_id": "59",
+        "category_id": "11",
         "transport_id": "1",
         "starting_city": "STARTING_CITY",
         "arrival_city": "ARRIVAL_CITY",
         "title": "TITLE",
-        "at": "2016-08-15",
+        "at": "2016-08-16",
         "report_type": "digital",
         "amount": "50000",
         "number_of_kilometers": "5",
@@ -16,7 +16,7 @@
         "total_amount": "100000",
         "documents": [
           {
-            "document": "#<ActionDispatch::Http::UploadedFile:0x007ffca1c82300>"
+            "document": "#<ActionDispatch::Http::UploadedFile:0x007fa299b76338>"
           }
         ]
       }

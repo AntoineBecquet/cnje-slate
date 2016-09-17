@@ -1,53 +1,57 @@
 {
   "junior": {
     "id": 1,
-    "full_name": "Thomas SAS",
-    "common_name": "Riviere et Fleury",
-    "email": "esther@hyatt.name",
-    "phone_number": "+33 419622535",
-    "website": "http://hamill.co/garrett",
+    "full_name": "Roy et Dumas",
+    "common_name": "Brun GIE",
+    "email": "rocky_farrell@hills.info",
+    "phone_number": "+33 219454558",
+    "website": "http://stamm.com/keira_wiza",
     "organization_created_at": null,
     "accountant_closed_at": null,
     "board_started_at": null,
-    "description": "Adam et Roger",
+    "description": "Lefevre et Duval",
     "nb_members": 200,
     "junior_sponsor_id": 1,
-    "logo": "/uploads/cache/juniors/ad19ca2d4cffe0de80731ef49e0d5e/72abcf448401001317295035fdb433/logos/b15829665f.jpg",
-    "status": "/uploads/cache/versioneddocument/document/fd18868ec7.jpg",
-    "internal_policy": "/uploads/cache/versioneddocument/document/206b370080.jpg",
+    "logo": "/uploads/cache/juniors/9f05e505b56f3ff0f61bf0c6424eb6/f623f55d499ec41389b20c2553a9fc/logos/9fd137da99.jpg",
+    "status": "/uploads/cache/versioneddocument/document/46d6453444.jpg",
+    "internal_policy": "/uploads/cache/versioneddocument/document/9e262828d1.jpg",
     "address": {
-      "id": 500,
+      "id": 175,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 202,
+      "department_id": 68,
       "full": ""
     },
     "domains": [
       {
-        "id": 31,
-        "name": "Berger Antoine"
+        "id": 5,
+        "name": "Thomas Thomas"
       }
     ],
     "partners": [
       {
-        "id": 2950,
-        "full_name": "Rousseau GIE",
-        "common_name": "Robert et Cousin",
+        "id": 1680,
+        "full_name": "Giraud et Roger",
+        "common_name": "Breton et Rolland",
         "junior_type": "candidate"
       }
     ],
     "bank_accounts": [
       {
-        "id": 2951,
+        "id": 1681,
         "iban": "FR7613106005002000743520962",
         "bic": "CMCIFR2A",
-        "sepa": "/uploads/cache/bank_accounts/b50f5d2b24313ca2c91c013e8f5ff4/3b92ff430bbb24efa07c85df72d037/f02c109f33.jpg"
+        "sepa": "/uploads/cache/bank_accounts/dd6c2c0ac0663af28bef43049cbb72/b77335a79ac743605128b989500a57/5be779e05c.jpg"
       }
     ],
-    "status_versions": [    ],
-    "internal_policy_versions": [    ]
+    "status_versions": [
+
+    ],
+    "internal_policy_versions": [
+
+    ]
   }
 }

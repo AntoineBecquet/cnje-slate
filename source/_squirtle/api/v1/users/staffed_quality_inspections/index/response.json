@@ -4,14 +4,14 @@
       "report_status": "pending",
       "report_url": null,
       "quality_inspection": {
-        "id": 2788,
-        "at": "2016-10-06T00:00:00.000+02:00",
+        "id": 1008,
+        "at": "2016-11-13T00:00:00.000+01:00",
         "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
         "final_decision": "pending",
         "junior": {
-          "id": 2787,
-          "full_name": "Lemaire et Michel",
-          "common_name": "Picard SARL",
+          "id": 1007,
+          "full_name": "Guerin GIE",
+          "common_name": "Garcia et Martin",
           "junior_type": "candidate"
         }
       }

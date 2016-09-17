@@ -1,15 +1,15 @@
 {
   "cnje_membership_fees": [
     {
-      "id": 1437,
+      "id": 2900,
       "status": "not_generated",
       "error_message": "",
       "deposit_invoice_url": null,
       "balance_invoice_url": null,
       "junior": {
-        "id": 1436,
-        "full_name": "Dupuy et Caron",
-        "common_name": "Vasseur et Lambert",
+        "id": 2899,
+        "full_name": "Leclerc et Perez",
+        "common_name": "Roger SA",
         "junior_type": "candidate"
       }
     }

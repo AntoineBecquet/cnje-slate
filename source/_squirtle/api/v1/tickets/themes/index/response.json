@@ -1,27 +1,33 @@
 {
   "themes": [
     {
-      "id": 2971,
+      "id": 1765,
       "name": "ThemeName",
       "children": [
         {
-          "id": 2972,
+          "id": 1766,
           "name": "ThemeName",
-          "children": [],
-          "fields": [],
-          "permissions": []
+          "children": [
+
+          ],
+          "fields": [
+
+          ],
+          "permissions": [
+
+          ]
         }
       ],
       "fixed_answers": [
         {
-          "id": 2978,
+          "id": 1772,
           "title": "FixedAnswerTitle",
           "content": "FixedAnswerContent"
         }
       ],
       "fields": [
         {
-          "id": 2979,
+          "id": 1773,
           "field_type": "number",
           "name": "Field Name",
           "required": false
@@ -31,7 +37,7 @@
         {
           "permission": "read",
           "division": {
-            "id": 2980,
+            "id": 1774,
             "name": "Présidence"
           }
         }

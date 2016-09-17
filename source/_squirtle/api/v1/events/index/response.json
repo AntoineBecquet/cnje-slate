@@ -1,20 +1,20 @@
 {
   "events": [
     {
-      "id": 2411,
+      "id": 1067,
       "registration_kind": "user",
       "cv_is_mandatory": false,
       "special_dates_are_active": false,
-      "starts_at": "2016-10-15T11:49:24.424+02:00",
-      "ends_at": "2016-10-25T11:49:24.424+02:00",
+      "starts_at": "2016-10-16T15:34:50.806+02:00",
+      "ends_at": "2016-10-26T15:34:50.806+02:00",
       "can_register_without_account": true,
       "invoice_for_junior": false,
       "name": "Event Name",
       "organizer": "CNJE",
-      "last_registration_at": "2016-09-20T11:49:24.424+02:00",
-      "last_sort_at": "2016-09-30T11:49:24.424+02:00",
-      "online_at": "2016-09-15T10:49:24.423+02:00",
-      "registration_starts_at": "2016-09-15T11:19:24.424+02:00",
+      "last_registration_at": "2016-09-21T15:34:50.806+02:00",
+      "last_sort_at": "2016-10-01T15:34:50.806+02:00",
+      "online_at": "2016-09-16T14:34:50.806+02:00",
+      "registration_starts_at": "2016-09-16T15:04:50.806+02:00",
       "description": "Event Description",
       "seats_capacity": 100,
       "special_seats_capacity": 0,
@@ -25,60 +25,60 @@
       "type": null,
       "attendants": [
         {
-          "id": 2432,
-          "created_at": "2016-09-15T11:49:24.499+02:00",
+          "id": 1088,
+          "created_at": "2016-09-16T15:34:50.930+02:00",
           "type": "no_account_attendant",
-          "departure_at": "2016-09-15T11:49:24.475+02:00",
+          "departure_at": "2016-09-16T15:34:50.911+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-25T11:49:24.475+02:00",
+          "arrival_at": "2016-09-26T15:34:50.911+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "profile": {
-            "first_name": "Valentin",
-            "last_name": "Rolland",
-            "email": "helene@baileybuckridge.org",
+            "first_name": "Maëlys",
+            "last_name": "Philippe",
+            "email": "harry_wunsch@gerhold.net",
             "company": "",
             "comment": null
           }
         },
         {
-          "id": 2438,
-          "created_at": "2016-09-15T11:49:24.500+02:00",
+          "id": 1094,
+          "created_at": "2016-09-16T15:34:50.931+02:00",
           "type": "junior_attendant",
-          "departure_at": "2016-09-15T11:49:24.490+02:00",
+          "departure_at": "2016-09-16T15:34:50.921+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-25T11:49:24.491+02:00",
+          "arrival_at": "2016-09-26T15:34:50.922+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "user": {
-            "id": 2443,
-            "first_name": "Axel",
-            "last_name": "Brunet"
+            "id": 1099,
+            "first_name": "Mathis",
+            "last_name": "Duval"
           }
         }
       ],
       "address": {
-        "id": 2410,
+        "id": 1066,
         "line1": "line1",
         "line2": "line2",
         "city": "Paris",
         "country": "FR",
         "postal_code": "75018",
-        "department_id": 2409,
+        "department_id": 1065,
         "full": ""
       },
       "prices": [
         {
-          "id": 2444,
+          "id": 1100,
           "description": "Event Price Description",
           "price_in_cents": 1000,
           "discounts": [
             {
-              "id": 2446,
+              "id": 1102,
               "minimum_turnover_in_cents": 100,
               "maximum_turnover_in_cents": 1000,
               "amount_in_cents": 10000
@@ -88,46 +88,46 @@
       ],
       "documents": [
         {
-          "id": "96e76a49-5098-4be5-83aa-7c764d5d4cdc",
+          "id": "3ec6cec5-03fa-4bc0-95f9-f3e8a407581f",
           "name": "Document's Name"
         }
       ],
       "waiting_list": [
         {
-          "id": 2447,
-          "created_at": "2016-09-15T11:49:24.528+02:00",
+          "id": 1103,
+          "created_at": "2016-09-16T15:34:50.952+02:00",
           "type": "waiting_list_attendant",
-          "departure_at": "2016-09-15T11:49:24.516+02:00",
+          "departure_at": "2016-09-16T15:34:50.943+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-25T11:49:24.517+02:00",
+          "arrival_at": "2016-09-26T15:34:50.943+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "position": 0,
           "user": {
-            "id": 2452,
-            "first_name": "Justine",
-            "last_name": "Michel"
+            "id": 1108,
+            "first_name": "Jules",
+            "last_name": "Prevost"
           }
         }
       ],
       "pending_no_account_attendants": [
         {
-          "id": 2454,
-          "created_at": "2016-09-15T11:49:24.544+02:00",
+          "id": 1110,
+          "created_at": "2016-09-16T15:34:50.964+02:00",
           "type": "pending_no_account_attendant",
-          "departure_at": "2016-09-15T11:49:24.530+02:00",
+          "departure_at": "2016-09-16T15:34:50.953+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-25T11:49:24.530+02:00",
+          "arrival_at": "2016-09-26T15:34:50.953+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "profile": {
-            "first_name": "Pauline",
-            "last_name": "Fontaine",
-            "email": "wilber@framioreilly.co",
+            "first_name": "Enzo",
+            "last_name": "Roussel",
+            "email": "anastacio@block.name",
             "company": "",
             "comment": null
           }
@@ -135,16 +135,16 @@
       ],
       "places": [
         {
-          "id": 2460,
-          "kind_of_transport": "plane",
+          "id": 1116,
+          "kind_of_transport": "coach",
           "arrival_place": "Somewhere over the rainbow"
         }
       ],
       "linked_juniors": [
         {
-          "id": 2463,
-          "full_name": "Fontaine SEM",
-          "common_name": "Aubry et Moreau",
+          "id": 1119,
+          "full_name": "Rey SA",
+          "common_name": "Brunet SAS",
           "junior_type": "candidate"
         }
       ]

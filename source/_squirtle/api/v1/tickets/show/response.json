@@ -1,37 +1,37 @@
 {
   "ticket": {
-    "id": "aa0e2293-b353-4a97-a50a-d05a1e8601cc",
+    "id": "1a3fc0c6-7e9c-46c2-a059-a106b2c6c2ad",
     "title": "TicketTitle",
     "content": "TicketContent",
     "status": "pending_cnje_answer",
-    "created_at": "2016-09-15T11:49:20.173+02:00",
+    "created_at": "2016-09-16T15:35:07.792+02:00",
     "will_reopen_at": null,
     "creator": {
-      "id": 2336,
-      "first_name": "Mohamed",
-      "last_name": "Charpentier"
+      "id": 1334,
+      "first_name": "Maëlys",
+      "last_name": "Carpentier"
     },
     "junior": {
-      "id": 2339,
-      "full_name": "Jacquet et Rey",
-      "common_name": "Gauthier SARL",
+      "id": 1337,
+      "full_name": "Barre SA",
+      "common_name": "Muller GIE",
       "junior_type": "candidate"
     },
     "taken_by_user": null,
     "theme": {
-      "id": 2340,
+      "id": 1338,
       "name": "ThemeName",
       "fields": [      ],
       "permissions": [      ]
     },
     "messages": [
       {
-        "id": "2ca71568-f9c9-4109-84fd-9997d82d04a2",
+        "id": "37620000-c415-489e-81ea-ea1550244ec6",
         "content": "MessageContent",
         "user": {
-          "id": 162,
-          "first_name": "Ambre",
-          "last_name": "Rodriguez"
+          "id": 32,
+          "first_name": "Ines",
+          "last_name": "Renard"
         }
       }
     ]

@@ -1,14 +1,14 @@
 {
   "labelisations": [
     {
-      "id": 3003,
+      "id": 2181,
       "labelisation_type": "candidate",
       "judgement": "pending",
       "application_form_url": null,
       "junior": {
-        "id": 3002,
-        "full_name": "Aubry et Schneider",
-        "common_name": "Michel EURL",
+        "id": 2180,
+        "full_name": "Benoit et Breton",
+        "common_name": "Renard SEM",
         "junior_type": "candidate"
       }
     }

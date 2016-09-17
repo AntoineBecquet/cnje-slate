@@ -1,25 +1,25 @@
 {
   "ticket": {
-    "id": "4e30ad02-af0d-417e-9888-2fb511955eb4",
+    "id": "b3439388-2f81-4f28-94b8-42fcc03cabac",
     "title": "TicketTitle",
     "content": "TicketContent",
     "status": "pending_cnje_answer",
-    "created_at": "2016-09-15T11:49:32.319+02:00",
+    "created_at": "2016-09-16T14:23:03.654+02:00",
     "will_reopen_at": null,
     "creator": {
-      "id": 178,
-      "first_name": "Valentin",
-      "last_name": "Rolland"
+      "id": 173,
+      "first_name": "Louis",
+      "last_name": "Morin"
     },
     "junior": {
-      "id": 136,
-      "full_name": "Schneider SCOP",
-      "common_name": "Simon et Vidal",
+      "id": 135,
+      "full_name": "Dubois SA",
+      "common_name": "Hubert GIE",
       "junior_type": "candidate"
     },
     "taken_by_user": null,
     "theme": {
-      "id": 75,
+      "id": 54,
       "name": "ThemeName"
     }
   }

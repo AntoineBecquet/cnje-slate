@@ -1,6 +1,6 @@
-# Attendant presences
+## Recruitment Weekend Attendant Presences
 
-# Update a presence
+### Update a presence
 
 ```http
 PUT /recruitment_weekends/:event_id/attendants/:attendant_id/presences/:presence_id HTTP/1.1
@@ -23,4 +23,5 @@ HTTP/1.1 202 Accepted
 
 Parameter         | Description
 ------------------|---------------------------------
+is_present        | Whether or not the attendant will attend
 presence_status   | Values are `unknown` / `present` / `absent`

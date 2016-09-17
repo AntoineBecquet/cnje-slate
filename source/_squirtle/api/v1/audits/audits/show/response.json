@@ -1,24 +1,24 @@
 {
   "audit": {
-    "id": 2241,
+    "id": 1673,
     "auditable_at": null,
     "debriefing_date": null,
     "final_decision": "pending",
     "specifications_url": null,
     "orga_grid_status": "pending_distribution",
     "treso_grid_status": "pending_distribution",
-    "audit_session_id": 2240,
+    "audit_session_id": 1672,
     "junior": {
-      "id": 2239,
-      "full_name": "Aubry SA",
-      "common_name": "Joly et Rey",
+      "id": 1671,
+      "full_name": "Maillard SAS",
+      "common_name": "Guerin SAS",
       "junior_type": "candidate"
     },
     "auditors": [
       {
-        "id": 2244,
-        "first_name": "Jules",
-        "last_name": "Laine",
+        "id": 1676,
+        "first_name": "Mathilde",
+        "last_name": "Jacquet",
         "response_at": null,
         "status": "pending",
         "report_url": null,
@@ -27,9 +27,9 @@
     ],
     "debriefers": [
       {
-        "id": 2247,
-        "first_name": "Jeanne",
-        "last_name": "Denis",
+        "id": 1679,
+        "first_name": "Louise",
+        "last_name": "Aubert",
         "debriefing_url": null
       }
     ]

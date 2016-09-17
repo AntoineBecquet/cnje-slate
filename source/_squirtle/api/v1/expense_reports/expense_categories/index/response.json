@@ -1,13 +1,15 @@
 {
   "expense_categories": [
     {
-      "id": 1527,
-      "name": "M Valentin Robin",
+      "id": 1261,
+      "name": "Garnier Valentin",
       "children": [
         {
-          "id": 1528,
-          "name": "Prof Lucas Nguyen",
-          "children": []
+          "id": 1262,
+          "name": "Duval Jeanne",
+          "children": [
+
+          ]
         }
       ]
     }

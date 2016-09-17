@@ -32,6 +32,11 @@ includes:
   - modules/01_cnje_recruitment/recruitment_weekends/attendants/update
   - modules/01_cnje_recruitment/recruitment_weekends/attendants/confirm
   - modules/01_cnje_recruitment/recruitment_weekends/attendants/refuse
+  - modules/01_cnje_recruitment/recruitment_weekends/attendants/presences/update
+  - modules/01_cnje_recruitment/recruitment_weekends/attendants/applications/create
+  - modules/01_cnje_recruitment/recruitment_weekends/attendants/applications/update
+  - modules/01_cnje_recruitment/recruitment_weekends/attendants/applications/accept
+  - modules/01_cnje_recruitment/recruitment_weekends/attendants/applications/refuse
   - modules/01_cnje_recruitment/handover_weekends/create
   - modules/01_cnje_recruitment/handover_weekends/update
   - modules/01_cnje_recruitment/handover_weekends/destroy

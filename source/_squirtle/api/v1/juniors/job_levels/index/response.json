@@ -1,15 +1,15 @@
 {
   "job_levels": [
     {
-      "id": 19,
+      "id": 27,
       "name": "Member du Bureau",
       "divisions": [
         {
-          "id": 9,
+          "id": 61,
           "name": "Présidence",
           "jobs": [
             {
-              "id": 15,
+              "id": 27,
               "name": "Chargé de Mission"
             }
           ]
