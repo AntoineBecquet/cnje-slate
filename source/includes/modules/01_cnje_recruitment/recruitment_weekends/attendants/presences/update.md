@@ -14,6 +14,7 @@ PUT /recruitment_weekends/:event_id/attendants/:attendant_id/presences/:presence
     "presence_status": ""
   }
 }
+```
 
 ```http
 HTTP/1.1 202 Accepted
