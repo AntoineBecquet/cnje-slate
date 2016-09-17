@@ -157,6 +157,7 @@ includes:
   - modules/22_expense_reports/user_create_bank_account
   - modules/23_evenements
   - modules/23_evenements/events/index
+  - modules/23_evenements/events/show
   - modules/23_evenements/events/create
   - modules/23_evenements/events/update
   - modules/23_evenements/events/linked_juniors/create

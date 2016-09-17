@@ -1,7 +1,7 @@
-### Retrieve an event
+### Create an event
 
 ```http
-POST /events/:event_id HTTP/1.1
+POST /events/ HTTP/1.1
 ```
 
 ```json
@@ -56,7 +56,7 @@ POST /events/:event_id HTTP/1.1
 ```
 
 ```http
-HTTP/1.1 200 OK
+HTTP/1.1 201 Created
 ```
 
 Parameter | Description
