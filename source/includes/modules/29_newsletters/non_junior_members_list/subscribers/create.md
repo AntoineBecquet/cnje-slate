@@ -1,7 +1,7 @@
 ### Subscribe a user
 
 ```http
-POST newsletters/non_junior_members_lists/subscribers/:user_id/subscribe HTTP/1.1
+POST /newsletters/non_junior_members_lists/subscribers/:user_id/subscribe HTTP/1.1
 ```
 
 ```http

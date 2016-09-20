@@ -1,7 +1,7 @@
 ### Retrieve all unsubscribers
 
 ```http
-GET newsletters/active_junior_members_lists/unsubscribers HTTP/1.1
+GET /newsletters/active_junior_members_lists/unsubscribers HTTP/1.1
 ```
 
 ```json

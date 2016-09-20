@@ -1,9 +1,10 @@
+
 # Newsletters
 ## Global List
 ### Retrieve all subscribers
 
 ```http
-GET newsletters/global_lists/subscribers HTTP/1.1
+GET /newsletters/global_lists/subscribers HTTP/1.1
 ```
 
 ```json

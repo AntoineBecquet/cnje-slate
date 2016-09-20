@@ -2,7 +2,7 @@
 ### Retrieve all subscribers
 
 ```http
-GET newsletters/former_junior_members_lists/subscribers HTTP/1.1
+GET /newsletters/former_junior_members_lists/subscribers HTTP/1.1
 ```
 
 ```json

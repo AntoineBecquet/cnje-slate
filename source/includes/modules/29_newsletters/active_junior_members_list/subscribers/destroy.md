@@ -1,7 +1,7 @@
 ### Unsubscribe a user
 
 ```http
-DELETE newsletters/active_junior_members_lists/subscribers/:user_id/unsubscribe HTTP/1.1
+DELETE /newsletters/active_junior_members_lists/subscribers/:user_id/unsubscribe HTTP/1.1
 ```
 
 ```http
