@@ -209,6 +209,39 @@ includes:
   - modules/26_liasses_fiscales/index
   - modules/26_liasses_fiscales/update
   - modules/26_liasses_fiscales/create
+  - modules/27_warnings
+  - modules/27_warnings/statutory/index
+  - modules/27_warnings/statutory/show
+  - modules/27_warnings/statutory/create
+  - modules/27_warnings/statutory/update
+  - modules/27_warnings/statutory/renew
+  - modules/27_warnings/statutory/archive
+  - modules/27_warnings/statutory/internal_notes/index
+  - modules/27_warnings/statutory/internal_notes/show
+  - modules/27_warnings/statutory/internal_notes/create
+  - modules/27_warnings/statutory/internal_notes/update
+  - modules/27_warnings/statutory/letters/index
+  - modules/27_warnings/statutory/letters/show
+  - modules/27_warnings/statutory/letters/create
+  - modules/27_warnings/statutory/letters/update
+  - modules/27_warnings/statutory/letters/generate
+  - modules/27_warnings/strong/index
+  - modules/27_warnings/strong/show
+  - modules/27_warnings/strong/create
+  - modules/27_warnings/strong/update
+  - modules/27_warnings/strong/internal_notes/index
+  - modules/27_warnings/strong/internal_notes/show
+  - modules/27_warnings/strong/internal_notes/create
+  - modules/27_warnings/strong/internal_notes/update
+  - modules/27_warnings/strong/letters/index
+  - modules/27_warnings/strong/letters/show
+  - modules/27_warnings/strong/letters/create
+  - modules/27_warnings/strong/letters/update
+  - modules/27_warnings/strong/letters/generate
+  - modules/27_warnings/letter/template/index
+  - modules/27_warnings/letter/template/create
+  - modules/27_warnings/letter/template/update
+  - modules/27_warnings/letter/template/destroy
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
