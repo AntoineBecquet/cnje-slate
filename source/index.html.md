@@ -242,6 +242,12 @@ includes:
   - modules/27_warnings/letter/template/create
   - modules/27_warnings/letter/template/update
   - modules/27_warnings/letter/template/destroy
+  - modules/28_articles
+  - modules/28_articles/index
+  - modules/28_articles/show
+  - modules/28_articles/create
+  - modules/28_articles/update
+  - modules/28_articles/destroy
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
