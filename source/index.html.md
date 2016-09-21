@@ -148,6 +148,7 @@ includes:
   - modules/23_evenements/juniors/events/index
   - modules/23_evenements/juniors/events/attendants/create
   - modules/23_evenements/juniors/events/attendants/update
+  - modules/23_evenements/juniors/events/waiting_list/update
   - modules/23_evenements/users/events/index
   - modules/23_evenements/users/events/attendants/create
   - modules/23_evenements/users/events/attendants/update
