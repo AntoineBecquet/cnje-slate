@@ -245,10 +245,17 @@ includes:
   - modules/27_warnings/letter/template/update
   - modules/27_warnings/letter/template/destroy
   - modules/28_articles
-  - modules/28_articles/index
-  - modules/28_articles/show
-  - modules/28_articles/create
-  - modules/28_articles/update
+  - modules/28_articles/articles/index
+  - modules/28_articles/articles/show
+  - modules/28_articles/articles/create
+  - modules/28_articles/articles/update
+  - modules/28_articles/articles/publish
+  - modules/28_articles/articles/unpublish
+  - modules/28_articles/article_tags/create
+  - modules/28_articles/article_tags/destroy
+  - modules/28_articles/tags/index
+  - modules/28_articles/tags/create
+  - modules/28_articles/tags/update
   - modules/29_newsletters/global_list/subscribers/index
   - modules/29_newsletters/global_list/subscribers/create
   - modules/29_newsletters/global_list/subscribers/destroy

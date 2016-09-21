@@ -1,4 +1,4 @@
-## Retrieve an article
+### Retrieve an article
 
 ```http
 GET /articles/:article_id HTTP/1.1

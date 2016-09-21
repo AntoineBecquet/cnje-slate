@@ -1,4 +1,5 @@
-## Retrieve all articles
+## Articles
+### Retrieve all articles
 
 ```http
 GET /articles HTTP/1.1

@@ -1,7 +1,7 @@
-## Update an article
+### Create an article
 
 ```http
-PATCH /articles/:article_id HTTP/1.1
+POST /articles HTTP/1.1
 ```
 
 ```json
@@ -16,7 +16,7 @@ PATCH /articles/:article_id HTTP/1.1
 ```
 
 ```http
-HTTP/1.1 202 Accepted
+HTTP/1.1 201 Created
 ```
 
 ```json
@@ -31,9 +31,3 @@ HTTP/1.1 202 Accepted
   }
 }
 ```
-
-### Request Parameters
-
-Parameter           | Description
-------------------- | ------
-all_tags            | The article's tags, separated by a comma
