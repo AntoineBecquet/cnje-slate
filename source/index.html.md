@@ -176,6 +176,7 @@ includes:
   - modules/23_evenements/juniors/events/index
   - modules/23_evenements/juniors/events/attendants/create
   - modules/23_evenements/juniors/events/attendants/update
+  - modules/23_evenements/juniors/events/waiting_list/update
   - modules/23_evenements/users/events/index
   - modules/23_evenements/users/events/attendants/create
   - modules/23_evenements/users/events/attendants/update
@@ -248,6 +249,24 @@ includes:
   - modules/28_articles/create
   - modules/28_articles/update
   - modules/28_articles/destroy
+  - modules/29_newsletters/global_list/subscribers/index
+  - modules/29_newsletters/global_list/subscribers/create
+  - modules/29_newsletters/global_list/subscribers/destroy
+  - modules/29_newsletters/global_list/unsubscribers/index
+  - modules/29_newsletters/active_junior_members_list/subscribers/index
+  - modules/29_newsletters/active_junior_members_list/subscribers/create
+  - modules/29_newsletters/active_junior_members_list/subscribers/destroy
+  - modules/29_newsletters/active_junior_members_list/unsubscribers/index
+  - modules/29_newsletters/former_junior_members_list/subscribers/index
+  - modules/29_newsletters/former_junior_members_list/subscribers/create
+  - modules/29_newsletters/former_junior_members_list/subscribers/destroy
+  - modules/29_newsletters/former_junior_members_list/unsubscribers/index
+  - modules/29_newsletters/non_junior_members_list/subscribers/index
+  - modules/29_newsletters/non_junior_members_list/subscribers/create
+  - modules/29_newsletters/non_junior_members_list/subscribers/destroy
+  - modules/29_newsletters/non_junior_members_list/unsubscribers/index
+  - modules/29_newsletters/mailchimp_errors/index
+>>>>>>> feature/newsletters
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
