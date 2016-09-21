@@ -249,7 +249,6 @@ includes:
   - modules/28_articles/show
   - modules/28_articles/create
   - modules/28_articles/update
-  - modules/28_articles/destroy
   - modules/29_newsletters/global_list/subscribers/index
   - modules/29_newsletters/global_list/subscribers/create
   - modules/29_newsletters/global_list/subscribers/destroy
