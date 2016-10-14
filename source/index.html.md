@@ -180,6 +180,7 @@ includes:
   - modules/23_evenements/juniors/events/waiting_list/update
   - modules/23_evenements/juniors/events/waiting_list/replace_with
   - modules/23_evenements/users/events/index
+  - modules/23_evenements/users/events/show
   - modules/23_evenements/users/events/attendants/create
   - modules/23_evenements/users/events/attendants/update
   - modules/09_AGP/apg_event/index
