@@ -20,9 +20,9 @@ GET /juniors/:junior_id HTTP/1.1
     "description": "Arnaud et Nguyen",
     "nb_members": 200,
     "junior_sponsor_id": 1,
-    "logo": "/uploads/cache/juniors/b7ac9f51ed05921ed893f330289b1a/42e98f57b58301ac32e7fdcb5e1749/logos/c09f904cf2.jpg",
-    "status": "/uploads/cache/versioneddocument/document/8ecfce5835.jpg",
-    "internal_policy": "/uploads/cache/versioneddocument/document/b4165f6d2f.jpg",
+    "logo_url": "/uploads/cache/juniors/b7ac9f51ed05921ed893f330289b1a/42e98f57b58301ac32e7fdcb5e1749/logos/c09f904cf2.jpg",
+    "status_url": "/uploads/cache/versioneddocument/document/8ecfce5835.jpg",
+    "internal_policy_url": "/uploads/cache/versioneddocument/document/b4165f6d2f.jpg",
     "address": {
       "id": 1,
       "line1": "line1",
