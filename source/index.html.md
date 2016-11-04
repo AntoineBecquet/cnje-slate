@@ -173,6 +173,7 @@ includes:
   - modules/23_evenements/events/prices/discounts/create
   - modules/23_evenements/events/prices/discounts/update
   - modules/23_evenements/events/prices/discounts/destroy
+  - modules/23_evenements/events/waiting_list/assigns_remaining_seats
   - modules/23_evenements/juniors/events/index
   - modules/23_evenements/juniors/events/show
   - modules/23_evenements/juniors/events/attendants/create
