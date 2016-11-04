@@ -1,3 +1,4 @@
+## Waiting List
 ### Assigns remaining seats
 
 ```http
