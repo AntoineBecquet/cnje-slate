@@ -122,6 +122,7 @@ includes:
   - modules/14_tickets/tickets/themes/fixed_answers/create
   - modules/14_tickets/tickets/themes/fixed_answers/destroy
   - modules/14_tickets/juniors/index
+  - modules/14_tickets/juniors/show
   - modules/14_tickets/juniors/create
   - modules/14_tickets/messages/create
   - modules/14_tickets/tickets/rates/create
