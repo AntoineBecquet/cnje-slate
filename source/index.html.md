@@ -279,6 +279,9 @@ includes:
   - modules/29_newsletters/non_junior_members_list/subscribers/destroy
   - modules/29_newsletters/non_junior_members_list/unsubscribers/index
   - modules/29_newsletters/mailchimp_errors/index
+  - modules/deontology_charters
+  - modules/deontology_charters/index
+  - modules/deontology_charters/sign
   - modules/core
   - modules/core/address/update
   - modules/core/department/index
