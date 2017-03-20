@@ -19,6 +19,8 @@ HTTP/1.1 201 Created
 {
   "user": {
     "id": 1,
+    "is_president": true,
+    "has_signed_deontology_charter": false,
     "junior_membership": [{
       "id": 1006,
       "application_status": "pending",
