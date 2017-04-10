@@ -12,6 +12,7 @@ PUT /juniors/:junior_id HTTP/1.1
     "common_name": "Petit et Blanchard",
     "school_name": "SCHOOL NAME",
     "institution_id": 1,
+    "other_institution_name": "OTHER",
     "email": "ayana@cronin.com",
     "phone_number": "0195955894",
     "website": "http://borer.com/garnett.bahringer",
