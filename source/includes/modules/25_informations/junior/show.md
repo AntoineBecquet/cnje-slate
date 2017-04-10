@@ -11,6 +11,7 @@ GET /juniors/:junior_id HTTP/1.1
     "id": 1,
     "full_name": "Michel SCOP",
     "common_name": "Faure EURL",
+    "school_name": "SCHOOL NAME",
     "email": "allene.beier@lehnerconnelly.com",
     "phone_number": "+33 686926537",
     "website": "http://rathwiza.biz/ava_altenwerth",
@@ -37,6 +38,10 @@ GET /juniors/:junior_id HTTP/1.1
       "id": 1,
       "name": "Julie Gaillard"
     }],
+    "institution": {
+      "id": 1,
+      "name": "Julie Gaillard"
+    },
     "partners": [{
       "id": 1005,
       "full_name": "Perrot et Meyer",
