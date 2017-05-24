@@ -125,6 +125,8 @@ includes:
   - modules/14_tickets/juniors/show
   - modules/14_tickets/juniors/create
   - modules/14_tickets/messages/create
+  - modules/14_tickets/messages/update
+  - modules/14_tickets/messages/destroy
   - modules/14_tickets/tickets/rates/create
   - modules/18_mes_audits
   - modules/18_mes_audits/index
