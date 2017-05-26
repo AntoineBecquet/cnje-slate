@@ -10,6 +10,7 @@ POST /tickets/:ticket_id/messages HTTP/1.1
   "message": {
     "content": "MessageContent",
     "create_and_close": true,
+    "is_draft": true,
     "documents": [{
       "document": "MULTIPART/FORM"
     }]
