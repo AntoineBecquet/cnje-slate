@@ -205,6 +205,7 @@ includes:
   - modules/25_informations/junior/show
   - modules/25_informations/junior/update
   - modules/25_informations/junior/find_by
+  - modules/25_informations/junior/bank_accounts/create
   - modules/25_informations/junior/institutions/index
   - modules/25_informations/junior/domains/index
   - modules/25_informations/junior/domains/create
