@@ -1,20 +1,21 @@
 {
   "auditor_recruitment_sessions": [
     {
-      "id": 2315,
-      "starts_at": "2016-10-12T00:00:00.000+02:00",
-      "ends_at": "2016-11-12T00:00:00.000+01:00",
+      "id": 1022,
+      "starts_at": "2017-07-22T00:00:00.000+02:00",
+      "ends_at": "2017-08-22T00:00:00.000+02:00",
       "session_type": "treasury",
       "auditor_recruitment_session_candidates": [
         {
-          "id": 2321,
+          "id": 1028,
           "wefa_status": "wefa_status_pending",
-          "wefa_date": "2016-10-07T00:00:00.000+02:00",
+          "wefa_date": "2017-07-07T00:00:00.000+02:00",
           "application_status": "application_status_pending",
           "user": {
-            "id": 2320,
-            "first_name": "Anaïs",
-            "last_name": "Julien"
+            "id": 1027,
+            "first_name": "Pierre",
+            "last_name": "Perez",
+            "email": "arianna@mcclure.biz"
           }
         }
       ]

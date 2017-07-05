@@ -1,25 +1,25 @@
 {
   "user": {
-    "id": 55,
+    "id": 294,
     "privacy": "public",
-    "email": "velda_keeling@lesch.io",
-    "junior_email": "willow@schmeler.io",
+    "email": "daron@batz.org",
+    "junior_email": "haylie.rowe@littel.co",
     "civility": "mrs",
-    "first_name": "Julien",
-    "last_name": "Meunier",
-    "birth_date": "1996-09-16",
+    "first_name": "Julie",
+    "last_name": "Gauthier",
+    "birth_date": "1997-07-05",
     "phone_number": "0101010101",
     "allows_photos_on_events": true,
     "allows_newsletter": false,
     "curriculum_url": null,
     "address": {
-      "id": 1450,
+      "id": 3152,
       "line1": "line1",
       "line2": "line2",
       "city": "Paris",
       "country": "FR",
       "postal_code": "75018",
-      "department_id": 1449,
+      "department_id": 3151,
       "full": ""
     }
   }

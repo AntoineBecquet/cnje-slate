@@ -1,0 +1,14 @@
+{
+  "statutory_warning": {
+    "id": 2,
+    "reason": "Aut nulla nemo quis quidem est.",
+    "sanction_date": "2017-07-05",
+    "warning_type": "as",
+    "junior": {
+      "id": 83,
+      "full_name": "Nguyen et Masson",
+      "common_name": "Dumas EI",
+      "junior_type": "candidate"
+    }
+  }
+}

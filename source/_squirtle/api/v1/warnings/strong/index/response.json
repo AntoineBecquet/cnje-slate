@@ -1,0 +1,15 @@
+{
+  "strong_warnings": [
+    {
+      "id": 2905,
+      "audit_id": 2904,
+      "quality_control_datetime": "2017-07-17T16:07:22.691+02:00",
+      "junior": {
+        "id": 2899,
+        "full_name": "Lacroix SA",
+        "common_name": "Menard et Sanchez",
+        "junior_type": "candidate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "maif_memberships": [
+    {
+      "id": 1345,
+      "certificate_url": null,
+      "invoice": {
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1282",
+        "title": "InvoiceTitle",
+        "generated_at": "2017-07-05",
+        "invoice_url": null
+      }
+    }
+  ]
+}

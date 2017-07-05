@@ -1,13 +1,14 @@
 {
   "auditor_recruitment_session_candidate": {
-    "id": 2,
+    "id": 3,
     "wefa_status": "wefa_status_pending",
     "wefa_date": null,
     "application_status": "application_status_pending",
     "user": {
-      "id": 3,
-      "first_name": "Lou",
-      "last_name": "Faure"
+      "id": 63,
+      "first_name": "Camille",
+      "last_name": "Breton",
+      "email": "winifred_watsica@raureynolds.biz"
     }
   }
 }

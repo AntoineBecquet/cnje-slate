@@ -2,6 +2,7 @@
   "maif_membership": {
     "year": "2020",
     "price_in_cents_with_less_than_200_members": "100000",
-    "price_in_cents_with_more_than_200_members": "100000"
+    "price_in_cents_with_more_than_200_members": "100000",
+    "original_certificate": "#<ActionDispatch::Http::UploadedFile:0x0000001a7e40e0>"
   }
 }

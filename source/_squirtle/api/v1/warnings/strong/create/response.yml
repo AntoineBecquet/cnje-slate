@@ -1,0 +1,4 @@
+---
+:status: 201
+:verb: POST
+:path: "/api/v1/warnings/strong"

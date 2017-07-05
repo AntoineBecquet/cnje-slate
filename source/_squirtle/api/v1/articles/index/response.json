@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "id": 10,
+      "title": "Qui eligendi et aut maxime sit cumque.",
+      "content": "Consequatur distinctio quas autem.",
+      "header_photo_url": null,
+      "thumbnail_photo_url": null,
+      "published_at": null,
+      "status": "published"
+    },
+    {
+      "id": 11,
+      "title": "Occaecati tenetur quia corrupti distinctio in fugiat facere et.",
+      "content": "Suscipit qui dolor amet non.",
+      "header_photo_url": null,
+      "thumbnail_photo_url": null,
+      "published_at": null,
+      "status": "unpublished"
+    }
+  ]
+}

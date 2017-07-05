@@ -1,0 +1,4 @@
+---
+:status: 204
+:verb: DELETE
+:path: "/api/v1/warnings/letters/templates/:id"

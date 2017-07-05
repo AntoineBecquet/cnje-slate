@@ -1,15 +1,13 @@
 {
   "expense_categories": [
     {
-      "id": 1261,
-      "name": "Garnier Valentin",
+      "id": 3345,
+      "name": "Mlle Charlotte Aubert",
       "children": [
         {
-          "id": 1262,
-          "name": "Duval Jeanne",
-          "children": [
-
-          ]
+          "id": 3346,
+          "name": "M Nathan Pons",
+          "children": []
         }
       ]
     }

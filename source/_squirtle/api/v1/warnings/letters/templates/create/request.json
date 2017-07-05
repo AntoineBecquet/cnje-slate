@@ -1,0 +1,6 @@
+{
+  "warning_letter_template": {
+    "title": "A title",
+    "content": "<p>Hello World</p>"
+  }
+}

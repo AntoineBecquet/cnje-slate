@@ -1,0 +1,13 @@
+{
+  "strong_warning": {
+    "id": 17,
+    "audit_id": 24,
+    "quality_control_datetime": "2017-07-17T16:07:21.000+02:00",
+    "junior": {
+      "id": 258,
+      "full_name": "Leroux GIE",
+      "common_name": "Fabre et Gerard",
+      "junior_type": "candidate"
+    }
+  }
+}

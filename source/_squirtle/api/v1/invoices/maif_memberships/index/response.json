@@ -2,15 +2,15 @@
   "maif_memberships": [
     {
       "year": "2015",
-      "total_amount_in_cents": 0,
+      "total_amount_in_cents": 50000,
       "certificates_url": null,
       "invoice_archive_url": null,
-      "original_certificate_url": null,
+      "original_certificate_url": "/uploads/cache/maif_memberships/c0e304204e92cb58d61035603fb154/original_certificate/95bd9339223bd6caf36843ce3aff8f3d2d596b51.docx",
       "juniors_count": 0,
       "price_in_cents_with_less_than_200_members": 100000,
       "price_in_cents_with_more_than_200_members": 100000,
       "xls_test_file_url": null,
-      "generated_at": "2016-09-16"
+      "generated_at": "2017-07-05"
     }
   ]
 }

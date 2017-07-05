@@ -1,13 +1,16 @@
 {
   "audits": [
     {
-      "id": 2474,
+      "id": 3109,
       "auditable_at": null,
-      "final_decision": "pending",
+      "final_decision": "unknown",
       "specifications_url": null,
+      "orga_grid_status": "unknown",
+      "treso_grid_status": "unknown",
       "final_report_url": null,
       "status": "pending",
-      "send_to_junior_at": null
+      "send_to_junior_at": null,
+      "audit_session_id": 3108
     }
   ]
 }

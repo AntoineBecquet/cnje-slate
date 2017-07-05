@@ -1,0 +1,19 @@
+{
+  "statutory_warnings": [
+    {
+      "id": 1486,
+      "reason": "Ut vel exercitationem id iste in.",
+      "sanction_date": "2017-07-05",
+      "warning_type": "as",
+      "ends_at": "2018-07-05",
+      "status": "in_progress",
+      "decision_ends_at": null,
+      "junior": {
+        "id": 1485,
+        "full_name": "Royer et Renard",
+        "common_name": "Lecomte et Charles",
+        "junior_type": "candidate"
+      }
+    }
+  ]
+}

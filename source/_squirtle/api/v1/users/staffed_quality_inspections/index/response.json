@@ -4,14 +4,14 @@
       "report_status": "pending",
       "report_url": null,
       "quality_inspection": {
-        "id": 1008,
-        "at": "2016-11-13T00:00:00.000+01:00",
+        "id": 3230,
+        "at": "2017-09-15T00:00:00.000+02:00",
         "quality_inspection_type": "suivi_pepiniere_junior_entreprise",
         "final_decision": "pending",
         "junior": {
-          "id": 1007,
-          "full_name": "Guerin GIE",
-          "common_name": "Garcia et Martin",
+          "id": 3229,
+          "full_name": "Laurent et Gauthier",
+          "common_name": "Roussel et Vasseur",
           "junior_type": "candidate"
         }
       }

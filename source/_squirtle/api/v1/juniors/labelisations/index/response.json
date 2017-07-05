@@ -1,14 +1,14 @@
 {
   "labelisations": [
     {
-      "id": 2405,
+      "id": 3020,
       "labelisation_type": "candidate",
       "judgement": "pending",
       "application_form_url": null,
       "junior": {
-        "id": 2404,
-        "full_name": "Morin EI",
-        "common_name": "Lacroix GIE",
+        "id": 3019,
+        "full_name": "Paris SA",
+        "common_name": "Gonzalez et Barre",
         "junior_type": "candidate"
       }
     }

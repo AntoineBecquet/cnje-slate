@@ -1,35 +1,39 @@
 {
   "members": [
     {
-      "id": 2036,
+      "id": 3185,
       "application_status": "pending",
-      "starts_at": "2016-09-15",
-      "ends_at": "2017-09-16",
+      "starts_at": "2017-07-04",
+      "ends_at": "2018-07-05",
       "job_title": "JobTitle",
       "job_level": {
-        "id": 2038,
+        "id": 3187,
         "name": "Member du Bureau"
       },
       "changes": {
         "foo": [
           null,
           "bar"
+        ],
+        "job": [
+          "Chargé de Mission",
+          "Chargé de Mission"
         ]
       },
       "job": {
-        "id": 2045,
+        "id": 3195,
         "name": "Chargé de Mission"
       },
       "division": {
-        "id": 2039,
+        "id": 3188,
         "name": "Présidence"
       },
       "user": {
-        "id": 2047,
-        "first_name": "Clémence",
-        "last_name": "Adam",
-        "email": "miracle_dubuque@jacobswitting.org",
-        "junior_email": "franco_thiel@reilly.io",
+        "id": 3197,
+        "first_name": "Lou",
+        "last_name": "Charpentier",
+        "email": "robin@hyatt.co",
+        "junior_email": "cyrus.hegmann@veumgibson.com",
         "phone_number": "0101010101"
       }
     }

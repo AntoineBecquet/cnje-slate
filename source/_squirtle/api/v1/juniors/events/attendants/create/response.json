@@ -1,24 +1,23 @@
 {
   "attendants": [
     {
-      "id": 4,
-      "created_at": "2016-09-16T14:22:21.122+02:00",
+      "id": 88,
+      "created_at": "2017-07-05T16:07:49.404+02:00",
       "type": "user_with_junior_attendant",
-      "departure_at": "2016-09-16T14:22:21.000+02:00",
+      "departure_at": "2017-07-05T16:07:49.000+02:00",
       "departure_kind_of_transport": "car",
       "departure_place": "",
-      "arrival_at": "2016-09-21T14:22:21.000+02:00",
+      "arrival_at": "2017-07-10T16:07:49.000+02:00",
       "arrival_kind_of_transport": "car",
       "arrival_place": "",
       "issue": null,
       "user": {
-        "id": 54,
-        "first_name": "Baptiste",
-        "last_name": "Renault"
+        "id": 334,
+        "first_name": "Pierre",
+        "last_name": "Barre",
+        "email": "jee@gleason.info"
       }
     }
   ],
-  "waiting_list": [
-
-  ]
+  "waiting_list": [  ]
 }

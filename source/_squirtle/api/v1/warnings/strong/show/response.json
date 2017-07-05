@@ -1,0 +1,16 @@
+{
+  "strong_warning": {
+    "id": 2914,
+    "audit_id": 2913,
+    "quality_control_datetime": "2017-07-17T16:07:23.379+02:00",
+    "board_of_directors_datetime": null,
+    "board_of_directors_decision": "pending",
+    "decision_letter_availability_date": null,
+    "junior": {
+      "id": 2911,
+      "full_name": "Garnier et Guyot",
+      "common_name": "Richard et Dumont",
+      "junior_type": "candidate"
+    }
+  }
+}

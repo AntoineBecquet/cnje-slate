@@ -1,8 +1,8 @@
 {
   "audit": {
-    "id": "1635",
-    "junior_id": "1633",
-    "audit_session_id": "1634",
+    "id": "1589",
+    "junior_id": "1587",
+    "audit_session_id": "1588",
     "auditable_at": null,
     "debriefing_date": null,
     "final_decision": "0",
@@ -11,6 +11,14 @@
     "specifications_data": {
     },
     "orga_grid_status": "0",
-    "treso_grid_status": "0"
+    "treso_grid_status": "0",
+    "final_report_data": {
+    },
+    "status": "pending",
+    "send_to_junior_at": null,
+    "letter_data": {
+    },
+    "all_debriefings_data": {
+    }
   }
 }

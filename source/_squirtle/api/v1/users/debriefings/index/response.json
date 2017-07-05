@@ -3,29 +3,31 @@
     {
       "debriefing_url": null,
       "audit": {
-        "id": 2252,
+        "id": 1304,
         "auditable_at": null,
-        "final_decision": "pending",
+        "final_decision": "unknown",
         "specifications_url": null,
-        "orga_grid_status": "pending_distribution",
-        "treso_grid_status": "pending_distribution",
+        "orga_grid_status": "unknown",
+        "treso_grid_status": "unknown",
         "final_report_url": null,
         "status": "pending",
         "send_to_junior_at": null,
         "junior": {
-          "id": 2250,
-          "full_name": "Marchand SCOP",
-          "common_name": "Le roux et Dupont",
+          "id": 1302,
+          "full_name": "Rodriguez et Leroy",
+          "common_name": "Le gall et David",
           "junior_type": "candidate",
           "board_started_at": null,
+          "president": null,
+          "treasurer": null,
           "address": {
-            "id": 2249,
+            "id": 1301,
             "line1": "line1",
             "line2": "line2",
             "city": "Paris",
             "country": "FR",
             "postal_code": "75018",
-            "department_id": 2248,
+            "department_id": 1300,
             "full": ""
           }
         }

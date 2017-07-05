@@ -1,0 +1,4 @@
+---
+:status: 202
+:verb: PATCH
+:path: "/api/v1/warnings/letters/templates/:id"

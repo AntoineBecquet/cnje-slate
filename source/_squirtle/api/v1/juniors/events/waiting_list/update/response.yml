@@ -1,0 +1,4 @@
+---
+:status: 202
+:verb: PUT
+:path: "/api/v1/juniors/:junior_id/events/:event_id/waiting_list/:waiting_list_id"

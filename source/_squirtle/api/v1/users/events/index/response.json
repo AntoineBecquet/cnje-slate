@@ -1,17 +1,17 @@
 {
   "events": [
     {
-      "id": 2432,
+      "id": 1623,
       "cv_is_mandatory": false,
-      "starts_at": "2016-10-16T14:23:08.256+02:00",
-      "ends_at": "2016-10-26T14:23:08.256+02:00",
+      "starts_at": "2017-08-04T16:06:22.707+02:00",
+      "ends_at": "2017-08-14T16:06:22.707+02:00",
       "invoice_for_junior": false,
       "name": "Event Name",
       "organizer": "CNJE",
-      "last_registration_at": "2016-09-21T14:23:08.256+02:00",
-      "last_sort_at": "2016-10-01T14:23:08.256+02:00",
-      "online_at": "2016-09-16T13:23:08.255+02:00",
-      "registration_starts_at": "2016-09-16T13:53:08.255+02:00",
+      "last_registration_at": "2017-07-10T16:06:22.706+02:00",
+      "last_sort_at": "2017-07-20T16:06:22.706+02:00",
+      "online_at": "2017-07-05T15:06:22.704+02:00",
+      "registration_starts_at": "2017-07-05T15:36:22.705+02:00",
       "description": "Event Description",
       "seats_capacity": 100,
       "special_seats_capacity": 0,
@@ -20,34 +20,56 @@
       "cover_photo_url": null,
       "attendants": [
         {
-          "id": 2441,
-          "created_at": "2016-09-16T14:23:08.327+02:00",
+          "id": 1625,
+          "created_at": "2017-07-05T16:06:22.788+02:00",
           "type": null,
-          "departure_at": "2016-09-16T14:23:08.313+02:00",
+          "departure_at": "2017-07-05T16:06:22.766+02:00",
           "departure_kind_of_transport": "car",
           "departure_place": "Paris",
-          "arrival_at": "2016-09-26T14:23:08.314+02:00",
+          "arrival_at": "2017-07-15T16:06:22.766+02:00",
           "arrival_kind_of_transport": "car",
           "arrival_place": "Paris",
           "issue": null,
           "user": {
-            "id": 2446,
-            "first_name": "Alicia",
-            "last_name": "Giraud"
+            "id": 1630,
+            "first_name": "Sarah",
+            "last_name": "Carpentier",
+            "email": "enrique.grant@mcclurereichel.co"
           }
         }
       ],
-      "status": "draft",
+      "status": "published",
+      "waiting_list": [
+        {
+          "id": 1631,
+          "created_at": "2017-07-05T16:06:22.810+02:00",
+          "type": "waiting_list_attendant",
+          "departure_at": "2017-07-05T16:06:22.801+02:00",
+          "departure_kind_of_transport": "car",
+          "departure_place": "Paris",
+          "arrival_at": "2017-07-15T16:06:22.801+02:00",
+          "arrival_kind_of_transport": "car",
+          "arrival_place": "Paris",
+          "issue": null,
+          "position": 0,
+          "user": {
+            "id": 1636,
+            "first_name": "Mélissa",
+            "last_name": "Olivier",
+            "email": "caterina@christiansenblock.org"
+          }
+        }
+      ],
       "type": null,
       "address": null,
       "prices": [
         {
-          "id": 2447,
+          "id": 1637,
           "description": "Event Price Description",
           "price_in_cents": 1000,
           "discounts": [
             {
-              "id": 2449,
+              "id": 1639,
               "minimum_turnover_in_cents": 100,
               "maximum_turnover_in_cents": 1000,
               "amount_in_cents": 10000
@@ -57,36 +79,12 @@
       ],
       "documents": [
         {
-          "id": "eb8c5aed-e99c-404d-8d58-01d500f86ca5",
+          "id": "697f1d31-6166-4c61-a367-53ba7f5aa7d0",
           "name": "Document's Name"
         }
       ],
-      "waiting_list": [
-        {
-          "id": 2450,
-          "created_at": "2016-09-16T14:23:08.362+02:00",
-          "type": "waiting_list_attendant",
-          "departure_at": "2016-09-16T14:23:08.346+02:00",
-          "departure_kind_of_transport": "car",
-          "departure_place": "Paris",
-          "arrival_at": "2016-09-26T14:23:08.347+02:00",
-          "arrival_kind_of_transport": "car",
-          "arrival_place": "Paris",
-          "issue": null,
-          "position": 0,
-          "user": {
-            "id": 2455,
-            "first_name": "Mélissa",
-            "last_name": "Lacroix"
-          }
-        }
-      ],
-      "places": [
-
-      ],
-      "linked_juniors": [
-
-      ]
+      "places": [      ],
+      "linked_juniors": [      ]
     }
   ]
 }

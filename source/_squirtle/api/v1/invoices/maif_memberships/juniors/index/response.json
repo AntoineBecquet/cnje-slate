@@ -1,18 +1,18 @@
 {
   "maif_membership_juniors": [
     {
-      "id": 2852,
+      "id": 3632,
       "certificate_url": null,
       "junior": {
-        "id": 2851,
-        "full_name": "Duval et Nicolas",
-        "common_name": "Dumont et Benoit",
+        "id": 3631,
+        "full_name": "Blanchard et Poirier",
+        "common_name": "Leroux et Leclercq",
         "junior_type": "candidate"
       },
       "invoice": {
-        "id": "79239441-bfd5-4981-a70c-55c3f15c1283",
+        "id": "79239441-bfd5-4981-a70c-55c3f15c1284",
         "title": "InvoiceTitle",
-        "generated_at": "2016-09-16",
+        "generated_at": "2017-07-05",
         "invoice_url": null
       }
     }

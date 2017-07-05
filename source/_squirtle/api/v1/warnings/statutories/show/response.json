@@ -1,0 +1,17 @@
+{
+  "statutory_warning": {
+    "id": 1524,
+    "reason": "Delectus optio eum cum et.",
+    "sanction_date": "2017-07-05",
+    "warning_type": "as",
+    "ends_at": "2018-07-05",
+    "status": "in_progress",
+    "decision_ends_at": null,
+    "junior": {
+      "id": 1523,
+      "full_name": "Hubert et Fontaine",
+      "common_name": "Menard EI",
+      "junior_type": "candidate"
+    }
+  }
+}

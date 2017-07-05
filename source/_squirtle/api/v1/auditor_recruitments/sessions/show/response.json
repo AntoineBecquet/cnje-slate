@@ -1,0 +1,22 @@
+{
+  "auditor_recruitment_session": {
+    "id": 1062,
+    "starts_at": "2017-07-19T00:00:00.000+02:00",
+    "ends_at": "2017-08-19T00:00:00.000+02:00",
+    "session_type": "treasury",
+    "auditor_recruitment_session_candidates": [
+      {
+        "id": 1065,
+        "wefa_status": "wefa_status_pending",
+        "wefa_date": "2017-08-04T00:00:00.000+02:00",
+        "application_status": "application_status_pending",
+        "user": {
+          "id": 1064,
+          "first_name": "Enzo",
+          "last_name": "Morin",
+          "email": "wendell@thielmorar.org"
+        }
+      }
+    ]
+  }
+}

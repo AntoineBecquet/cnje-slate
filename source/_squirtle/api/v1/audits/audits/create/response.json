@@ -1,24 +1,27 @@
 {
   "audit": {
-    "id": 1635,
+    "id": 1589,
     "auditable_at": null,
     "debriefing_date": null,
-    "final_decision": "pending",
+    "final_decision": "unknown",
     "specifications_url": null,
-    "orga_grid_status": "pending_distribution",
-    "treso_grid_status": "pending_distribution",
+    "orga_grid_status": "unknown",
+    "treso_grid_status": "unknown",
+    "final_report_url": null,
+    "status": "pending",
+    "send_to_junior_at": null,
     "audit_session_id": 1,
     "junior": {
-      "id": 1633,
-      "full_name": "Gaillard SA",
-      "common_name": "Nicolas EURL",
+      "id": 1587,
+      "full_name": "Carpentier et Duval",
+      "common_name": "Jacquet EURL",
       "junior_type": "candidate"
     },
     "auditors": [
       {
-        "id": 1638,
-        "first_name": "Camille",
-        "last_name": "Bertrand",
+        "id": 1591,
+        "first_name": "Léa",
+        "last_name": "Lucas",
         "response_at": null,
         "status": "pending",
         "report_url": null,
@@ -27,9 +30,9 @@
     ],
     "debriefers": [
       {
-        "id": 1641,
-        "first_name": "Laura",
-        "last_name": "Bernard",
+        "id": 1594,
+        "first_name": "Lilou",
+        "last_name": "Richard",
         "debriefing_url": null
       }
     ]

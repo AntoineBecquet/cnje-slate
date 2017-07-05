@@ -4,11 +4,11 @@
     "total_amount_in_cents": 0,
     "certificates_url": null,
     "invoice_archive_url": null,
-    "original_certificate_url": null,
+    "original_certificate_url": "/uploads/cache/maif_memberships/697d57d0ec29086b70ba3bfd95d207/original_certificate/5a3d037730f3288240bfceacd950b9b75289dca9.docx",
     "juniors_count": 0,
     "price_in_cents_with_less_than_200_members": 42,
     "price_in_cents_with_more_than_200_members": 100000,
     "xls_test_file_url": null,
-    "generated_at": "2016-09-16"
+    "generated_at": "2017-07-05"
   }
 }

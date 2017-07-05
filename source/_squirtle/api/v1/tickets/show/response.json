@@ -1,39 +1,45 @@
 {
   "ticket": {
-    "id": "1a3fc0c6-7e9c-46c2-a059-a106b2c6c2ad",
+    "id": "aba09d0e-4a44-4321-884c-20c7ea599a66",
     "title": "TicketTitle",
     "content": "TicketContent",
     "status": "pending_cnje_answer",
-    "created_at": "2016-09-16T15:35:07.792+02:00",
+    "created_at": "2017-07-05T16:06:51.140+02:00",
     "will_reopen_at": null,
+    "messages": [
+      {
+        "id": "2a316208-485a-4d22-9d4e-42b323cc108d",
+        "content": "MessageContent",
+        "created_at": "2017-07-05T16:06:51.156+02:00",
+        "updated_at": null,
+        "is_draft": false,
+        "user": {
+          "id": 2294,
+          "first_name": "Maxence",
+          "last_name": "Lucas",
+          "email": "dino@nitzschemorar.net"
+        }
+      }
+    ],
     "creator": {
-      "id": 1334,
-      "first_name": "Maëlys",
-      "last_name": "Carpentier"
+      "id": 2288,
+      "first_name": "Lola",
+      "last_name": "Mercier",
+      "email": "urban.brekke@bayerdeckow.biz"
     },
     "junior": {
-      "id": 1337,
-      "full_name": "Barre SA",
-      "common_name": "Muller GIE",
+      "id": 2291,
+      "full_name": "Charpentier et Leclerc",
+      "common_name": "Bonnet GIE",
       "junior_type": "candidate"
     },
     "taken_by_user": null,
     "theme": {
-      "id": 1338,
+      "id": 2292,
       "name": "ThemeName",
       "fields": [      ],
       "permissions": [      ]
     },
-    "messages": [
-      {
-        "id": "37620000-c415-489e-81ea-ea1550244ec6",
-        "content": "MessageContent",
-        "user": {
-          "id": 32,
-          "first_name": "Ines",
-          "last_name": "Renard"
-        }
-      }
-    ]
+    "additional_fields": [    ]
   }
 }
