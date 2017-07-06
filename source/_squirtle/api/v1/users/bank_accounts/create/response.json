@@ -1,0 +1,8 @@
+{
+  "bank_account": {
+    "id": 5,
+    "iban": "FR7613106005002000743520962",
+    "bic": "CMCIFR2A",
+    "sepa": null
+  }
+}
