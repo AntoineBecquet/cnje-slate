@@ -1,0 +1,9 @@
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"bank_account"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"iban"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FR7613106005002000743520962"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"bic"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CMCIFR2A"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"sepa"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uploads/store/junior/1/3254c1c2b419cc1b98f38a7e124034/bank_accounts/1/e13c6e5352.png"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

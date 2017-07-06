@@ -1,0 +1,5 @@
+<h3 id="remove-an-open-local">Remove an Open Local</h3>
+<pre class="highlight http"><code><span class="nf">DELETE</span> <span class="nn">/cnje_recruitment/:cnje_recruitment_id/open_locals/:open_local_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">202</span> <span class="ne">No-Content</span>
+</code></pre>

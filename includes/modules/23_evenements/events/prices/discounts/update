@@ -1,0 +1,13 @@
+<h3 id="update-a-discount-for-a-price">Update a discount for a price</h3>
+<pre class="highlight http"><code><span class="nf">PUT</span> <span class="nn">/events/:event_id/:price_id/discounts/:discount_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"discount"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"minimum_turnover_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="s2">"100"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"maximum_turnover_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="s2">"100"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"amount_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="s2">"100"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">202</span> <span class="ne">Accepted</span>
+</code></pre>

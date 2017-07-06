@@ -1,0 +1,59 @@
+<h2 id="list-all-quality-inspections">List all quality inspections</h2>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/quality_inspections</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"quality_inspections"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-04-28T00:00:00.000+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"quality_inspection_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"suivi_pepiniere_junior_entreprise"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"final_decision"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"inspectors"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">14</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Adrien"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Remy"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"report_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/uploads/store/quality_inspections/5/c81260cc63b86714f36d591debfe97/reports/14/15f9fbc9e2.jpg"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"report_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"done"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ambre"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Durand"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"report_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"report_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending"</span><span class="w">
+    </span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Julien"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Schneider"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"report_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"report_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending"</span><span class="w">
+    </span><span class="p">}],</span><span class="w">
+    </span><span class="nt">"junior"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Prevost GIE"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"common_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Arnaud SEM"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">Ok</span>
+</code></pre>
+
+<h3 id="response-parameters">Response Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>quality_inspection_type</td>
+<td></td>
+<td>Values are <code class="prettyprint">suivi_pepiniere_junior_entreprise</code>, <code class="prettyprint">suivi_junior_candidate</code>, <code class="prettyprint">suivi_junior_integration</code>, <code class="prettyprint">passage_pepiniere_junior_entreprise</code>, <code class="prettyprint">passage_junior_candidate</code>, <code class="prettyprint">passage_junior_entreprise</code></td>
+</tr>
+<tr>
+<td>final_decision</td>
+<td></td>
+<td>Values are <code class="prettyprint">pending</code>, <code class="prettyprint">done</code></td>
+</tr>
+</tbody></table>

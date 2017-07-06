@@ -1,0 +1,8 @@
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"place"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1054</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"train"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Somewhere over the rainbow"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

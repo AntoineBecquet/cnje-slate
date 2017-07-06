@@ -1,0 +1,25 @@
+<h2 id="user-confirmation">User confirmation</h2>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/api/v1/auth/confirmation</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"confirmation_token"</span><span class="p">:</span><span class="w"> </span><span class="s2">"qwerty..."</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">204</span> <span class="ne">No-Content</span>
+</code></pre>
+
+<h3 id="request-parameters">Request Parameters</h3>
+
+<table><thead>
+<tr>
+<th></th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>confirmation_token    <span class="label">required</span><span class="details">String</span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>

@@ -1,0 +1,24 @@
+---
+  line1:
+    optional: true
+    type: String
+  line2:
+    optional: true
+    type: String
+  city:
+    optional: true
+    type: String
+  country:
+    optional: true
+    type: String
+    default: FR
+    description: "As specified by the iso3166"
+  postal_code:
+    optional: true
+    type: String
+  department_id:
+    optional: true
+    type: Integer
+  full:
+    type: String
+    description: "The full address given by Google Place"

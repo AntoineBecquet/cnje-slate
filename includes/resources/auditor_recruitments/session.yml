@@ -1,0 +1,8 @@
+---
+  session_type:
+    description: "Values are `treasury` / `organizational`"
+    optional: false
+  starts_at:
+    optional: false
+  ends_at:
+    optional: false

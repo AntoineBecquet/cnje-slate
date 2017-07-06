@@ -1,0 +1,134 @@
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"events"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1005</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"registration_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-10-06T13:21:16.321+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-10-16T13:21:16.322+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"can_register_without_account"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"invoice_for_junior"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-11T13:21:16.321+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-21T13:21:16.321+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T12:21:16.319+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T12:51:16.320+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"minimum_seats_capacity_per_junior"</span><span class="p">:</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"maximum_seats_capacity_per_junior"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"cover_photo_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1026</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.603+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"no_account_attendant"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.571+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-16T13:21:16.572+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"issue"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"profile"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Alexandre"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Henry"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hester@stromanheidenreich.io"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"company"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"comment"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1032</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.604+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"junior_attendant"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.595+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-16T13:21:16.595+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"issue"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1037</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Louise"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Masson"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}],</span><span class="w">
+    </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1004</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"line1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"line1"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"line2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"line2"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"city"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FR"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"postal_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"75018"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"department_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1003</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nt">"prices"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1038</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Price Description"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"price_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">1000</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"discounts"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1040</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"minimum_turnover_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"maximum_turnover_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">1000</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"amount_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">10000</span><span class="w">
+      </span><span class="p">}]</span><span class="w">
+    </span><span class="p">}],</span><span class="w">
+    </span><span class="nt">"documents"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"9a4c2c0d-457e-493b-93e2-ce2f2a1db7b6"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Document's Name"</span><span class="w">
+    </span><span class="p">}],</span><span class="w">
+    </span><span class="nt">"waiting_list"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1041</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.661+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"waiting_list_attendant"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.648+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-16T13:21:16.649+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"issue"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"position"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1046</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Clara"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Henry"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}],</span><span class="w">
+    </span><span class="nt">"pending_no_account_attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1048</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.673+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending_no_account_attendant"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-06T13:21:16.662+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"departure_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-16T13:21:16.662+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"issue"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"profile"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Evan"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Michel"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"jayde@smitham.org"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"company"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"comment"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}],</span><span class="w">
+    </span><span class="nt">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1054</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"train"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Somewhere over the rainbow"</span><span class="w">
+    </span><span class="p">}],</span><span class="w">
+    </span><span class="nt">"linked_juniors"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1057</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Lecomte SA"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"common_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Clement et Huet"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"junior_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"candidate"</span><span class="w">
+    </span><span class="p">}]</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

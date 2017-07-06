@@ -1,0 +1,5 @@
+<h3 id="retrieve-a-document">Retrieve a document</h3>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/documents/:document_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+
+<p>The document will be sent from the server</p>

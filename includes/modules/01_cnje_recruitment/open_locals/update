@@ -1,0 +1,26 @@
+<h3 id="update-an-open-local">Update an Open Local</h3>
+<pre class="highlight http"><code><span class="nf">PUT</span> <span class="nn">/cnje_recruitment/:cnje_recruitment_id/open_locals/:open_local_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"event"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"draft"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-08-17T10:37:40.361+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-08-22T10:37:40.362+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"can_register_without_account"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-08-21T10:37:40.362+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-08-21T10:37:40.362+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-08-18T10:37:40.362+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-08-19T10:37:40.362+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"cover_photo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MULTIPART/FORM"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">201</span> <span class="ne">Accepted</span>
+</code></pre>

@@ -1,0 +1,15 @@
+<h2 id="deposit-fee">Deposit Fee</h2>
+
+<h3 id="update-deposit-fee">Update deposit fee</h3>
+<pre class="highlight http"><code><span class="err">UPDATE /invoices/cnje_memberships/fiscal_years/:fiscal_year/deposit_fee HTTP/1.1
+</span></code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"deposit_fee"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"junior_creation_fee_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">15000</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"pepiniere_junior_entreprise_fee_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">25000</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"junior_entreprise_fee_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">35000</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"junior_initiative_fee_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">45000</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"deposite_fee_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-06-24"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

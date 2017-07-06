@@ -1,0 +1,38 @@
+{
+  "audit_sessions": [{
+    "id": 1,
+    "starts_at": "2016-10-02T00:00:00.000+02:00",
+    "ends_at": "2016-11-02T00:00:00.000+01:00",
+    "status": "pending",
+    "audits": [{
+      "id": 1,
+      "auditable_at": null,
+      "debriefing_date": null,
+      "final_decision": "pending",
+      "specifications_url": null,
+      "audit_session_id": 1,
+      "orga_grid_status,
+      "treso_grid_status"
+      "junior": {
+        "id": 1,
+        "full_name": "Renault SCOP",
+        "common_name": "Leroy EI",
+        "junior_type": "candidate"
+      },
+      "auditors": [{
+        "id": 1,
+        "first_name": "Nicolas",
+        "last_name": "Breton",
+        "response_at": null,
+        "status": "pending",
+        "report_url": null
+      }],
+      "debriefers": [{
+        "id": 1,
+        "first_name": "Nicolas",
+        "last_name": "Breton",
+        "debriefing_url": null
+      }]
+    }]
+  }]
+}

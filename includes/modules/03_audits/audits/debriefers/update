@@ -1,0 +1,11 @@
+<h3 id="update-a-debriefer-on-an-audit">Update a debriefer on an Audit</h3>
+<pre class="highlight http"><code><span class="nf">POST</span> <span class="nn">/api/v1/audits/:audit_id/debriefers/:debriefer_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"debriefer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"debriefing"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MULTI-PART"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">201</span> <span class="ne">Created</span>
+</code></pre>

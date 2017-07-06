@@ -1,0 +1,45 @@
+<h3 id="create-an-audit-session">Create an audit session</h3>
+<pre class="highlight http"><code><span class="nf">POST</span> <span class="nn">/audit_sessions</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"audit_session"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-02-29T15:33:38.842+01:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-04-30T15:33:38.842+02:00"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<blockquote>
+<div class="request-response">
+  <h4>Result Format</h4>
+  <div class="tabs-container">
+    <ul class="tabs-menu">
+    </ul>
+    <div class="tab">
+    </div>
+  </div>
+</div>
+</blockquote>
+
+<p>Fetch audit sessions</p>
+
+<h3 id="response-parameters">Response Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>starts_at</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ends_at</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>

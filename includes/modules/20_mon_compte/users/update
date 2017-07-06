@@ -1,0 +1,89 @@
+<h2 id="update-an-user">Update an user</h2>
+<pre class="highlight http"><code><span class="nf">PUT</span> <span class="nn">/api/v1/users/:user_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"new-email@new-email.com"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"junior_email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"new-junior-email@new-junior-email.com"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"current_password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"foo"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"new_password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bar"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"privacy"</span><span class="p">:</span><span class="w"> </span><span class="s2">"public"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"civility"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mr"</span><span class="p">,</span><span class="w">             
+    </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Foo"</span><span class="p">,</span><span class="w">             
+    </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bar"</span><span class="p">,</span><span class="w">              
+    </span><span class="nt">"birth_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01/01/01"</span><span class="p">,</span><span class="w">             
+    </span><span class="nt">"phone_number"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0101010101"</span><span class="p">,</span><span class="w">           
+    </span><span class="nt">"allows_photos_on_events"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"allows_newsletter"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"curriculum"</span><span class="p">:</span><span class="w"> </span><span class="s2">"QWE..."</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"line1"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"line2"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"city"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"postal_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">201</span> <span class="ne">Created</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{}</span><span class="w">
+</span></code></pre>
+
+<h3 id="request-parameters">Request Parameters</h3>
+
+<table><thead>
+<tr>
+<th></th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>privacy</td>
+<td></td>
+<td>Values are <code class="prettyprint">public</code> / <code class="prettyprint">email_only</code> / <code class="prettyprint">private</code></td>
+</tr>
+<tr>
+<td>civility                         <span class="details">String / Integer</span></td>
+<td></td>
+<td>values for string are <code class="prettyprint">ms</code>, <code class="prettyprint">mrs</code>, or <code class="prettyprint">mr</code>. Values for integer <code class="prettyprint">0</code>, <code class="prettyprint">1</code>, or <code class="prettyprint">2</code> respectively</td>
+</tr>
+<tr>
+<td>first_name                       <span class="details">String</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>last_name                        <span class="details">String</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>birth_date                       <span class="details">String</span></td>
+<td></td>
+<td>format: <code class="prettyprint">&#39;01/01/01&#39;</code>. The US format has to be use: MONTH/DAY/YEAR</td>
+</tr>
+<tr>
+<td>phone_number                     <span class="details">String</span></td>
+<td></td>
+<td>format: <code class="prettyprint">&#39;0101010101&#39;</code></td>
+</tr>
+<tr>
+<td>allows_photos_on_events          <span class="details">Boolean</span></td>
+<td></td>
+<td>Photo can be use</td>
+</tr>
+<tr>
+<td>allows_newsletter                <span class="details">Boolean</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>curriculum</td>
+<td></td>
+<td>A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol).</td>
+</tr>
+</tbody></table>

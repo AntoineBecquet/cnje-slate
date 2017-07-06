@@ -1,0 +1,7 @@
+---
+  final_decision:
+    description: "Values are `pending` / `satisfaisant` / `ac` / `af` / `ppu` / `jiification` / `radiation`"
+  orga_grid_status:
+    description: "Values are `pending_distribution` / `pregrid_to_type` / `pending_pregrid` / `approval` / `grid_to_type` / `pending_grid` / `completed`"
+  treso_grid_status:
+    description: "Values are `pending_distribution` / `pregrid_to_type` / `pending_pregrid` / `approval` / `grid_to_type` / `pending_grid` / `completed`"

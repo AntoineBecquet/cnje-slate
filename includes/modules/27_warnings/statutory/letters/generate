@@ -1,0 +1,5 @@
+<h3 id="generate-the-pdf-file-of-a-statutory-warning-letter">Generate the PDF file of a statutory warning letter</h3>
+<pre class="highlight http"><code><span class="nf">PUT</span> <span class="nn">/warnings/statutories/:statutory_id/letters/:letter_id/generate</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">204</span> <span class="ne">No-Content</span>
+</code></pre>

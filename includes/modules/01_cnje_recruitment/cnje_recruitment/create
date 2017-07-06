@@ -1,0 +1,162 @@
+<h3 id="create-a-new-recruitment-session">Create a new recruitment session</h3>
+<pre class="highlight http"><code><span class="nf">POST</span> <span class="nn">/api/v1/cnje_recruitments</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+
+<blockquote>
+<h4>Request Example</h4>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"cnje_recruitment"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"year"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"open_locals"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"published"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"maximum_seats_capacity_per_junior"</span><span class="p">:</span><span class="w"> </span><span class="s2">"10"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"100"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nt">"recruitment_weekends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"published"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"maximum_seats_capacity_per_junior"</span><span class="p">:</span><span class="w"> </span><span class="s2">"10"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"100"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nt">"handover_weekends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"published"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:47+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"maximum_seats_capacity_per_junior"</span><span class="p">:</span><span class="w"> </span><span class="s2">"10"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"100"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<blockquote>
+<div class="request-response">
+  <h4>Result Format</h4>
+  <div class="tabs-container">
+    <ul class="tabs-menu">
+        <li class="current ">
+          <span class="status-icon status-icon-success"></span>
+          <a href="#tab-1">
+            200 OK
+          </a>
+        </li>
+    </ul>
+    <div class="tab">
+        <div id="tab-1" class="tab-content">
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"cnje_recruitment"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"year"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"open_locals"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">29</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"cover_photo_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"draft"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"open_local"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"documents"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">],</span><span class="w">
+        </span><span class="nt">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">],</span><span class="w">
+        </span><span class="nt">"attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">]</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nt">"recruitment_weekends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"cover_photo_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"draft"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"recruitment_weekend"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"documents"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">],</span><span class="w">
+        </span><span class="nt">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">],</span><span class="w">
+        </span><span class="nt">"attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">]</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nt">"handover_weekends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">31</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:47.000+02:00"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"cover_photo_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"draft"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"handover_weekend"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"documents"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">],</span><span class="w">
+        </span><span class="nt">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">],</span><span class="w">
+        </span><span class="nt">"attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">        </span><span class="p">]</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span></code></pre>
+        </div>
+    </div>
+  </div>
+</div>
+</blockquote>

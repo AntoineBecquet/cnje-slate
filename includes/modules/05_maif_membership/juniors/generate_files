@@ -1,0 +1,7 @@
+<h2 id="juniors">Juniors</h2>
+
+<h3 id="retrieve-junior-for-a-maif-membership">Retrieve Junior for a MAIF Membership</h3>
+<pre class="highlight http"><code><span class="nf">POST</span> <span class="nn">/invoices/maif_memberships/:year/juniors/:junior_id/generate_files</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">202</span> <span class="ne">Accepted</span>
+</code></pre>

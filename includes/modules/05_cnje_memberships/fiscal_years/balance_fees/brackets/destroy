@@ -1,0 +1,3 @@
+<h3 id="remove-brackets">Remove brackets</h3>
+<pre class="highlight http"><code><span class="nf">DELETE</span> <span class="nn">/invoices/cnje_memberships/fiscal_years/:fiscal_year/balance_fee/brackets/:bracket_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>

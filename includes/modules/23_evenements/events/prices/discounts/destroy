@@ -1,0 +1,5 @@
+<h3 id="remove-a-discount-for-a-price">Remove a discount for a price</h3>
+<pre class="highlight http"><code><span class="nf">DELETE</span> <span class="nn">/events/:event_id/:price_id/discounts/:discount_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">204</span> <span class="ne">No-Content</span>
+</code></pre>

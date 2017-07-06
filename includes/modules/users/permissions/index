@@ -1,0 +1,14 @@
+<h1 id="users">Users</h1>
+
+<h2 id="permissions">Permissions</h2>
+
+<h3 id="retrieve-user-39-s-permissions">Retrieve User&rsquo;s Permissions</h3>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/users/:user_id/permissions</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"permissions"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Permission description"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"resource::method"</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

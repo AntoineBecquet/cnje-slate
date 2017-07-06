@@ -1,0 +1,13 @@
+---
+  supporting_document_limit_date:
+    type: Date
+    description: The last date when document can be received
+  supporting_document_received_at:
+    type: Date
+    description: The date when the document are received
+  paid_at:
+    type: Date
+    description: The date when the expense report has been paid
+  status:
+    type: Enum
+    description: "Values are `pending` / `document_received` / `paid`"

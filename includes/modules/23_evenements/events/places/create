@@ -1,0 +1,14 @@
+<h2 id="places">Places</h2>
+
+<h3 id="add-a-place-to-an-event">Add a place to an event</h3>
+<pre class="highlight http"><code><span class="nf">POST</span> <span class="nn">/events/:event_id/places</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"place"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Somewhere over the rainbow"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">201</span> <span class="ne">Created</span>
+</code></pre>

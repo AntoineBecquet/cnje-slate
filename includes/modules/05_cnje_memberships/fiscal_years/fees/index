@@ -1,0 +1,23 @@
+<h2 id="fees">Fees</h2>
+
+<h3 id="retrieve-all-membership-fees">Retrieve all membership fees</h3>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/invoices/cnje_memberships/fiscal_years/:fiscal_year/fees</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"cnje_membership_fees"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1012</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"not_generated"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"error_message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"deposit_invoice_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"balance_invoice_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"junior"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1011</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Philippe SEM"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"common_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Benoit GIE"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"junior_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"candidate"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
+</code></pre>

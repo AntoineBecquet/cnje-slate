@@ -1,0 +1,5 @@
+<h3 id="destroy-a-junior-39-s-member-attendant">Destroy a Junior&rsquo;s Member attendant</h3>
+<pre class="highlight http"><code><span class="nf">DELETE</span> <span class="nn">/juniors/:junior_id/events/:event_id/attendants/:attendant_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">204</span> <span class="ne">No-Content</span>
+</code></pre>

@@ -1,0 +1,5 @@
+<h3 id="send-to-junior">Send To Junior</h3>
+<pre class="highlight http"><code><span class="nf">PUT</span> <span class="nn">/audits/:audit_id/send_to_junior</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">202</span> <span class="ne">No-Content</span>
+</code></pre>

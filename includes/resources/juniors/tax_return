@@ -1,0 +1,21 @@
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"tax_returns"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1004</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"processing"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"accounting_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-05-26"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"accounting_ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2021-01-10"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"turnover_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">9999</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"grants_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">9999</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"other_products_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">9999</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"net_income_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">9999</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"equity_in_cents"</span><span class="p">:</span><span class="w"> </span><span class="mi">9999</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"tax_return_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"junior"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1003</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Le roux et Mathieu"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"common_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Rodriguez et Dupuis"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"junior_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"candidate"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

@@ -1,0 +1,5 @@
+<h3 id="confirm-an-account">Confirm an account</h3>
+<pre class="highlight http"><code><span class="nf">POST</span> <span class="nn">/events/:event_id/attendants/no_account_attendants/:no_account_attendant_id/confirm?confirmation_token=XXX</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">201</span> <span class="ne">Accepted</span>
+</code></pre>

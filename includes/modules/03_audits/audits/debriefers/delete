@@ -1,0 +1,5 @@
+<h3 id="remove-a-debriefer-from-an-audit">Remove a debriefer from an audit</h3>
+<pre class="highlight http"><code><span class="nf">DELETE</span> <span class="nn">/api/v1/audits/:audit_id/debriefers/:debriefer_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">202</span> <span class="ne">Accepted</span>
+</code></pre>

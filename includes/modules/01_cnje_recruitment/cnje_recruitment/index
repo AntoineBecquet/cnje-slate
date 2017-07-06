@@ -1,0 +1,200 @@
+<h2 id="cnje-recruitment">CNJE Recruitment</h2>
+
+<h3 id="retrieve-all-recruitments-sessions">Retrieve all recruitments sessions</h3>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/api/v1/cnje_recruitments</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+
+<blockquote>
+<h4>Request Example</h4>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<blockquote>
+<div class="request-response">
+  <h4>Result Format</h4>
+  <div class="tabs-container">
+    <ul class="tabs-menu">
+        <li class="current ">
+          <span class="status-icon status-icon-success"></span>
+          <a href="#tab-1">
+            200 OK
+          </a>
+        </li>
+    </ul>
+    <div class="tab">
+        <div id="tab-1" class="tab-content">
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"cnje_recruitments"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2155</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"year"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"open_locals"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2159</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"registration_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:49.309+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:49.309+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:49.308+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:49.308+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:49.308+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:49.308+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"cover_photo_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"published"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"open_local"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"documents"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+          </span><span class="nt">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+          </span><span class="nt">"attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+              </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2166</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T16:06:49.326+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-15T16:06:49.326+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"presence_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T16:06:49.334+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2171</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Nicolas"</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Garnier"</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"izaiah.hilll@effertzkeler.net"</span><span class="w">
+              </span><span class="p">}</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">]</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+      </span><span class="nt">"recruitment_weekends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2172</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"registration_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:49.335+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:49.335+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:49.335+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:49.335+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:49.335+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:49.335+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"cover_photo_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"published"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"recruitment_weekend"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"documents"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+          </span><span class="nt">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+          </span><span class="nt">"attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+              </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2191</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T16:06:49.364+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-15T16:06:49.364+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"presence_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T16:06:49.425+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2196</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Louna"</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Perez"</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bernita@eichmanncorkery.net"</span><span class="w">
+              </span><span class="p">},</span><span class="w">
+              </span><span class="nt">"presences"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="p">{</span><span class="w">
+                  </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2209</span><span class="p">,</span><span class="w">
+                  </span><span class="nt">"is_present"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+                  </span><span class="nt">"present_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05"</span><span class="p">,</span><span class="w">
+                  </span><span class="nt">"informations"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Informations"</span><span class="p">,</span><span class="w">
+                  </span><span class="nt">"presence_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="w">
+                </span><span class="p">}</span><span class="w">
+              </span><span class="p">],</span><span class="w">
+              </span><span class="nt">"applications"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="p">{</span><span class="w">
+                  </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2220</span><span class="p">,</span><span class="w">
+                  </span><span class="nt">"application_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
+                  </span><span class="nt">"document_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                  </span><span class="nt">"job"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2217</span><span class="p">,</span><span class="w">
+                    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Chargé de Mission"</span><span class="w">
+                  </span><span class="p">},</span><span class="w">
+                  </span><span class="nt">"division"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2218</span><span class="p">,</span><span class="w">
+                    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Présidence"</span><span class="w">
+                  </span><span class="p">},</span><span class="w">
+                  </span><span class="nt">"job_level"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2219</span><span class="p">,</span><span class="w">
+                    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Member du Bureau"</span><span class="w">
+                  </span><span class="p">}</span><span class="w">
+                </span><span class="p">}</span><span class="w">
+              </span><span class="p">]</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">]</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+      </span><span class="nt">"handover_weekends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2221</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"registration_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"cv_is_mandatory"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"special_dates_are_active"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-04T16:06:49.437+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"ends_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-08-14T16:06:49.437+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Name"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"organizer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CNJE"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"last_registration_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-10T16:06:49.437+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"last_sort_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-20T16:06:49.437+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"online_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:06:49.436+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"registration_starts_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T15:36:49.436+02:00"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Event Description"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"special_seats_capacity"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"cover_photo_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"published"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"handover_weekend"</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+          </span><span class="nt">"documents"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+          </span><span class="nt">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+          </span><span class="nt">"attendants"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+              </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2228</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T16:06:49.453+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"departure_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-15T16:06:49.453+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_kind_of_transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"car"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"arrival_place"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Paris"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"presence_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-07-05T16:06:49.459+02:00"</span><span class="p">,</span><span class="w">
+              </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2233</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Chloé"</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Maillard"</span><span class="p">,</span><span class="w">
+                </span><span class="nt">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"julius@kub.co"</span><span class="w">
+              </span><span class="p">}</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">]</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span></code></pre>
+        </div>
+    </div>
+  </div>
+</div>
+</blockquote>

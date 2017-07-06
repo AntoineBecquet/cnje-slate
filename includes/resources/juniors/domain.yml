@@ -1,0 +1,5 @@
+---
+  name:
+    description: Name of the domain
+  parent_id:
+    optional: true

@@ -1,0 +1,5 @@
+---
+  labelisation_type:
+    description: "Values are `candidate` / `junior_creation` / `pepiniere_junior_entreprise` / `junior_entreprise` / `radiation`"
+  judgement:
+    description: "Values are `pending` / `accepted` / `refused`"

@@ -1,0 +1,12 @@
+<h2 id="balance-fee">Balance fee</h2>
+
+<h3 id="update-balance-fee">Update balance fee</h3>
+<pre class="highlight http"><code><span class="nf">PUT</span> <span class="nn">/invoices/cnje_memberships/fiscal_years/:fiscal_year/balance_fee</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"balance_fee"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"fiscal_year"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2015"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"balance_fee_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-01"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

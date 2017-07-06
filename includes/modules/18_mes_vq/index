@@ -1,0 +1,24 @@
+<h2 id="retrieve-quality-inspections-for-an-user">Retrieve quality inspections for an user</h2>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/users/:user_id/staffed_quality_inspections</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"staffed_quality_inspections"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="nt">"report_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"report_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"quality_inspection"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1008</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-07-26T00:00:00.000+02:00"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"quality_inspection_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"suivi_pepiniere_junior_entreprise"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"final_decision"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"junior"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1007</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"full_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Caron EURL"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"common_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fleury et Legrand"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"junior_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"candidate"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
+</code></pre>

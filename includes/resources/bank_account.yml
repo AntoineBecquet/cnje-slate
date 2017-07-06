@@ -1,0 +1,3 @@
+---
+  sepa:
+    description: A file to upload. The file should follow the specifications of RFC 2388 (which defines file transfers for the multipart/form-data protocol)."

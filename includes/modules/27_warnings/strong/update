@@ -1,0 +1,45 @@
+<h3 id="update-a-strong-warning">Update a strong warning</h3>
+<pre class="highlight http"><code><span class="nf">PATCH</span> <span class="nn">/warnings/strong/:strong_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"strong_warning"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"quality_control_datetime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-10T15:13:38.762+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"board_of_directors_datetime"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"board_of_directors_decision"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"decision_letter_availability_date"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">204</span> <span class="ne">No-Content</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"strong_warning"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1011</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"junior"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1005</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fleury et Poirier"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"common_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Joly et Francois"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"junior_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"candidate"</span><span class="w">
+    </span><span class="p">},</span><span class="w">    
+    </span><span class="nt">"audit_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1010</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"quality_control_datetime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-09-10T15:13:38.762+02:00"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"board_of_directors_datetime"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"board_of_directors_decision"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pending"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"decision_letter_availability_date"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<h4 id="response-parameters">Response Parameters</h4>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>board_of_directors_decision</td>
+<td>0: pending, 1: lifting, 2: extension, 3: jiification, 4: ppu, 5: delisting</td>
+</tr>
+</tbody></table>

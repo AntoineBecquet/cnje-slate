@@ -1,0 +1,24 @@
+<h2 id="juniors">Juniors</h2>
+
+<h3 id="retrieve-junior-for-a-maif-membership">Retrieve Junior for a MAIF Membership</h3>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/invoices/maif_memberships/:year/juniors</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"maif_membership_juniors"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w">              </span><span class="mi">1008</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"certificate_url"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"junior"</span><span class="p">:</span><span class="w">          </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w">          </span><span class="mi">1007</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"full_name"</span><span class="p">:</span><span class="w">   </span><span class="s2">"Roger SA"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"common_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Lambert et Carre"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"junior_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"candidate"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nt">"invoice"</span><span class="p">:</span><span class="w">         </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"id"</span><span class="p">:</span><span class="w">           </span><span class="s2">"79239441-bfd5-4981-a70c-55c3f15c1282"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"title"</span><span class="p">:</span><span class="w">        </span><span class="s2">"InvoiceTitle"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"generated_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-06-25"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"invoice_url"</span><span class="p">:</span><span class="w">  </span><span class="kc">null</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

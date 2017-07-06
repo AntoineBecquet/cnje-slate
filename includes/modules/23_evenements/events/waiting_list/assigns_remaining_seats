@@ -1,0 +1,7 @@
+<h2 id="waiting-list">Waiting List</h2>
+
+<h3 id="assigns-remaining-seats">Assigns remaining seats</h3>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/events/:event_id/waiting_list/assigns_remaining_seats</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+<pre class="highlight http"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">201</span> <span class="ne">Accepted</span>
+</code></pre>

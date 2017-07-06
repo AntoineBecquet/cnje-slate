@@ -1,0 +1,10 @@
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"inspector"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">14</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Adrien"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Remy"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"report_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uploads/store/quality_inspections/5/c81260cc63b86714f36d591debfe97/reports/14/15f9fbc9e2.jpg"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"report_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"done"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>

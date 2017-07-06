@@ -1,0 +1,41 @@
+<h3 id="retrieve-audit-session">Retrieve Audit Session</h3>
+<pre class="highlight http"><code><span class="nf">GET</span> <span class="nn">/audit_sessions/:audit_session_id</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</code></pre>
+
+<blockquote>
+<div class="request-response">
+  <h4>Result Format</h4>
+  <div class="tabs-container">
+    <ul class="tabs-menu">
+    </ul>
+    <div class="tab">
+    </div>
+  </div>
+</div>
+</blockquote>
+
+<h3 id="response-parameters">Response Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>starts_at</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ends_at</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>status</td>
+<td></td>
+<td>Values are <code class="prettyprint">pending</code>, <code class="prettyprint">archived</code>.</td>
+</tr>
+</tbody></table>

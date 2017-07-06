@@ -1,0 +1,4 @@
+---
+  application_status:
+    description: "Values are `pending` (0) / `refused` (1) / `accepted` (2) / `pending_changes` (3) "
+    default: pending
